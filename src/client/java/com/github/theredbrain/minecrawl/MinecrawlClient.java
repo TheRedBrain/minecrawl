@@ -1,28 +1,17 @@
 package com.github.theredbrain.minecrawl;
 
-import com.github.theredbrain.minecrawl.registry.ClientPacketRegistry;
+import com.github.theredbrain.minecrawl.registry.EntityRegistry;
+import com.github.theredbrain.minecrawl.render.renderer.FakeVillagerEntityRenderer;
 import net.fabricmc.api.ClientModInitializer;
-import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
-import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
-import net.fabricmc.loader.api.FabricLoader;
-import net.fabricmc.loader.api.ModContainer;
-import net.spell_engine.api.render.CustomModels;
-
-import java.util.List;
-import java.util.Optional;
+import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 
 public class MinecrawlClient implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
-		CustomModels.registerModelIds(List.of(
-				Minecrawl.identifier("projectile/generic_projectile")
-		));
+		registerEntityRenderer();
+	}
 
-		// Packets
-		ClientPacketRegistry.init();
-
-		Optional<ModContainer> modContainer = FabricLoader.getInstance().getModContainer(Minecrawl.MOD_ID);
-		modContainer.ifPresent(container -> ResourceManagerHelper.registerBuiltinResourcePack(Minecrawl.identifier("rename_entity_interaction_range"), container, ResourcePackActivationType.DEFAULT_ENABLED));
-
+	private void registerEntityRenderer() {
+		EntityRendererRegistry.register(EntityRegistry.FAKE_VILLAGER_ENTITY, FakeVillagerEntityRenderer::new);
 	}
 }

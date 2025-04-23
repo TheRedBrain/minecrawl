@@ -1,32 +1,3 @@
 {
-  "itemGroup.minecrawl.minecrawl_accessories": "Minecrawl Accessories",
-  "itemGroup.minecrawl.minecrawl_blocks": "Minecrawl Blocks",
-  "itemGroup.minecrawl.minecrawl_weapons": "Minecrawl Weapons",
-
-  "item.minecrawl.short_bow_common": "Short Bow",
-  "item.minecrawl.short_bow_uncommon": "Short Bow",
-  "item.minecrawl.short_bow_rare": "Short Bow",
-  "item.minecrawl.short_bow_epic": "Short Bow",
-
-  "item.minecrawl.long_bow_common": "Long Bow",
-  "item.minecrawl.long_bow_uncommon": "Long Bow",
-  "item.minecrawl.long_bow_rare": "Long Bow",
-  "item.minecrawl.long_bow_epic": "Long Bow",
-
-  "item.minecrawl.falcon_ring_common": "Falcon Ring",
-  "item.minecrawl.falcon_ring_uncommon": "Falcon Ring",
-  "item.minecrawl.falcon_ring_rare": "Falcon Ring",
-  "item.minecrawl.falcon_ring_epic": "Falcon Ring",
-
-
-  "tag.item.minecrawl.item_merging.belts": "Belts",
-  "tag.item.minecrawl.item_merging.boots": "Boots",
-  "tag.item.minecrawl.item_merging.chests": "Chests",
-  "tag.item.minecrawl.item_merging.gloves": "Gloves",
-  "tag.item.minecrawl.item_merging.hats": "Hats",
-  "tag.item.minecrawl.item_merging.leggings": "Leggings",
-  "tag.item.minecrawl.item_merging.necklaces": "Necklaces",
-  "tag.item.minecrawl.item_merging.rings": "Rings",
-  "tag.item.minecrawl.item_merging.shoulders": "Shoulders",
-  "tag.item.minecrawl.item_merging.weapons": "Weapons"
+  "entity.minecrawl.fake_villager": "Fake Villager"
 }

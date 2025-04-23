@@ -22,11 +22,7 @@
 		]
 	},
 	"mixins": [
-		"minecrawl.mixins.json",
-		{
-			"config": "minecrawl.client.mixins.json",
-			"environment": "client"
-		}
+		"minecrawl.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=${loader_version}",

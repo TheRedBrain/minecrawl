@@ -1,8 +1,0 @@
-{
-  "pack": {
-    "description": {
-      "text": "Renames the 'Entity Interaction Range' player attribute to 'Attack Range'."
-    },
-    "pack_format": 34
-  }
-}

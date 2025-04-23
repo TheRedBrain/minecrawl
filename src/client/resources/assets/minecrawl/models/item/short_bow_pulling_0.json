@@ -1,6 +1,0 @@
-{
-    "parent": "minecrawl:item/short_bow_common",
-    "textures": {
-        "layer0": "minecrawl:item/short_bow_pulling_0"
-    }
-}
