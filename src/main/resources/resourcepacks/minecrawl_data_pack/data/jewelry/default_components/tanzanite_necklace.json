@@ -1,0 +1,27 @@
+{
+  "add": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "spell_power:frost",
+        "slot": "necklace",
+        "id": "minecrawl:necklace",
+        "amount": 0.04,
+        "operation": "add_multiplied_base"
+      },
+      {
+        "type": "spell_power:soul",
+        "slot": "necklace",
+        "id": "minecrawl:necklace",
+        "amount": 0.04,
+        "operation": "add_multiplied_base"
+      }
+    ],
+    "mergeditems:merged_items": {
+      "content": [],
+      "possible_merging_items": "minecrawl:item_merging/necklaces",
+      "merge_content_flags": 0,
+      "merging_item_cost": 4,
+      "merging_exp_cost": -1
+    }
+  }
+}

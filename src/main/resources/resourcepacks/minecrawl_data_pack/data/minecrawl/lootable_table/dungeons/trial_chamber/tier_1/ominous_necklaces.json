@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "pools": [
+    "minecrawl:dungeons/jewelry/tier_1/uncommon/diamond_necklace",
+    "minecrawl:dungeons/jewelry/tier_1/uncommon/emerald_necklace",
+    "minecrawl:dungeons/jewelry/tier_1/rare/citrine_necklace",
+    "minecrawl:dungeons/jewelry/tier_1/rare/jade_necklace",
+    "minecrawl:dungeons/jewelry/tier_1/rare/ruby_necklace",
+    "minecrawl:dungeons/jewelry/tier_1/rare/sapphire_necklace",
+    "minecrawl:dungeons/jewelry/tier_1/rare/tanzanite_necklace",
+    "minecrawl:dungeons/jewelry/tier_1/rare/topaz_necklace",
+    "minecrawl:dungeons/jewelry/tier_1/epic/netherite_citrine_necklace",
+    "minecrawl:dungeons/jewelry/tier_1/epic/netherite_jade_necklace",
+    "minecrawl:dungeons/jewelry/tier_1/epic/netherite_ruby_necklace",
+    "minecrawl:dungeons/jewelry/tier_1/epic/netherite_sapphire_necklace",
+    "minecrawl:dungeons/jewelry/tier_1/epic/netherite_tanzanite_necklace",
+    "minecrawl:dungeons/jewelry/tier_1/epic/netherite_topaz_necklace",
+    "minecrawl:dungeons/jewelry/tier_1/legendary/unique_arcane_necklace",
+    "minecrawl:dungeons/jewelry/tier_1/legendary/unique_archer_necklace",
+    "minecrawl:dungeons/jewelry/tier_1/legendary/unique_attack_necklace",
+    "minecrawl:dungeons/jewelry/tier_1/legendary/unique_dex_necklace",
+    "minecrawl:dungeons/jewelry/tier_1/legendary/unique_fire_necklace",
+    "minecrawl:dungeons/jewelry/tier_1/legendary/unique_frost_necklace",
+    "minecrawl:dungeons/jewelry/tier_1/legendary/unique_healing_necklace",
+    "minecrawl:dungeons/jewelry/tier_1/legendary/unique_spell_necklace",
+    "minecrawl:dungeons/jewelry/tier_1/legendary/unique_tank_necklace"
+  ]
+}

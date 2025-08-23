@@ -1,0 +1,13 @@
+{
+  "parent": "minecrawl:location_unlocks/root",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ]
+}

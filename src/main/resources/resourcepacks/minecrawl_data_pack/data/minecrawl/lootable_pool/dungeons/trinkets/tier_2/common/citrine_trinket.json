@@ -1,0 +1,30 @@
+{
+  "entry": {
+    "type": "lootables:item",
+    "item": {
+      "id": "relics_rpgs:jewel_figurine_citrine",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data":{
+          "dd.rsf":1
+        },
+        "minecraft:attribute_modifiers": [
+          {
+            "type":"spell_power:healing",
+            "slot":"gloves",
+            "id":"minecrawl:gloves",
+            "amount":0.05,
+            "operation":"add_multiplied_base"
+          },
+          {
+            "type":"spell_power:lightning",
+            "slot":"gloves",
+            "id":"minecrawl:gloves",
+            "amount":0.05,
+            "operation":"add_multiplied_base"
+          }
+        ]
+      }
+    }
+  }
+}

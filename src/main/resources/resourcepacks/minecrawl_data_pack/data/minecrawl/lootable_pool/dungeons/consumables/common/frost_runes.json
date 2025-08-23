@@ -1,0 +1,9 @@
+{
+  "entry": {
+    "type": "lootables:item",
+    "item": {
+      "id": "runes:frost_stone",
+      "count": 8
+    }
+  }
+}

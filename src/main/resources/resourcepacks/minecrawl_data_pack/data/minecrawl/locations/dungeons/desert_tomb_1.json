@@ -1,0 +1,52 @@
+{
+  "controlBlockPos": [
+    -64,
+    -63,
+    0
+  ],
+  "structureIdentifier": "minecrawl:dungeons/desert_tomb_1",
+  "displayName": "locations.minecrawl.dungeons.desert_tomb_1",
+  "showLocationOwner": true,
+  "isPublic": false,
+  "availability": {
+    "unlockAdvancement": "",
+    "lockAdvancement": "",
+    "unlockDataCheck": {
+      "dataIdentifier": "",
+      "dataValue": "",
+      "comparisonMode": 0
+    },
+    "lockDataCheck": {
+      "dataIdentifier": "",
+      "dataValue": "",
+      "comparisonMode": 0
+    },
+    "showLockedLocation": true,
+    "itemCosts": [],
+    "showUnaffordableLocation": false
+  },
+  "side_entrances": {
+    "guild_hall_entrance": {
+      "name": "",
+      "showLocationOwner": true,
+      "isEntranceNameShownFirst": true,
+      "availability": {
+        "unlockAdvancement": "",
+        "lockAdvancement": "",
+        "unlockDataCheck": {
+          "dataIdentifier": "",
+          "dataValue": "",
+          "comparisonMode": 0
+        },
+        "lockDataCheck": {
+          "dataIdentifier": "",
+          "dataValue": "",
+          "comparisonMode": 0
+        },
+        "showLockedLocation": true,
+        "itemCosts": [],
+        "showUnaffordableLocation": false
+      }
+    }
+  }
+}

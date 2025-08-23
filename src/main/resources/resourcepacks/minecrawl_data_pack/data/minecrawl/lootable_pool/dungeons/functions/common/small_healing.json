@@ -1,0 +1,7 @@
+{
+  "rarity": "common",
+  "entry": {
+    "type": "lootables:heal",
+    "amount": 4
+  }
+}

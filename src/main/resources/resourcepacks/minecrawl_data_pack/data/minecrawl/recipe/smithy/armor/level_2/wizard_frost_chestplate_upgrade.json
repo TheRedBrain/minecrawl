@@ -1,0 +1,19 @@
+{
+  "type": "rpgcrafting:rpg_crafting_recipe",
+   "category": "misc",
+	"itemStackIngredients": [],
+  "ingredients": [
+    {
+      "item": "wizards:frost_robe_chest"
+    },
+    {
+      "item": "wizards:frost_robe_chest"
+    }
+  ],
+  "result": {
+    "id": "wizards:netherite_frost_robe_chest"
+  },
+  "level": 2,
+  "tab": 2,
+  "recipeType": "SPECIAL"
+}

@@ -1,0 +1,13 @@
+{
+  "lootableIdentifier": "minecrawl:dungeons/trial_chamber/tier_1/regular_rings",
+  "rolls": 3,
+  "choices": 1,
+  "withChoice": true,
+  "activationRange": 4.0,
+  "deactivationRange": 4.5,
+  "keyItem": {
+      "id": "minecraft:trial_key",
+      "count": 1
+  },
+  "displayLootTableIdentifier": "minecrawl:chests/dungeons/trial_chamber/vault_display/rings"
+}

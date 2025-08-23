@@ -1,0 +1,15 @@
+{
+  "rarity": "legendary",
+  "entry": {
+    "type": "lootables:item",
+    "item": {
+      "id": "arsenal:unique_longbow_1",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data":{
+          "dd.rsf":1
+        }
+      }
+    }
+  }
+}

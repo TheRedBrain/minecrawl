@@ -1,0 +1,41 @@
+{
+  "add": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.max_health",
+        "slot": "ring_1",
+        "id": "minecrawl:ring_1",
+        "amount": 6.0,
+        "operation": "add_value"
+      },
+      {
+        "type": "minecraft:generic.armor_toughness",
+        "slot": "ring_1",
+        "id": "minecrawl:ring_1",
+        "amount": 1.0,
+        "operation": "add_value"
+      },
+      {
+        "type": "minecraft:generic.max_health",
+        "slot": "ring_2",
+        "id": "minecrawl:ring_2",
+        "amount": 6.0,
+        "operation": "add_value"
+      },
+      {
+        "type": "minecraft:generic.armor_toughness",
+        "slot": "ring_2",
+        "id": "minecrawl:ring_2",
+        "amount": 1.0,
+        "operation": "add_value"
+      }
+    ],
+    "mergeditems:merged_items": {
+      "content": [],
+      "possible_merging_items": "minecrawl:item_merging/rings",
+      "merge_content_flags": 0,
+      "merging_item_cost": 16,
+      "merging_exp_cost": -1
+    }
+  }
+}

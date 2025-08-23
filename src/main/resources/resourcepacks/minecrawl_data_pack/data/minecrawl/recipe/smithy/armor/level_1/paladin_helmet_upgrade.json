@@ -1,0 +1,19 @@
+{
+  "type": "rpgcrafting:rpg_crafting_recipe",
+  "category": "misc",
+  "itemStackIngredients": [],
+  "ingredients": [
+    {
+      "item": "paladins:paladin_armor_head"
+    },
+    {
+      "item": "paladins:paladin_armor_head"
+    }
+  ],
+  "result": {
+    "id": "paladins:crusader_armor_head"
+  },
+  "level": 1,
+  "tab": 2,
+  "recipeType": "SPECIAL"
+}

@@ -1,0 +1,43 @@
+{
+  "attributes": {
+    "range_bonus": 0.0,
+    "two_handed": false,
+    "two_handed_pose": "bettercombat:pose_two_handed_sword",
+    "category": "sword",
+    "attacks": [
+      {
+        "conditions": ["OFFHAND_ITEM"],
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1,
+        "angle": 120,
+        "upswing": 0.5,
+        "animation": "bettercombat:one_handed_slash_horizontal_right",
+        "swing_sound": {
+          "id": "bettercombat:sword_slash"
+        }
+      },
+      {
+        "conditions": ["OFFHAND_ITEM"],
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1,
+        "angle": 120,
+        "upswing": 0.5,
+        "animation": "bettercombat:one_handed_slash_horizontal_left",
+        "swing_sound": {
+          "id": "bettercombat:sword_slash"
+        }
+      },
+      {
+        "conditions": ["NO_OFFHAND_ITEM"],
+        "hitbox": "FORWARD_BOX",
+        "damage_multiplier": 1,
+        "angle": 0,
+        "upswing": 0.5,
+        "animation": "bettercombat:two_handed_stab_left",
+        "swing_sound": {
+          "id": "bettercombat:claymore_stab"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+	"type": "rpgcrafting:rpg_crafting_recipe",
+	 "category": "misc",
+	"itemStackIngredients": [],
+	"ingredients": [
+		{
+			"item": "wizards:wand_arcane"
+		},
+		{
+			"item": "wizards:wand_arcane"
+		}
+	],
+	"result": {
+		"id": "wizards:wand_netherite_arcane"
+	},
+	"level": 2,
+	"tab": 2,
+	"recipeType": "SPECIAL"
+}

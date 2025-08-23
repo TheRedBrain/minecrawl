@@ -1,0 +1,34 @@
+{
+  "add": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.armor",
+        "slot": "chest",
+        "id": "minecrawl:chest",
+        "amount": 3.0,
+        "operation": "add_value"
+      },
+      {
+        "type": "spell_power:arcane",
+        "slot": "chest",
+        "id": "minecrawl:chest",
+        "amount": 0.3,
+        "operation": "add_multiplied_base"
+      },
+      {
+        "type": "spell_power:haste",
+        "slot": "chest",
+        "id": "minecrawl:chest",
+        "amount": 0.03,
+        "operation": "add_multiplied_base"
+      }
+    ],
+    "mergeditems:merged_items": {
+      "content": [],
+      "possible_merging_items": "minecrawl:item_merging/chest_plates",
+      "merge_content_flags": 0,
+      "merging_item_cost": 8,
+      "merging_exp_cost": -1
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "rarity": "legendary",
+  "entry": {
+    "type": "lootables:item",
+    "item": {
+      "id": "wizards:frost_spell_book",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data":{
+          "dd.rsf":1
+        },
+        "spell_engine:spell_container": {
+          "pool": "wizards:frost",
+          "spell_ids": [
+            "wizards:frost_blizzard"
+          ],
+          "spell_container": "MAGIC"
+        }
+      }
+    }
+  }
+}

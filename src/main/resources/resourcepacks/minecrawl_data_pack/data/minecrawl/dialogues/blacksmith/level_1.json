@@ -1,0 +1,14 @@
+{
+    "dialogueTextList": [
+        "dialogues.blacksmith.level_1.line_1",
+        "dialogues.blacksmith.level_1.line_2",
+        "dialogues.blacksmith.level_1.line_3",
+        "dialogues.blacksmith.level_1.line_4"
+    ],
+    "answerList": [
+        "minecrawl:blacksmith/level_0/leave"
+    ],
+    "unlockAdvancement": "",
+    "lockAdvancement": "",
+    "cancellable": true
+}

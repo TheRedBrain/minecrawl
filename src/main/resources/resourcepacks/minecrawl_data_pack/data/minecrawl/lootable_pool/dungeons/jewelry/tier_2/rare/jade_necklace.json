@@ -1,0 +1,24 @@
+{
+  "rarity": "rare",
+  "entry": {
+    "type": "lootables:item",
+    "item": {
+      "id": "jewelry:jade_necklace",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data":{
+          "dd.rsf":2
+        },
+        "minecraft:attribute_modifiers": [
+          {
+            "type":"ranged_weapon:damage",
+            "slot":"necklace",
+            "id":"minecrawl:necklace",
+            "amount":0.04,
+            "operation":"add_multiplied_base"
+          }
+        ]
+      }
+    }
+  }
+}

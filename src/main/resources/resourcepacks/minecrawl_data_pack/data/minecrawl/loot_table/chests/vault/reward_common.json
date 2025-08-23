@@ -1,0 +1,104 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "relics_rpgs:jewel_figurine_citrine"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "relics_rpgs:jewel_figurine_jade"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "relics_rpgs:jewel_figurine_ruby"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "relics_rpgs:jewel_figurine_sapphire"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "relics_rpgs:jewel_figurine_tanzanite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "relics_rpgs:jewel_figurine_topaz"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "paladins:iron_claymore"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rogues:iron_dagger"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rogues:iron_double_axe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rogues:iron_glaive"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "paladins:iron_great_hammer"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "archers:composite_longbow"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "paladins:iron_mace"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rogues:iron_sickle"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "archers:iron_spear"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "paladins:holy_staff"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "wizards:staff_wizard"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "paladins:holy_wand"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "wizards:wand_novice"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecrawl:chests/vault/reward_common"
+}

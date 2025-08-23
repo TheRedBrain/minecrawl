@@ -1,0 +1,18 @@
+{
+  "add": {
+    "mergeditems:merged_items": {
+      "content": [],
+      "possible_merging_items": "minecrawl:item_merging/relics",
+      "merge_content_flags": 3,
+      "merging_item_cost": 32,
+      "merging_exp_cost": -1,
+      "merge_spells": 1
+    },
+    "spell_engine:spell_container": {
+      "spell_ids": [
+        "relics_rpgs:superior_use_zone_healing_taken"
+      ],
+      "content": "ANY"
+    }
+  }
+}

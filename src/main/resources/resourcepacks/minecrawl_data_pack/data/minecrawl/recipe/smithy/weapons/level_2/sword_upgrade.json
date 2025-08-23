@@ -1,0 +1,19 @@
+{
+	"type": "rpgcrafting:rpg_crafting_recipe",
+	 "category": "misc",
+	"itemStackIngredients": [],
+	"ingredients": [
+		{
+			"item": "minecraft:diamond_sword"
+		},
+		{
+			"item": "minecraft:diamond_sword"
+		}
+	],
+	"result": {
+		"id": "minecraft:netherite_sword"
+	},
+	"level": 2,
+	"tab": 2,
+	"recipeType": "SPECIAL"
+}

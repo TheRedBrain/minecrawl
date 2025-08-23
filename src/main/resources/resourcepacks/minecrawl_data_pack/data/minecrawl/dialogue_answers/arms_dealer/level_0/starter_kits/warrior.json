@@ -1,0 +1,29 @@
+{
+  "answerText": "dialogue_answers.arms_dealer.level_0.starter_kits.warrior",
+  "responseDialogues": [],
+  "availability": {
+    "unlockAdvancement": "",
+    "lockAdvancement": "",
+    "unlockDataCheck": {
+      "dataIdentifier": "",
+      "dataValue": "",
+      "comparisonMode": 0
+    },
+    "lockDataCheck": {
+      "dataIdentifier": "",
+      "dataValue": "",
+      "comparisonMode": 0
+    },
+    "showLockedAnswer": true,
+    "itemCosts": [],
+    "showUnaffordableAnswer": true
+  },
+  "results": {
+    "grantedAdvancement": "",
+    "criterionName": "",
+    "lootTable": "minecrawl:gameplay/starter_kits/warrior",
+    "usedBlock": "",
+    "triggeredBlock": "",
+    "overlayMessage": ""
+  }
+}

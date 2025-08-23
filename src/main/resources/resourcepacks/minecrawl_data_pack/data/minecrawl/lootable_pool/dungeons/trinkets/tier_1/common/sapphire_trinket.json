@@ -1,0 +1,14 @@
+{
+  "entry": {
+    "type": "lootables:item",
+    "item": {
+      "id": "relics_rpgs:jewel_figurine_sapphire",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data":{
+          "dd.rsf":1
+        }
+      }
+    }
+  }
+}

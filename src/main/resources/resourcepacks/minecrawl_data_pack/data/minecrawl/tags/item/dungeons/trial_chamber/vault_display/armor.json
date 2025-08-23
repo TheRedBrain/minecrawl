@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#rpg_series:armor_type/archery",
+    "#rpg_series:armor_type/magic",
+    "#rpg_series:armor_type/melee"
+  ]
+}

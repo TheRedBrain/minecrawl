@@ -1,0 +1,56 @@
+{
+  "type": "rpgcrafting:rpg_crafting_recipe",
+  "category": "misc",
+  "itemStackIngredients": [
+    {
+      "id": "archers:archer_spell_book",
+      "count": 1,
+      "components": {
+        "spell_engine:spell_container": {
+          "pool": "archers:archer",
+          "spell_ids": [
+            "archers:power_shot",
+            "archers:entangling_roots",
+            "archers:barrage"
+          ],
+          "spell_container": "ARCHERY"
+        }
+      }
+    },
+    {
+      "id": "archers:archer_spell_book",
+      "count": 1,
+      "components": {
+        "spell_engine:spell_container": {
+          "pool": "archers:archer",
+          "spell_ids": [
+            "archers:power_shot",
+            "archers:entangling_roots",
+            "archers:barrage"
+          ],
+          "spell_container": "ARCHERY"
+        }
+      }
+    }
+  ],
+  "ingredients": [],
+  "result": {
+    "id": "archers:archer_spell_book",
+    "count": 1,
+    "components": {
+      "spell_engine:spell_container": {
+        "pool": "archers:archer",
+        "spell_ids": [
+          "archers:power_shot",
+          "archers:entangling_roots",
+          "archers:barrage",
+          "archers:magic_arrow"
+        ],
+        "spell_container": "ARCHERY"
+      }
+    }
+  },
+  "level": 3,
+  "tab": 1,
+  "recipeType": "SPECIAL"
+}

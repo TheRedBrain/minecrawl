@@ -1,0 +1,35 @@
+{
+  "add": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.attack_damage",
+        "slot": "mainhand",
+        "id": "minecraft:base_attack_damage",
+        "amount": 6.8,
+        "operation": "add_value"
+      },
+      {
+        "type": "minecraft:generic.attack_speed",
+        "slot": "mainhand",
+        "id": "minecraft:base_attack_speed",
+        "amount": 1.4,
+        "operation": "add_value"
+      },
+      {
+        "type": "minecraft:player.entity_interaction_range",
+        "slot": "mainhand",
+        "id": "minecrawl:mainhand",
+        "amount": 3.5,
+        "operation": "add_value"
+      }
+    ],
+    "mergeditems:merged_items": {
+      "content": [],
+      "possible_merging_items": "minecrawl:item_merging/melee_weapons",
+      "merge_content_flags": 0,
+      "merging_item_cost": 2,
+      "merging_exp_cost": -1
+    },
+    "bettercombat:preset_id": "minecrawl:glaive"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "rarity": "uncommon",
+  "entry": {
+    "type": "lootables:item",
+    "item": {
+      "id": "jewelry:diamond_necklace",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data":{
+          "dd.rsf":2
+        },
+        "minecraft:attribute_modifiers": [
+          {
+            "type":"minecraft:generic.movement_speed",
+            "slot":"necklace",
+            "id":"minecrawl:necklace",
+            "amount":0.1,
+            "operation":"add_multiplied_base"
+          }
+        ]
+      }
+    }
+  }
+}

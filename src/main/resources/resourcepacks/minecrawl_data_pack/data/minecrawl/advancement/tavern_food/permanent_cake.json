@@ -1,0 +1,13 @@
+{
+  "parent": "minecrawl:tavern_food/root",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ]
+}

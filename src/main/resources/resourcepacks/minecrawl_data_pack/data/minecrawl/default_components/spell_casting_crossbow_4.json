@@ -1,0 +1,32 @@
+{
+  "add": {
+    "max_damage": 2031,
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "ranged_weapon:damage",
+        "slot": "offhand",
+        "id": "minecrawl:offhand",
+        "amount": 9.5,
+        "operation": "add_value"
+      }
+    ],
+    "mergeditems:merged_items": {
+      "content": [],
+      "possible_merging_items": "minecrawl:item_merging/ranged_weapons",
+      "merge_content_flags": 0,
+      "merging_item_cost": 8,
+      "merging_exp_cost": -1
+    },
+    "spell_engine:spell_container": {
+      "is_proxy": true,
+      "content": "ARCHERY",
+      "spell_ids": [
+        "minecrawl:heavy_attack_light_crossbow"
+      ]
+    },
+    "spellengineextension:has_conditional_spell_container": {
+      "is_main_hand_valid": true,
+      "is_off_hand_valid": false
+    }
+  }
+}

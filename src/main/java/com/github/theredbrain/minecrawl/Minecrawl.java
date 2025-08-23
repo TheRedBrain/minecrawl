@@ -5,14 +5,20 @@ import com.github.theredbrain.minecrawl.compat.SpellEngineExtensionCompat;
 import com.github.theredbrain.minecrawl.registry.ItemRegistry;
 import com.github.theredbrain.minecrawl.registry.StatusEffectsRegistry;
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
+import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
 import net.fabricmc.loader.api.FabricLoader;
+import net.fabricmc.loader.api.ModContainer;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.registry.tag.TagKey;
+import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import java.util.Optional;
 
 public class Minecrawl implements ModInitializer {
 	public static final String MOD_ID = "minecrawl";
@@ -43,6 +49,11 @@ public class Minecrawl implements ModInitializer {
 		ItemRegistry.init();
 		StatusEffectsRegistry.registerEffects();
 
+		Optional<ModContainer> modContainer = FabricLoader.getInstance().getModContainer(MOD_ID);
+		if (modContainer.isPresent()) {
+			ResourceManagerHelper.registerBuiltinResourcePack(identifier("minecrawl_data_pack"), modContainer.get(), Text.translatable("resourcepack.minecrawl.minecrawl_data_pack.name"), ResourcePackActivationType.ALWAYS_ENABLED);
+			ResourceManagerHelper.registerBuiltinResourcePack(identifier("minecrawl_resource_pack"), modContainer.get(), Text.translatable("resourcepack.minecrawl.minecrawl_resource_pack.name"), ResourcePackActivationType.DEFAULT_ENABLED);
+		}
 	}
 
 	public static Identifier identifier(String path) {

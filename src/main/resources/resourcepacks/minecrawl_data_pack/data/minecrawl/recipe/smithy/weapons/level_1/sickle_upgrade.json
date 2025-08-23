@@ -1,0 +1,19 @@
+{
+	"type": "rpgcrafting:rpg_crafting_recipe",
+	 "category": "misc",
+	"itemStackIngredients": [],
+	"ingredients": [
+		{
+			"item": "rogues:iron_sickle"
+		},
+		{
+			"item": "rogues:iron_sickle"
+		}
+	],
+	"result": {
+		"id": "rogues:diamond_sickle"
+	},
+	"level": 1,
+	"tab": 2,
+	"recipeType": "SPECIAL"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "rpgcrafting:rpg_crafting_recipe",
+  "category": "misc",
+  "itemStackIngredients": [],
+  "ingredients": [
+    {
+      "item": "archers:archer_armor_head"
+    },
+    {
+      "item": "archers:archer_armor_head"
+    }
+  ],
+  "result": {
+    "id": "archers:ranger_armor_head"
+  },
+  "level": 1,
+  "tab": 2,
+  "recipeType": "SPECIAL"
+}

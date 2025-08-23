@@ -1,0 +1,22 @@
+{
+  "rarity": "uncommon",
+  "entry": {
+    "type": "lootables:item",
+    "item": {
+      "id": "archers:archer_spell_book",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data":{
+          "dd.rsf":1
+        },
+        "spell_engine:spell_container": {
+          "pool": "archers:archer",
+          "spell_ids": [
+            "archers:power_shot"
+          ],
+          "spell_container": "ARCHERY"
+        }
+      }
+    }
+  }
+}

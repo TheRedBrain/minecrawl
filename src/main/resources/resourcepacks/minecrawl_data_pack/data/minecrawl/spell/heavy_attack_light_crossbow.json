@@ -1,0 +1,117 @@
+{
+  "school": "spell_power:physical_ranged",
+  "group": "heavy_attacks",
+  "range": 75.0,
+  "tier": 2,
+  "tooltip": {
+    "show_header": false,
+    "show_activation": false,
+    "show_range": false,
+    "name": {
+      "show_in_compact": false,
+      "show_in_details": false
+    },
+    "description": {
+      "show_in_compact": true,
+      "show_in_details": true
+    }
+  },
+  "learn": {},
+  "active": {
+    "scroll": {},
+    "cast": {
+      "duration": 0.25,
+      "animation": "spell_engine:archery_pull"
+    }
+  },
+  "release": {
+    "animation": "spell_engine:archery_release",
+    "sound": {
+      "id": "minecraft:item.crossbow.shoot"
+    }
+  },
+  "target": {
+    "type": "AIM",
+    "aim": {}
+  },
+  "deliver": {
+    "type": "PROJECTILE",
+    "projectile": {
+      "direction_offsets": [
+        {},
+        {
+          "yaw": 5
+        },
+        {
+          "yaw": -5
+        },
+        {
+          "yaw": 15
+        },
+        {
+          "yaw": -15
+        },
+        {
+          "yaw": 25
+        },
+        {
+          "yaw": -25
+        },
+        {
+          "yaw": 40
+        },
+        {
+          "yaw": -40
+        }
+      ],
+      "launch_properties": {
+        "velocity": 3.15
+      },
+      "projectile": {
+        "homing_angle": 0.0,
+        "client_data": {
+          "light_level": 0,
+          "travel_particles": [
+            {
+              "particle_id": "crit",
+              "shape": "LINE",
+              "origin": "CENTER",
+              "rotation": "LOOK",
+              "roll": 1,
+              "count": 2,
+              "min_speed": 0.2,
+              "max_speed": 0.22
+            }
+          ],
+          "model": {
+            "model_id": "archers_expansion:projectile/regular_arrow",
+            "scale": 2.0
+          }
+        }
+      }
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 1.0,
+          "knockback": 0.0
+        }
+      },
+      "sound": {
+        "id": "item.crossbow.hit"
+      }
+    }
+  ],
+  "cost": {
+    "durability": 1,
+    "cooldown": {
+      "duration": 12.5
+    },
+    "item": {
+      "id": "arrow"
+    }
+  }
+}

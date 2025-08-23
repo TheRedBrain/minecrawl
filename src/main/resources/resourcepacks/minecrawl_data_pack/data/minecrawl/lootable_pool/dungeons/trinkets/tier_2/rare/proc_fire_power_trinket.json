@@ -1,0 +1,15 @@
+{
+  "rarity": "rare",
+  "entry": {
+    "type": "lootables:item",
+    "item": {
+      "id": "relics_rpgs:medium_proc_fire_power",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data":{
+          "dd.rsf":1
+        }
+      }
+    }
+  }
+}

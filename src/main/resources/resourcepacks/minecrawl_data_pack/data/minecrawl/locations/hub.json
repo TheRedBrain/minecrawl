@@ -1,0 +1,74 @@
+{
+  "controlBlockPos": [
+    0,
+    -63,
+    0
+  ],
+  "structureIdentifier": "minecrawl:hub",
+  "displayName": "locations.minecrawl.hub",
+  "showLocationOwner": false,
+  "isPublic": true,
+  "availability": {
+    "unlockAdvancement": "",
+    "lockAdvancement": "",
+    "unlockDataCheck": {
+      "dataIdentifier": "",
+      "dataValue": "",
+      "comparisonMode": 0
+    },
+    "lockDataCheck": {
+      "dataIdentifier": "",
+      "dataValue": "",
+      "comparisonMode": 0
+    },
+    "showLockedLocation": true,
+    "itemCosts": [],
+    "showUnaffordableLocation": false
+  },
+  "side_entrances": {
+    "dungeon": {
+      "name": "",
+      "showLocationOwner": false,
+      "isEntranceNameShownFirst": true,
+      "availability": {
+        "unlockAdvancement": "",
+        "lockAdvancement": "",
+        "unlockDataCheck": {
+          "dataIdentifier": "",
+          "dataValue": "",
+          "comparisonMode": 0
+        },
+        "lockDataCheck": {
+          "dataIdentifier": "",
+          "dataValue": "",
+          "comparisonMode": 0
+        },
+        "showLockedLocation": true,
+        "itemCosts": [],
+        "showUnaffordableLocation": true
+      }
+    },
+    "housing": {
+      "name": "",
+      "showLocationOwner": false,
+      "isEntranceNameShownFirst": true,
+      "availability": {
+        "unlockAdvancement": "",
+        "lockAdvancement": "",
+        "unlockDataCheck": {
+          "dataIdentifier": "",
+          "dataValue": "",
+          "comparisonMode": 0
+        },
+        "lockDataCheck": {
+          "dataIdentifier": "",
+          "dataValue": "",
+          "comparisonMode": 0
+        },
+        "showLockedLocation": true,
+        "itemCosts": [],
+        "showUnaffordableLocation": true
+      }
+    }
+  }
+}

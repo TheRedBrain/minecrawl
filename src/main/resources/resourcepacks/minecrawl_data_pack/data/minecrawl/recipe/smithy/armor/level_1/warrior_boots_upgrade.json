@@ -1,0 +1,19 @@
+{
+  "type": "rpgcrafting:rpg_crafting_recipe",
+   "category": "misc",
+	"itemStackIngredients": [],
+  "ingredients": [
+    {
+      "item": "rogues:warrior_armor_feet"
+    },
+    {
+      "item": "rogues:warrior_armor_feet"
+    }
+  ],
+  "result": {
+    "id": "rogues:berserker_armor_feet"
+  },
+  "level": 1,
+  "tab": 2,
+  "recipeType": "SPECIAL"
+}

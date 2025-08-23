@@ -1,0 +1,19 @@
+{
+  "type": "rpgcrafting:rpg_crafting_recipe",
+  "category": "misc",
+  "itemStackIngredients": [],
+  "ingredients": [
+    {
+      "item": "rogues:rogue_armor_head"
+    },
+    {
+      "item": "rogues:rogue_armor_head"
+    }
+  ],
+  "result": {
+    "id": "rogues:assassin_armor_head"
+  },
+  "level": 1,
+  "tab": 2,
+  "recipeType": "SPECIAL"
+}

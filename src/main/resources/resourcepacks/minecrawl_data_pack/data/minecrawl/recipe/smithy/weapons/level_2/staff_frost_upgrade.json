@@ -1,0 +1,19 @@
+{
+	"type": "rpgcrafting:rpg_crafting_recipe",
+	 "category": "misc",
+	"itemStackIngredients": [],
+	"ingredients": [
+		{
+			"item": "wizards:staff_frost"
+		},
+		{
+			"item": "wizards:staff_frost"
+		}
+	],
+	"result": {
+		"id": "wizards:staff_netherite_frost"
+	},
+	"level": 2,
+	"tab": 2,
+	"recipeType": "SPECIAL"
+}

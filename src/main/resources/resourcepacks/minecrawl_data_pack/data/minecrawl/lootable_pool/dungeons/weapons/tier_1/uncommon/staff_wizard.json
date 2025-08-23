@@ -1,0 +1,15 @@
+{
+  "rarity": "uncommon",
+  "entry": {
+    "type": "lootables:item",
+    "item": {
+      "id": "wizards:staff_wizard",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data":{
+          "dd.rsf":1
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+	"type": "rpgcrafting:rpg_crafting_recipe",
+	 "category": "misc",
+	"itemStackIngredients": [],
+	"ingredients": [
+		{
+			"item": "paladins:diamond_great_hammer"
+		},
+		{
+			"item": "paladins:diamond_great_hammer"
+		}
+	],
+	"result": {
+		"id": "paladins:netherite_great_hammer"
+	},
+	"level": 2,
+	"tab": 2,
+	"recipeType": "SPECIAL"
+}

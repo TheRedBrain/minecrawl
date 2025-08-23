@@ -1,0 +1,19 @@
+{
+	"type": "rpgcrafting:rpg_crafting_recipe",
+	 "category": "misc",
+	"itemStackIngredients": [],
+	"ingredients": [
+		{
+			"item": "paladins:diamond_kite_shield"
+		},
+		{
+			"item": "paladins:diamond_kite_shield"
+		}
+	],
+	"result": {
+		"id": "paladins:netherite_kite_shield"
+	},
+	"level": 3,
+	"tab": 2,
+	"recipeType": "SPECIAL"
+}

@@ -1,0 +1,55 @@
+{
+  "add": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "ranged_weapon:damage",
+        "slot": "ring_1",
+        "id": "minecrawl:ring_1",
+        "amount": 0.08,
+        "operation": "add_multiplied_base"
+      },
+      {
+        "type": "ranged_weapon:velocity",
+        "slot": "ring_1",
+        "id": "minecrawl:ring_1",
+        "amount": 0.5,
+        "operation": "add_value"
+      },
+      {
+        "type": "ranged_weapon:haste",
+        "slot": "ring_1",
+        "id": "minecrawl:ring_1",
+        "amount": 0.04,
+        "operation": "add_multiplied_base"
+      },
+      {
+        "type": "ranged_weapon:damage",
+        "slot": "ring_2",
+        "id": "minecrawl:ring_2",
+        "amount": 0.08,
+        "operation": "add_multiplied_base"
+      },
+      {
+        "type": "ranged_weapon:velocity",
+        "slot": "ring_2",
+        "id": "minecrawl:ring_2",
+        "amount": 0.5,
+        "operation": "add_value"
+      },
+      {
+        "type": "ranged_weapon:haste",
+        "slot": "ring_2",
+        "id": "minecrawl:ring_2",
+        "amount": 0.04,
+        "operation": "add_multiplied_base"
+      }
+    ],
+    "mergeditems:merged_items": {
+      "content": [],
+      "possible_merging_items": "minecrawl:item_merging/rings",
+      "merge_content_flags": 0,
+      "merging_item_cost": 16,
+      "merging_exp_cost": -1
+    }
+  }
+}

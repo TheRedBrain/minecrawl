@@ -1,0 +1,19 @@
+{
+	"type": "rpgcrafting:rpg_crafting_recipe",
+	 "category": "misc",
+	"itemStackIngredients": [],
+	"ingredients": [
+		{
+			"item": "paladins:diamond_holy_staff"
+		},
+		{
+			"item": "paladins:diamond_holy_staff"
+		}
+	],
+	"result": {
+		"id": "paladins:netherite_holy_staff"
+	},
+	"level": 2,
+	"tab": 2,
+	"recipeType": "SPECIAL"
+}

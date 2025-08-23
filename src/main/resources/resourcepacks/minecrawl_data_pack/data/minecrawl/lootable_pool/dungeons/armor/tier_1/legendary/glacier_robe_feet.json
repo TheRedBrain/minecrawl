@@ -1,0 +1,15 @@
+{
+  "rarity": "legendary",
+  "entry": {
+    "type": "lootables:item",
+    "item": {
+      "id": "armory_rpgs:glacier_robe_feet",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data":{
+          "dd.rsf":1
+        }
+      }
+    }
+  }
+}

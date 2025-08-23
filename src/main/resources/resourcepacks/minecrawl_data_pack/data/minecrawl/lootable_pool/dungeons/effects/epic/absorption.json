@@ -1,0 +1,14 @@
+{
+  "rarity": "epic",
+  "entry": {
+    "type": "lootables:status",
+    "status": {
+      "id": "minecraft:absorption",
+      "amplifier": 0,
+      "duration": 3000,
+      "ambient": false,
+      "show_particles": false,
+      "show_icon": true
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "rarity": "uncommon",
+  "entry": {
+    "type": "lootables:item",
+    "item": {
+      "id": "minecraft:cobblestone",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "add": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.attack_damage",
+        "slot": "ring_1",
+        "id": "minecrawl:ring_1",
+        "amount": 0.05,
+        "operation": "add_multiplied_base"
+      },
+      {
+        "type": "more_rpg_classes:rage_modifier",
+        "slot": "ring_1",
+        "id": "minecrawl:ring_1",
+        "amount": 0.15,
+        "operation": "add_multiplied_base"
+      },
+      {
+        "type": "minecraft:generic.attack_damage",
+        "slot": "ring_2",
+        "id": "minecrawl:ring_2",
+        "amount": 0.05,
+        "operation": "add_multiplied_base"
+      },
+      {
+        "type": "more_rpg_classes:rage_modifier",
+        "slot": "ring_2",
+        "id": "minecrawl:ring_2",
+        "amount": 0.15,
+        "operation": "add_multiplied_base"
+      }
+    ],
+    "mergeditems:merged_items": {
+      "content": [],
+      "possible_merging_items": "minecrawl:item_merging/rings",
+      "merge_content_flags": 0,
+      "merging_item_cost": 8,
+      "merging_exp_cost": -1
+    }
+  }
+}

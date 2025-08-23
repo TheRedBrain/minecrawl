@@ -1,0 +1,21 @@
+{
+  "placement": {
+    "type": "scriptblocks:fixed",
+    "salt": 0,
+    "separation": 0,
+    "spacing": 0,
+    "positions": [
+      [
+        0,
+        -63,
+        0
+      ]
+    ]
+  },
+  "structures": [
+    {
+      "structure": "minecrawl:housing/housing_1",
+      "weight": 1
+    }
+  ]
+}

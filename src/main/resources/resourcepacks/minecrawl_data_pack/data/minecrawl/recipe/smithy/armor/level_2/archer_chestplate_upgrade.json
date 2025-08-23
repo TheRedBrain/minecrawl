@@ -1,0 +1,19 @@
+{
+  "type": "rpgcrafting:rpg_crafting_recipe",
+   "category": "misc",
+	"itemStackIngredients": [],
+  "ingredients": [
+    {
+      "item": "archers:ranger_armor_chest"
+    },
+    {
+      "item": "archers:ranger_armor_chest"
+    }
+  ],
+  "result": {
+    "id": "archers:netherite_ranger_armor_chest"
+  },
+  "level": 2,
+  "tab": 2,
+  "recipeType": "SPECIAL"
+}

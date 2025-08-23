@@ -1,0 +1,19 @@
+{
+	"type": "rpgcrafting:rpg_crafting_recipe",
+	 "category": "misc",
+	"itemStackIngredients": [],
+	"ingredients": [
+		{
+			"item": "wizards:wand_fire"
+		},
+		{
+			"item": "wizards:wand_fire"
+		}
+	],
+	"result": {
+		"id": "wizards:wand_netherite_fire"
+	},
+	"level": 2,
+	"tab": 2,
+	"recipeType": "SPECIAL"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "rpgcrafting:rpg_crafting_recipe",
+   "category": "misc",
+	"itemStackIngredients": [],
+  "ingredients": [
+    {
+      "item": "wizards:frost_robe_feet"
+    },
+    {
+      "item": "wizards:frost_robe_feet"
+    }
+  ],
+  "result": {
+    "id": "wizards:netherite_frost_robe_feet"
+  },
+  "level": 2,
+  "tab": 2,
+  "recipeType": "SPECIAL"
+}

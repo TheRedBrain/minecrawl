@@ -1,0 +1,53 @@
+{
+  "type": "rpgcrafting:rpg_crafting_recipe",
+  "category": "misc",
+  "itemStackIngredients": [
+    {
+      "id": "wizards:arcane_spell_book",
+      "count": 1,
+      "components": {
+        "spell_engine:spell_container": {
+          "pool": "wizards:arcane",
+          "spell_ids": [
+            "wizards:arcane_blast",
+            "wizards:arcane_missile"
+          ],
+          "spell_container": "MAGIC"
+        }
+      }
+    },
+    {
+      "id": "wizards:arcane_spell_book",
+      "count": 1,
+      "components": {
+        "spell_engine:spell_container": {
+          "pool": "wizards:arcane",
+          "spell_ids": [
+            "wizards:arcane_blast",
+            "wizards:arcane_missile"
+          ],
+          "spell_container": "MAGIC"
+        }
+      }
+    }
+  ],
+  "ingredients": [],
+  "result": {
+    "id": "wizards:arcane_spell_book",
+    "count": 1,
+    "components": {
+      "spell_engine:spell_container": {
+        "pool": "wizards:arcane",
+        "spell_ids": [
+          "wizards:arcane_blast",
+          "wizards:arcane_missile",
+          "wizards:arcane_beam"
+        ],
+        "spell_container": "MAGIC"
+      }
+    }
+  },
+  "level": 2,
+  "tab": 1,
+  "recipeType": "SPECIAL"
+}

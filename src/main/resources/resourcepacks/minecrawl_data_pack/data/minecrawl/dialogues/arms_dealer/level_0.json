@@ -1,0 +1,20 @@
+{
+    "dialogueTextList": [
+        "dialogues.arms_dealer.level_0.line_1",
+        "dialogues.arms_dealer.level_0.line_2",
+        "dialogues.arms_dealer.level_0.line_3",
+        "dialogues.arms_dealer.level_0.line_4",
+        "dialogues.arms_dealer.level_0.line_5",
+        "dialogues.arms_dealer.level_0.line_6",
+        "dialogues.arms_dealer.level_0.line_7",
+        "dialogues.arms_dealer.level_0.line_8"
+    ],
+    "answerList": [
+        "minecrawl:arms_dealer/level_0/starter_kits",
+        "minecrawl:arms_dealer/level_0/upgrade_shop",
+        "minecrawl:arms_dealer/level_0/leave"
+    ],
+    "unlockAdvancement": "",
+    "lockAdvancement": "",
+    "cancellable": true
+}

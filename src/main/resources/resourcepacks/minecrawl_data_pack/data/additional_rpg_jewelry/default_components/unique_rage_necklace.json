@@ -1,0 +1,27 @@
+{
+  "add": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.attack_damage",
+        "slot": "necklace",
+        "id": "minecrawl:necklace",
+        "amount": 0.1,
+        "operation": "add_multiplied_base"
+      },
+      {
+        "type": "more_rpg_classes:rage_modifier",
+        "slot": "necklace",
+        "id": "minecrawl:necklace",
+        "amount": 0.2,
+        "operation": "add_multiplied_base"
+      }
+    ],
+    "mergeditems:merged_items": {
+      "content": [],
+      "possible_merging_items": "minecrawl:item_merging/necklaces",
+      "merge_content_flags": 0,
+      "merging_item_cost": 16,
+      "merging_exp_cost": -1
+    }
+  }
+}

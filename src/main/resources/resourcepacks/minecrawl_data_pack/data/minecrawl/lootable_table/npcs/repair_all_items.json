@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "pools": [
+    {
+      "id": "minecrawl:npcs/repair_all_items",
+      "entry": {
+        "type": "lootables:function",
+        "functions": [
+          {
+            "function": "lootables:repair_equipment",
+            "percent": 1.0
+          }
+        ],
+        "slots": "any"
+      },
+      "guaranteed": true
+    }
+  ]
+}

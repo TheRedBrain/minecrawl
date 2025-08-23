@@ -1,0 +1,31 @@
+{
+  "rarity": "uncommon",
+  "entry": {
+    "type": "lootables:item",
+    "item": {
+      "id": "jewelry:iron_ring",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data":{
+          "dd.rsf":2
+        },
+        "minecraft:attribute_modifiers": [
+          {
+            "type":"minecraft:generic.armor",
+            "slot":"ring_1",
+            "id":"minecrawl:ring_1",
+            "amount":1.0,
+            "operation":"add_value"
+          },
+          {
+            "type":"minecraft:generic.armor",
+            "slot":"ring_2",
+            "id":"minecrawl:ring_2",
+            "amount":1.0,
+            "operation":"add_value"
+          }
+        ]
+      }
+    }
+  }
+}

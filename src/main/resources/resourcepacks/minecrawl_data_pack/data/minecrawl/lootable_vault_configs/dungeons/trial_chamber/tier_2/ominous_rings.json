@@ -1,0 +1,13 @@
+{
+  "lootableIdentifier": "minecrawl:dungeons/trial_chamber/tier_2/ominous_rings",
+  "rolls": 5,
+  "choices": 1,
+  "withChoice": true,
+  "activationRange": 4.0,
+  "deactivationRange": 4.5,
+  "keyItem": {
+      "id": "minecraft:ominous_trial_key",
+      "count": 1
+  },
+  "displayLootTableIdentifier": "minecrawl:chests/dungeons/trial_chamber/vault_display/rings"
+}

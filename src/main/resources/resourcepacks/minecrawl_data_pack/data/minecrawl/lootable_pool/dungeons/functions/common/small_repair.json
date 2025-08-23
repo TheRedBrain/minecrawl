@@ -1,0 +1,13 @@
+{
+  "rarity": "common",
+  "entry": {
+    "type": "lootables:function",
+    "functions": [
+      {
+        "function": "lootables:repair_equipment",
+        "percent": 0.25
+      }
+    ],
+    "slots": "any"
+  }
+}

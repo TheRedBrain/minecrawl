@@ -1,0 +1,19 @@
+{
+  "type": "rpgcrafting:rpg_crafting_recipe",
+   "category": "misc",
+	"itemStackIngredients": [],
+  "ingredients": [
+    {
+      "item": "wizards:wizard_robe_legs"
+    },
+    {
+      "item": "wizards:wizard_robe_legs"
+    }
+  ],
+  "result": {
+    "id": "wizards:arcane_robe_legs"
+  },
+  "level": 1,
+  "tab": 2,
+  "recipeType": "SPECIAL"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "minecrawl:dungeons/trial_chamber/vault_display/spells",
+          "expand": true
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecrawl:chests/dungeons/trial_chamber/vault_display/spells"
+}

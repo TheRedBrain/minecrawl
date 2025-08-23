@@ -1,0 +1,43 @@
+{
+  "type": "rpgcrafting:rpg_crafting_recipe",
+  "category": "misc",
+  "itemStackIngredients": [
+    {
+      "itemStack": {
+        "id": "archers:archer_armor_feet",
+        "count": 1,
+        "components": {
+          "minecraft:custom_data": {
+            "dd.rsf": 1
+          }
+        }
+      },
+      "completeComponentMatch": false
+    },
+    {
+      "itemStack": {
+        "id": "archers:archer_armor_feet",
+        "count": 1,
+        "components": {
+          "minecraft:custom_data": {
+            "dd.rsf": 1
+          }
+        }
+      },
+      "completeComponentMatch": false
+    }
+  ],
+  "ingredients": [],
+  "result": {
+    "id": "archers:ranger_armor_feet",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": {
+        "dd.rsf": 1
+      }
+    }
+  },
+  "level": 1,
+  "tab": 2,
+  "recipeType": "SPECIAL"
+}

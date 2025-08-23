@@ -1,0 +1,19 @@
+{
+  "type": "rpgcrafting:rpg_crafting_recipe",
+  "category": "misc",
+  "itemStackIngredients": [],
+  "ingredients": [
+    {
+      "item": "paladins:paladin_armor_feet"
+    },
+    {
+      "item": "paladins:paladin_armor_feet"
+    }
+  ],
+  "result": {
+    "id": "paladins:crusader_armor_feet"
+  },
+  "level": 1,
+  "tab": 2,
+  "recipeType": "SPECIAL"
+}

@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "pools": [
+    {
+      "id": "minecrawl:npcs/permanent_bread",
+      "entry": {
+        "type": "lootables:status",
+        "status": {
+          "id": "minecraft:night_vision",
+          "duration": -1,
+          "show_icon": true
+        }
+      },
+      "guaranteed": true
+    }
+  ]
+}

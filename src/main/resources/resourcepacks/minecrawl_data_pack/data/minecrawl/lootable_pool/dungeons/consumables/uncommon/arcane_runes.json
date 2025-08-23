@@ -1,0 +1,10 @@
+{
+  "rarity": "uncommon",
+  "entry": {
+    "type": "lootables:item",
+    "item": {
+      "id": "runes:arcane_stone",
+      "count": 16
+    }
+  }
+}

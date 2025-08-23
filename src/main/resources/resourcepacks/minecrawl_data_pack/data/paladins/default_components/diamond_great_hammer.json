@@ -1,0 +1,46 @@
+{
+  "add": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.attack_damage",
+        "slot": "mainhand",
+        "id": "minecraft:base_attack_damage",
+        "amount": 13.2,
+        "operation": "add_value"
+      },
+      {
+        "type": "minecraft:generic.attack_speed",
+        "slot": "mainhand",
+        "id": "minecraft:base_attack_speed",
+        "amount": 0.8,
+        "operation": "add_value"
+      },
+      {
+        "type": "minecraft:player.entity_interaction_range",
+        "slot": "mainhand",
+        "id": "minecrawl:mainhand",
+        "amount": 3.0,
+        "operation": "add_value"
+      }
+    ],
+    "mergeditems:merged_items": {
+      "content": [],
+      "possible_merging_items": "minecrawl:item_merging/melee_weapons",
+      "merge_content_flags": 0,
+      "merging_item_cost": 4,
+      "merging_exp_cost": -1
+    },
+    "spell_engine:spell_container": {
+      "is_proxy": true,
+      "spell_ids": [
+        "minecrawl:heavy_attack_hammer"
+      ]
+    },
+    "spellengineextension:has_conditional_spell_container": {
+      "is_main_hand_valid": false,
+      "is_off_hand_valid": false,
+      "is_two_handed_valid": true
+    },
+    "bettercombat:preset_id": "minecrawl:hammer"
+  }
+}

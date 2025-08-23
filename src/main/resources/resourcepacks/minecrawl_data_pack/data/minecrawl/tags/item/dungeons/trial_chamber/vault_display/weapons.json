@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#rpg_series:archetype/defense_weapon",
+    "#rpg_series:archetype/healing_weapon",
+    "#rpg_series:archetype/magic_damage_weapon",
+    "#rpg_series:archetype/melee_damage_weapon",
+    "#rpg_series:archetype/ranged_damage_weapon"
+  ]
+}

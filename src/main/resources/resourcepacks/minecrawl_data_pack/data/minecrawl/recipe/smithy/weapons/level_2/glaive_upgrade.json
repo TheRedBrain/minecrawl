@@ -1,0 +1,19 @@
+{
+	"type": "rpgcrafting:rpg_crafting_recipe",
+	 "category": "misc",
+	"itemStackIngredients": [],
+	"ingredients": [
+		{
+			"item": "rogues:diamond_glaive"
+		},
+		{
+			"item": "rogues:diamond_glaive"
+		}
+	],
+	"result": {
+		"id": "rogues:netherite_glaive"
+	},
+	"level": 2,
+	"tab": 2,
+	"recipeType": "SPECIAL"
+}

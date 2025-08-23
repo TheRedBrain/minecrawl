@@ -1,0 +1,19 @@
+{
+	"type": "rpgcrafting:rpg_crafting_recipe",
+	 "category": "misc",
+	"itemStackIngredients": [],
+	"ingredients": [
+		{
+			"item": "rogues:iron_dagger"
+		},
+		{
+			"item": "rogues:iron_dagger"
+		}
+	],
+	"result": {
+		"id": "rogues:diamond_dagger"
+	},
+	"level": 1,
+	"tab": 2,
+	"recipeType": "SPECIAL"
+}

@@ -1,0 +1,29 @@
+{
+  "parent": "minecrawl:story/catacombs_key_aquired",
+  "criteria": {
+    "build_smithy": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "description": {
+      "translate": "advancements.story.build_smithy.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:anvil"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.story.build_smithy.title"
+    }
+  },
+  "requirements": [
+    [
+      "build_smithy"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

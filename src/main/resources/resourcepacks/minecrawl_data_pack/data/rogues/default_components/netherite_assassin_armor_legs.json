@@ -1,0 +1,41 @@
+{
+  "add": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.armor",
+        "slot": "legs",
+        "id": "minecrawl:legs",
+        "amount": 4.0,
+        "operation": "add_value"
+      },
+      {
+        "type": "minecraft:generic.movement_speed",
+        "slot": "legs",
+        "id": "minecrawl:legs",
+        "amount": 0.05,
+        "operation": "add_multiplied_base"
+      },
+      {
+        "type": "minecraft:generic.attack_speed",
+        "slot": "legs",
+        "id": "minecrawl:legs",
+        "amount": 0.05,
+        "operation": "add_multiplied_base"
+      },
+      {
+        "type": "minecraft:generic.attack_damage",
+        "slot": "legs",
+        "id": "minecrawl:legs",
+        "amount": 0.05,
+        "operation": "add_multiplied_base"
+      }
+    ],
+    "mergeditems:merged_items": {
+      "content": [],
+      "possible_merging_items": "minecrawl:item_merging/leggings",
+      "merge_content_flags": 0,
+      "merging_item_cost": 8,
+      "merging_exp_cost": -1
+    }
+  }
+}

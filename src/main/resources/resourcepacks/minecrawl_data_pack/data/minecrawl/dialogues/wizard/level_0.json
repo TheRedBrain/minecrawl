@@ -1,0 +1,15 @@
+{
+    "dialogueTextList": [
+        "dialogues.wizard.level_0.line_1",
+        "dialogues.wizard.level_0.line_2",
+        "dialogues.wizard.level_0.line_3",
+        "dialogues.wizard.level_0.line_4"
+    ],
+    "answerList": [
+        "minecrawl:wizard/level_0/upgrade_library",
+        "minecrawl:wizard/level_0/leave"
+    ],
+    "unlockAdvancement": "",
+    "lockAdvancement": "",
+    "cancellable": true
+}

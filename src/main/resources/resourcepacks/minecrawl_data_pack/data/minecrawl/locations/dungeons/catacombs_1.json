@@ -1,0 +1,40 @@
+{
+  "controlBlockPos": [
+    -64,
+    -63,
+    0
+  ],
+  "controlBlockPosX": -64,
+  "controlBlockPosY": -63,
+  "controlBlockPosZ": 0,
+  "structureIdentifier": "minecrawl:dungeons/catacombs_1",
+  "displayName": "locations.minecrawl.dungeons.catacombs_1",
+  "showLocationOwner": true,
+  "isPublic": false,
+  "availability": {
+    "unlockAdvancement": "",
+    "lockAdvancement": "",
+    "unlockDataCheck": {
+      "dataIdentifier": "",
+      "dataValue": "",
+      "comparisonMode": 0
+    },
+    "lockDataCheck": {
+      "dataIdentifier": "",
+      "dataValue": "",
+      "comparisonMode": 0
+    },
+    "showLockedLocation": true,
+    "itemCosts": [
+      {
+        "itemStack": {
+          "id": "minecraft:trial_key",
+          "count": 1
+        },
+        "consumeStack": true
+      }
+    ],
+    "showUnaffordableLocation": false
+  },
+  "side_entrances": {}
+}

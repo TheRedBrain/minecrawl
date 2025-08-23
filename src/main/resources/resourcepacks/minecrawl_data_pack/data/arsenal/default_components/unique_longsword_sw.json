@@ -1,0 +1,33 @@
+{
+  "add": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.attack_damage",
+        "slot": "mainhand",
+        "id": "minecraft:base_attack_damage",
+        "amount": 7.8,
+        "operation": "add_value"
+      },
+      {
+        "type": "minecraft:generic.attack_speed",
+        "slot": "mainhand",
+        "id": "minecraft:base_attack_speed",
+        "amount": 1.6,
+        "operation": "add_value"
+      },
+      {
+        "type": "minecraft:player.entity_interaction_range",
+        "slot": "mainhand",
+        "id": "minecrawl:mainhand",
+        "amount": 3.0,
+        "operation": "add_value"
+      }
+    ],
+    "mergeditems:merged_items": {
+        "content": [],
+        "possible_merging_items": "minecrawl:item_merging/weapons",
+        "merging_item_cost": 16,
+        "merging_exp_cost": -1
+    }
+  }
+}

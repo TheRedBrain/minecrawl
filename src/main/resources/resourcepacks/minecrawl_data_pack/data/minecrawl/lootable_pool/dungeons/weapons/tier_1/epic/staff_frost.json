@@ -1,0 +1,15 @@
+{
+  "rarity": "epic",
+  "entry": {
+    "type": "lootables:item",
+    "item": {
+      "id": "wizards:staff_netherite_frost",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data":{
+          "dd.rsf":1
+        }
+      }
+    }
+  }
+}

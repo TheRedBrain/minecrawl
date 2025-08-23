@@ -1,0 +1,56 @@
+{
+  "type": "rpgcrafting:rpg_crafting_recipe",
+  "category": "misc",
+  "itemStackIngredients": [
+    {
+      "id": "wizards:frost_spell_book",
+      "count": 1,
+      "components": {
+        "spell_engine:spell_container": {
+          "pool": "wizards:frost",
+          "spell_ids": [
+            "wizards:frostbolt",
+            "wizards:frost_nova",
+            "wizards:frost_shield"
+          ],
+          "spell_container": "MAGIC"
+        }
+      }
+    },
+    {
+      "id": "wizards:frost_spell_book",
+      "count": 1,
+      "components": {
+        "spell_engine:spell_container": {
+          "pool": "wizards:frost",
+          "spell_ids": [
+            "wizards:frostbolt",
+            "wizards:frost_nova",
+            "wizards:frost_shield"
+          ],
+          "spell_container": "MAGIC"
+        }
+      }
+    }
+  ],
+  "ingredients": [],
+  "result": {
+    "id": "wizards:frost_spell_book",
+    "count": 1,
+    "components": {
+      "spell_engine:spell_container": {
+        "pool": "wizards:frost",
+        "spell_ids": [
+          "wizards:frostbolt",
+          "wizards:frost_nova",
+          "wizards:frost_shield",
+          "wizards:frost_blizzard"
+        ],
+        "spell_container": "MAGIC"
+      }
+    }
+  },
+  "level": 3,
+  "tab": 1,
+  "recipeType": "SPECIAL"
+}

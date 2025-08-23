@@ -1,0 +1,59 @@
+{
+  "dialogues.arms_dealer.level_0.line_1": "Hello there!",
+  "dialogues.arms_dealer.level_0.line_2": "",
+  "dialogues.arms_dealer.level_0.line_3": "You see that portal over there?",
+  "dialogues.arms_dealer.level_0.line_4": "It leads to a dangerous place,",
+  "dialogues.arms_dealer.level_0.line_5": "but there is also treasure.",
+  "dialogues.arms_dealer.level_0.line_6": "",
+  "dialogues.arms_dealer.level_0.line_7": "I can give you a weapon, if you",
+  "dialogues.arms_dealer.level_0.line_8": "need one.",
+
+  "dialogue_answers.arms_dealer.level_0.starter_kits": "'I need a weapon'",
+  "dialogue_answers.arms_dealer.level_0.leave": "Leave",
+
+  "dialogues.campfire_npc.introduction.starter_kit_choice.line_1": "Here you go",
+  "dialogues.campfire_npc.introduction.starter_kit_choice.line_2": "",
+  "dialogues.campfire_npc.introduction.starter_kit_choice.line_3": "Choose what you like best",
+
+  "dialogue_answers.campfire_npc.introduction.starter_kit_choice.archer": "Archer",
+  "dialogue_answers.campfire_npc.introduction.starter_kit_choice.warrior": "Warrior",
+  "dialogue_answers.campfire_npc.introduction.starter_kit_choice.wizard": "Wizard",
+  "dialogue_answers.campfire_npc.introduction.starter_kit_choice.leave": "'I decide later'",
+
+  "dialogues.campfire_npc.catacombs_key_aquired.line_1": "An old door",
+  "dialogues.campfire_npc.catacombs_key_aquired.line_2": "",
+  "dialogues.campfire_npc.catacombs_key_aquired.line_3": "It leads nowhere, but you hear",
+  "dialogues.campfire_npc.catacombs_key_aquired.line_4": "a quiet humming. Upon touching",
+  "dialogues.campfire_npc.catacombs_key_aquired.line_5": "it, you get an idea to rebuild",
+  "dialogues.campfire_npc.catacombs_key_aquired.line_6": "the structure.",
+
+  "dialogue_answers.housing_door.introduction.rebuild": "Rebuild With 2 Cobblestone",
+  "dialogue_answers.housing_door.introduction.leave": "Leave",
+
+  "generator.minecrawl.minecrawl": "Minecrawl",
+
+  "locations.minecrawl.dungeons.trial_chamber": "Trial Chamber",
+  "locations.minecrawl.dungeons.trial_chamber.difficulty_tier_1": "Difficulty: 1",
+  "locations.minecrawl.dungeons.trial_chamber.difficulty_tier_2": "Difficulty: 2",
+
+  "locations.minecrawl.hub": "Hub",
+
+  "npc.arms_dealer.name": "Arms Dealer",
+
+  "npc.blacksmith_anvil.items_repaired": "Your equipment was repaired!",
+
+  "minecrawl.hub.dungeon_entrance.teleporter_name_field.label": "Dungeon Entrance",
+  "minecrawl.hub.dungeon_entrance.target_owner_field.label": "Instance Owner",
+  "minecrawl.hub.dungeon_entrance.target_identifier_field.label": "Target Identifier",
+  "minecrawl.hub.dungeon_entrance.target_entrance_field.label": "Target Entrance",
+  "minecrawl.hub.dungeon_entrance.teleport_button.label": "Enter Dungeon",
+  "minecrawl.hub.dungeon_entrance.cancel_teleport_button.label": "Stay here",
+
+
+  "item.modifiers.gloves": "§7When in Relic Slot:",
+
+  "slot.tooltip.gloves": "Relic",
+
+  "spell.minecrawl.heavy_attack_claymore.name": "Claymore Heavy Attack",
+  "spell.minecrawl.heavy_attack_claymore.description": "Press right-click to perform a powerful stab attack dealing {damage} damage."
+}

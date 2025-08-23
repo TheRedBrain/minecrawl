@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecrawl:chests/vault/reward_common",
+          "weight": 16
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecrawl:chests/vault/reward_uncommon",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecrawl:chests/vault/reward_rare",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecrawl:chests/vault/reward_epic",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecrawl:chests/vault/reward_legendary",
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecrawl:chests/dungeons/trial_chamber/vault_ominous"
+}

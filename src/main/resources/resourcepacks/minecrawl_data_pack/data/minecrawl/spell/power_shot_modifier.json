@@ -1,0 +1,46 @@
+{
+  "school": "spell_power:physical_ranged",
+  "range": 0.0,
+  "tier": 1,
+  "tooltip": {
+    "show_header": false,
+    "name": {
+      "show_in_compact": false,
+      "show_in_details": false
+    },
+    "description": {
+      "color": "gray"
+    }
+  },
+  "type": "MODIFIER",
+  "modifiers": [
+    {
+      "spell_pattern": "#minecrawl:basic_ranged_attacks",
+      "mutate_impacts": "APPEND",
+      "impacts": [
+        {
+          "action": {
+            "type": "STATUS_EFFECT",
+            "status_effect": {
+              "effect_id": "archers:hunters_mark",
+              "duration": 12.0,
+              "amplifier": 1,
+              "amplifier_cap": 2,
+              "apply_mode": "ADD"
+            }
+          },
+          "particles": [
+            {
+              "particle_id": "firework",
+              "origin": "CENTER",
+              "shape": "PILLAR",
+              "count": 3.0,
+              "min_speed": 0.01,
+              "max_speed": 0.1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

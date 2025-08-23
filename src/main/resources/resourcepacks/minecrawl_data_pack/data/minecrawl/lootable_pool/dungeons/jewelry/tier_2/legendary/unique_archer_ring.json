@@ -1,0 +1,59 @@
+{
+  "rarity": "legendary",
+  "entry": {
+    "type": "lootables:item",
+    "item": {
+      "id": "jewelry:unique_archer_ring",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data":{
+          "dd.rsf":2
+        },
+        "minecraft:attribute_modifiers": [
+          {
+            "type":"ranged_weapon:damage",
+            "slot":"ring_1",
+            "id":"minecrawl:ring_1",
+            "amount":0.08,
+            "operation":"add_multiplied_base"
+          },
+          {
+            "type":"ranged_weapon:velocity",
+            "slot":"ring_1",
+            "id":"minecrawl:ring_1",
+            "amount":0.5,
+            "operation":"add_value"
+          },
+          {
+            "type":"ranged_weapon:haste",
+            "slot":"ring_1",
+            "id":"minecrawl:ring_1",
+            "amount":0.04,
+            "operation":"add_multiplied_base"
+          },
+          {
+            "type":"ranged_weapon:damage",
+            "slot":"ring_2",
+            "id":"minecrawl:ring_2",
+            "amount":0.08,
+            "operation":"add_multiplied_base"
+          },
+          {
+            "type":"ranged_weapon:velocity",
+            "slot":"ring_2",
+            "id":"minecrawl:ring_2",
+            "amount":0.5,
+            "operation":"add_value"
+          },
+          {
+            "type":"ranged_weapon:haste",
+            "slot":"ring_2",
+            "id":"minecrawl:ring_2",
+            "amount":0.04,
+            "operation":"add_multiplied_base"
+          }
+        ]
+      }
+    }
+  }
+}

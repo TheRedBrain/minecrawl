@@ -1,0 +1,27 @@
+{
+  "add": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.armor",
+        "slot": "ring_1",
+        "id": "minecrawl:ring_1",
+        "amount": 0.5,
+        "operation": "add_value"
+      },
+      {
+        "type": "minecraft:generic.armor",
+        "slot": "ring_2",
+        "id": "minecrawl:ring_2",
+        "amount": 0.5,
+        "operation": "add_value"
+      }
+    ],
+    "mergeditems:merged_items": {
+      "content": [],
+      "possible_merging_items": "minecrawl:item_merging/rings",
+      "merge_content_flags": 0,
+      "merging_item_cost": 2,
+      "merging_exp_cost": -1
+    }
+  }
+}

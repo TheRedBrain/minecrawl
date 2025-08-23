@@ -1,0 +1,19 @@
+{
+	"type": "rpgcrafting:rpg_crafting_recipe",
+	 "category": "misc",
+	"itemStackIngredients": [],
+	"ingredients": [
+		{
+			"item": "archers:rapid_crossbow"
+		},
+		{
+			"item": "archers:rapid_crossbow"
+		}
+	],
+	"result": {
+		"id": "archers:netherite_rapid_crossbow"
+	},
+	"level": 2,
+	"tab": 2,
+	"recipeType": "SPECIAL"
+}

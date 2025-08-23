@@ -1,0 +1,19 @@
+{
+    "dialogueTextList": [
+        "dialogues.blacksmith.level_0.line_1",
+        "dialogues.blacksmith.level_0.line_2",
+        "dialogues.blacksmith.level_0.line_3",
+        "dialogues.blacksmith.level_0.line_4",
+        "dialogues.blacksmith.level_0.line_5",
+        "dialogues.blacksmith.level_0.line_6",
+        "dialogues.blacksmith.level_0.line_7",
+        "dialogues.blacksmith.level_0.line_8"
+    ],
+    "answerList": [
+        "minecrawl:blacksmith/level_0/upgrade_smithy",
+        "minecrawl:blacksmith/level_0/leave"
+    ],
+    "unlockAdvancement": "",
+    "lockAdvancement": "",
+    "cancellable": true
+}

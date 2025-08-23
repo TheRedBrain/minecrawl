@@ -1,0 +1,31 @@
+{
+  "rarity": "legendary",
+  "entry": {
+    "type": "lootables:item",
+    "item": {
+      "id": "jewelry:unique_attack_necklace",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data":{
+          "dd.rsf":2
+        },
+        "minecraft:attribute_modifiers": [
+          {
+            "type":"minecraft:generic.attack_damage",
+            "slot":"necklace",
+            "id":"minecrawl:necklace",
+            "amount":0.12,
+            "operation":"add_multiplied_base"
+          },
+          {
+            "type":"minecraft:generic.knockback_resistance",
+            "slot":"necklace",
+            "id":"minecrawl:necklace",
+            "amount":0.1,
+            "operation":"add_multiplied_base"
+          }
+        ]
+      }
+    }
+  }
+}

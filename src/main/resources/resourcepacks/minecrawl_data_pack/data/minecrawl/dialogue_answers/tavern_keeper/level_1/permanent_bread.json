@@ -1,0 +1,37 @@
+{
+  "answerText": "dialogue_answers.tavern_keeper.level_1.permanent_bread",
+  "responseDialogues": [],
+  "availability": {
+    "unlockAdvancement": "",
+    "lockAdvancement": "minecrawl:tavern_food/permanent_bread",
+    "unlockDataCheck": {
+      "dataIdentifier": "",
+      "dataValue": "",
+      "comparisonMode": 0
+    },
+    "lockDataCheck": {
+      "dataIdentifier": "",
+      "dataValue": "",
+      "comparisonMode": 0
+    },
+    "showLockedAnswer": false,
+    "itemCosts": [
+      {
+        "itemStack": {
+          "id": "minecraft:bread",
+          "count": 16
+        },
+        "consumeItem": true
+      }
+    ],
+    "showUnaffordableAnswer": true
+  },
+  "results": {
+    "grantedAdvancement": "minecrawl:tavern_food/permanent_bread",
+    "criterionName": "impossible",
+    "lootTable": "",
+    "usedBlock": "",
+    "triggeredBlock": "",
+    "overlayMessage": ""
+  }
+}

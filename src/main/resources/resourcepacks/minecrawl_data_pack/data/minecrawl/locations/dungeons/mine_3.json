@@ -1,0 +1,29 @@
+{
+  "controlBlockPos": [
+    -128,
+    -63,
+    128
+  ],
+  "structureIdentifier": "minecrawl:dungeons/mine_3",
+  "displayName": "locations.minecrawl.dungeons.mine_3",
+  "showLocationOwner": true,
+  "isPublic": false,
+  "availability": {
+    "unlockAdvancement": "",
+    "lockAdvancement": "",
+    "unlockDataCheck": {
+      "dataIdentifier": "",
+      "dataValue": "",
+      "comparisonMode": 0
+    },
+    "lockDataCheck": {
+      "dataIdentifier": "",
+      "dataValue": "",
+      "comparisonMode": 0
+    },
+    "showLockedLocation": true,
+    "itemCosts": [],
+    "showUnaffordableLocation": false
+  },
+  "side_entrances": {}
+}

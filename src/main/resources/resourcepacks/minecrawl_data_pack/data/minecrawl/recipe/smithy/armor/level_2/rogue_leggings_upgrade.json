@@ -1,0 +1,19 @@
+{
+  "type": "rpgcrafting:rpg_crafting_recipe",
+   "category": "misc",
+	"itemStackIngredients": [],
+  "ingredients": [
+    {
+      "item": "rogues:assassin_armor_legs"
+    },
+    {
+      "item": "rogues:assassin_armor_legs"
+    }
+  ],
+  "result": {
+    "id": "rogues:netherite_assassin_armor_legs"
+  },
+  "level": 2,
+  "tab": 2,
+  "recipeType": "SPECIAL"
+}

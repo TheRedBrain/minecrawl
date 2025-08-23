@@ -1,0 +1,19 @@
+{
+	"type": "rpgcrafting:rpg_crafting_recipe",
+	 "category": "misc",
+	"itemStackIngredients": [],
+	"ingredients": [
+		{
+			"item": "rogues:diamond_sickle"
+		},
+		{
+			"item": "rogues:diamond_sickle"
+		}
+	],
+	"result": {
+		"id": "rogues:netherite_sickle"
+	},
+	"level": 2,
+	"tab": 2,
+	"recipeType": "SPECIAL"
+}

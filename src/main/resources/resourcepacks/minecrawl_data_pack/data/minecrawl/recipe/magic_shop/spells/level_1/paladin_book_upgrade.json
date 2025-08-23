@@ -1,0 +1,50 @@
+{
+  "type": "rpgcrafting:rpg_crafting_recipe",
+  "category": "misc",
+  "itemStackIngredients": [
+    {
+      "id": "paladins:paladin_spell_book",
+      "count": 1,
+      "components": {
+        "spell_engine:spell_container": {
+          "pool": "paladins:paladin",
+          "spell_ids": [
+            "paladins:flash_heal"
+          ],
+          "spell_container": "MAGIC"
+        }
+      }
+    },
+    {
+      "id": "paladins:paladin_spell_book",
+      "count": 1,
+      "components": {
+        "spell_engine:spell_container": {
+          "pool": "paladins:paladin",
+          "spell_ids": [
+            "paladins:flash_heal"
+          ],
+          "spell_container": "MAGIC"
+        }
+      }
+    }
+  ],
+  "ingredients": [],
+  "result": {
+    "id": "paladins:paladin_spell_book",
+    "count": 1,
+    "components": {
+      "spell_engine:spell_container": {
+        "pool": "paladins:paladin",
+        "spell_ids": [
+          "paladins:flash_heal",
+          "paladins:divine_protection"
+        ],
+        "spell_container": "MAGIC"
+      }
+    }
+  },
+  "level": 1,
+  "tab": 1,
+  "recipeType": "SPECIAL"
+}

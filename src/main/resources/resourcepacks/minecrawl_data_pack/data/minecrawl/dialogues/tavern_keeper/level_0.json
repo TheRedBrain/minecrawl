@@ -1,0 +1,19 @@
+{
+    "dialogueTextList": [
+        "dialogues.tavern_keeper.level_0.line_1",
+        "dialogues.tavern_keeper.level_0.line_2",
+        "dialogues.tavern_keeper.level_0.line_3",
+        "dialogues.tavern_keeper.level_0.line_4",
+        "dialogues.tavern_keeper.level_0.line_5",
+        "dialogues.tavern_keeper.level_0.line_6",
+        "dialogues.tavern_keeper.level_0.line_7",
+        "dialogues.tavern_keeper.level_0.line_8"
+    ],
+    "answerList": [
+        "minecrawl:tavern_keeper/level_0/upgrade_tavern",
+        "minecrawl:tavern_keeper/level_0/leave"
+    ],
+    "unlockAdvancement": "",
+    "lockAdvancement": "",
+    "cancellable": true
+}

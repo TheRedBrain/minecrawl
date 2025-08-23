@@ -1,0 +1,27 @@
+{
+  "add": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "spell_power:water",
+        "slot": "ring_1",
+        "id": "minecrawl:ring_1",
+        "amount": 0.08,
+        "operation": "add_multiplied_base"
+      },
+      {
+        "type": "spell_power:water",
+        "slot": "ring_2",
+        "id": "minecrawl:ring_2",
+        "amount": 0.08,
+        "operation": "add_multiplied_base"
+      }
+    ],
+    "mergeditems:merged_items": {
+      "content": [],
+      "possible_merging_items": "minecrawl:item_merging/rings",
+      "merge_content_flags": 0,
+      "merging_item_cost": 8,
+      "merging_exp_cost": -1
+    }
+  }
+}

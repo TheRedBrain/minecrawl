@@ -1,0 +1,15 @@
+{
+  "rarity": "rare",
+  "entry": {
+    "type": "lootables:item",
+    "item": {
+      "id": "wizards:netherite_fire_robe_head",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data":{
+          "dd.rsf":1
+        }
+      }
+    }
+  }
+}

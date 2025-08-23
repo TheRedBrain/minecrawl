@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#minecrawl:dungeons/trial_chamber/vault_display/armor",
+    "#minecrawl:dungeons/trial_chamber/vault_display/necklaces",
+    "#minecrawl:dungeons/trial_chamber/vault_display/relics",
+    "#minecrawl:dungeons/trial_chamber/vault_display/rings",
+    "#minecrawl:dungeons/trial_chamber/vault_display/spells",
+    "#minecrawl:dungeons/trial_chamber/vault_display/weapons"
+  ]
+}

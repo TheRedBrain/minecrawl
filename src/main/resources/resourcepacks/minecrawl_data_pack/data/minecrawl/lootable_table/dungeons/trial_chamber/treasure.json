@@ -1,0 +1,32 @@
+{
+  "replace": false,
+  "pools": [
+    "minecrawl:dungeons/consumables/common/arcane_runes",
+    "minecrawl:dungeons/consumables/common/arrows",
+    "minecrawl:dungeons/consumables/common/fire_runes",
+    "minecrawl:dungeons/consumables/common/frost_runes",
+    "minecrawl:dungeons/consumables/common/holy_runes",
+    "minecrawl:dungeons/consumables/uncommon/arcane_runes",
+    "minecrawl:dungeons/consumables/uncommon/arrows",
+    "minecrawl:dungeons/consumables/uncommon/fire_runes",
+    "minecrawl:dungeons/consumables/uncommon/frost_runes",
+    "minecrawl:dungeons/consumables/uncommon/holy_runes",
+    "minecrawl:dungeons/effects/rare/haste",
+    "minecrawl:dungeons/effects/rare/jump_boost",
+    "minecrawl:dungeons/effects/rare/night_vision",
+    "minecrawl:dungeons/effects/rare/speed",
+    "minecrawl:dungeons/effects/rare/strength",
+    "minecrawl:dungeons/effects/epic/absorption",
+    "minecrawl:dungeons/effects/epic/health_boost",
+    "minecrawl:dungeons/effects/epic/invisibility",
+    "minecrawl:dungeons/effects/epic/regeneration",
+    "minecrawl:dungeons/effects/epic/resistance",
+    "minecrawl:dungeons/functions/common/small_healing",
+    "minecrawl:dungeons/functions/common/small_repair",
+    "minecrawl:dungeons/special/trial_key"
+  ],
+  "weights": {
+    "common": 8,
+    "uncommon": 4
+  }
+}

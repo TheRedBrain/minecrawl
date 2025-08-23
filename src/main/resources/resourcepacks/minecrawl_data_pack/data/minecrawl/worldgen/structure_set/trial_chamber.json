@@ -1,0 +1,21 @@
+{
+  "placement": {
+    "type": "scriptblocks:fixed",
+    "salt": 0,
+    "separation": 0,
+    "spacing": 0,
+    "positions": [
+      [
+        -512,
+        -63,
+        0
+      ]
+    ]
+  },
+  "structures": [
+    {
+      "structure": "minecrawl:dungeons/trial_chamber",
+      "weight": 1
+    }
+  ]
+}

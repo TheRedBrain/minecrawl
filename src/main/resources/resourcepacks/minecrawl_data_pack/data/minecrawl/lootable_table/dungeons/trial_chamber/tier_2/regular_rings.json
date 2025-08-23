@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "pools": [
+    "minecrawl:dungeons/jewelry/tier_1/uncommon/copper_ring",
+    "minecrawl:dungeons/jewelry/tier_1/uncommon/gold_ring",
+    "minecrawl:dungeons/jewelry/tier_1/uncommon/iron_ring",
+    "minecrawl:dungeons/jewelry/tier_1/rare/citrine_ring",
+    "minecrawl:dungeons/jewelry/tier_1/rare/jade_ring",
+    "minecrawl:dungeons/jewelry/tier_1/rare/ruby_ring",
+    "minecrawl:dungeons/jewelry/tier_1/rare/sapphire_ring",
+    "minecrawl:dungeons/jewelry/tier_1/rare/tanzanite_ring",
+    "minecrawl:dungeons/jewelry/tier_1/rare/topaz_ring",
+    "minecrawl:dungeons/jewelry/tier_1/epic/netherite_citrine_ring",
+    "minecrawl:dungeons/jewelry/tier_1/epic/netherite_jade_ring",
+    "minecrawl:dungeons/jewelry/tier_1/epic/netherite_ruby_ring",
+    "minecrawl:dungeons/jewelry/tier_1/epic/netherite_sapphire_ring",
+    "minecrawl:dungeons/jewelry/tier_1/epic/netherite_tanzanite_ring",
+    "minecrawl:dungeons/jewelry/tier_1/epic/netherite_topaz_ring",
+    "minecrawl:dungeons/jewelry/tier_1/legendary/unique_arcane_ring",
+    "minecrawl:dungeons/jewelry/tier_1/legendary/unique_archer_ring",
+    "minecrawl:dungeons/jewelry/tier_1/legendary/unique_attack_ring",
+    "minecrawl:dungeons/jewelry/tier_1/legendary/unique_dex_ring",
+    "minecrawl:dungeons/jewelry/tier_1/legendary/unique_fire_ring",
+    "minecrawl:dungeons/jewelry/tier_1/legendary/unique_frost_ring",
+    "minecrawl:dungeons/jewelry/tier_1/legendary/unique_healing_ring",
+    "minecrawl:dungeons/jewelry/tier_1/legendary/unique_spell_ring",
+    "minecrawl:dungeons/jewelry/tier_1/legendary/unique_tank_ring"
+  ]
+}

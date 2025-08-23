@@ -1,0 +1,26 @@
+{
+  "add": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.armor_toughness",
+        "slot": "hand",
+        "id": "minecrawl:hand",
+        "amount": 1.0,
+        "operation": "add_value"
+      },
+      {
+        "type": "minecraft:generic.max_health",
+        "slot": "hand",
+        "id": "minecrawl:hand",
+        "amount": 2.0,
+        "operation": "add_value"
+      }
+    ],
+    "mergeditems:merged_items": {
+      "content": [],
+      "possible_merging_items": "minecrawl:item_merging/shields",
+      "merging_item_cost": 2,
+      "merging_exp_cost": -1
+    }
+  }
+}

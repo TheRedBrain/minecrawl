@@ -1,0 +1,9 @@
+{
+  "entry": {
+    "type": "lootables:item",
+    "item": {
+      "id": "runes:fire_stone",
+      "count": 8
+    }
+  }
+}

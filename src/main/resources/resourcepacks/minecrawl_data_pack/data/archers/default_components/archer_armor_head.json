@@ -1,0 +1,27 @@
+{
+  "add": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.armor",
+        "slot": "head",
+        "id": "minecrawl:head",
+        "amount": 2.0,
+        "operation": "add_value"
+      },
+      {
+        "type": "ranged_weapon:damage",
+        "slot": "head",
+        "id": "minecrawl:head",
+        "amount": 0.05,
+        "operation": "add_multiplied_base"
+      }
+    ],
+    "mergeditems:merged_items": {
+      "content": [],
+      "possible_merging_items": "minecrawl:item_merging/helmets",
+      "merge_content_flags": 0,
+      "merging_item_cost": 2,
+      "merging_exp_cost": -1
+    }
+  }
+}

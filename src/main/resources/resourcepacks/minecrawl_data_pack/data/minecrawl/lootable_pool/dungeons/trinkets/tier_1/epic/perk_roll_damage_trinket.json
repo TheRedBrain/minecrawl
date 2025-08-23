@@ -1,0 +1,15 @@
+{
+  "rarity": "epic",
+  "entry": {
+    "type": "lootables:item",
+    "item": {
+      "id": "relics_rpgs:greater_perk_roll_damage",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data":{
+          "dd.rsf":1
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "scriptblocks:player_locations_biome",
+  "max_distance_from_center": 128,
+  "size": 20,
+  "spawn_overrides": {},
+  "start_height": {
+    "absolute": -63
+  },
+  "start_pool": "minecrawl:dungeons/trial_chamber/initial_pool",
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "start_jigsaw_name": "minecrawl:location_anchor",
+  "use_expansion_hack": false
+}

@@ -1,0 +1,42 @@
+{
+  "add": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "ranged_weapon:damage",
+        "slot": "mainhand",
+        "id": "minecrawl:mainhand",
+        "amount": 12.0,
+        "operation": "add_value"
+      },
+      {
+        "type": "ranged_weapon:pull_time",
+        "slot": "mainhand",
+        "id": "minecrawl:mainhand",
+        "amount": 0.5,
+        "operation": "add_value"
+      },
+      {
+        "type": "ranged_weapon:velocity",
+        "slot": "mainhand",
+        "id": "minecrawl:mainhand",
+        "amount": 0.75,
+        "operation": "add_value"
+      }
+    ],
+    "mergeditems:merged_items": {
+      "content": [],
+      "possible_merging_items": "minecrawl:item_merging/ranged_weapons",
+      "merge_content_flags": 0,
+      "merging_item_cost": 8,
+      "merging_exp_cost": -1
+    },
+    "spell_engine:spell_container": {
+      "is_proxy": true,
+      "content": "ARCHERY",
+      "spell_ids": [
+        "minecrawl:heavy_attack_long_bow"
+      ]
+    },
+    "bettercombat:preset_id": "minecrawl:bow_two_handed"
+  }
+}

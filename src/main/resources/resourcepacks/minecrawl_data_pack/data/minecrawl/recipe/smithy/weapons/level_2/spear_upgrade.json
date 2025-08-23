@@ -1,0 +1,19 @@
+{
+	"type": "rpgcrafting:rpg_crafting_recipe",
+	 "category": "misc",
+	"itemStackIngredients": [],
+	"ingredients": [
+		{
+			"item": "archers:diamond_spear"
+		},
+		{
+			"item": "archers:diamond_spear"
+		}
+	],
+	"result": {
+		"id": "archers:netherite_spear"
+	},
+	"level": 2,
+	"tab": 2,
+	"recipeType": "SPECIAL"
+}

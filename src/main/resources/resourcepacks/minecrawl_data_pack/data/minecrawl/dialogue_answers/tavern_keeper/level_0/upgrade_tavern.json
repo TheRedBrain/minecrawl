@@ -1,0 +1,37 @@
+{
+  "answerText": "dialogue_answers.tavern_keeper.level_0.upgrade_tavern",
+  "responseDialogues": [],
+  "availability": {
+    "unlockAdvancement": "",
+    "lockAdvancement": "",
+    "unlockDataCheck": {
+      "dataIdentifier": "",
+      "dataValue": "",
+      "comparisonMode": 0
+    },
+    "lockDataCheck": {
+      "dataIdentifier": "",
+      "dataValue": "",
+      "comparisonMode": 0
+    },
+    "showLockedAnswer": true,
+    "itemCosts": [
+      {
+        "itemStack": {
+          "id": "minecraft:oak_log",
+          "count": 4
+        },
+        "consumeItem": true
+      }
+    ],
+    "showUnaffordableAnswer": true
+  },
+  "results": {
+    "grantedAdvancement": "",
+    "criterionName": "",
+    "lootTable": "",
+    "usedBlock": "",
+    "triggeredBlock": "upgrade_tavern",
+    "overlayMessage": ""
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "rpgcrafting:rpg_crafting_recipe",
+   "category": "misc",
+	"itemStackIngredients": [],
+  "ingredients": [
+    {
+      "item": "wizards:arcane_robe_head"
+    },
+    {
+      "item": "wizards:arcane_robe_head"
+    }
+  ],
+  "result": {
+    "id": "wizards:netherite_arcane_robe_head"
+  },
+  "level": 2,
+  "tab": 2,
+  "recipeType": "SPECIAL"
+}

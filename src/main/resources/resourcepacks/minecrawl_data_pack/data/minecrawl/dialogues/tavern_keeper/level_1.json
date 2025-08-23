@@ -1,0 +1,16 @@
+{
+    "dialogueTextList": [
+        "dialogues.tavern_keeper.level_1.line_1",
+        "dialogues.tavern_keeper.level_1.line_2",
+        "dialogues.tavern_keeper.level_1.line_3",
+        "dialogues.tavern_keeper.level_1.line_4"
+    ],
+    "answerList": [
+        "minecrawl:tavern_keeper/level_1/upgrade_tavern",
+        "minecrawl:tavern_keeper/level_1/permanent_bread",
+        "minecrawl:tavern_keeper/level_0/leave"
+    ],
+    "unlockAdvancement": "",
+    "lockAdvancement": "",
+    "cancellable": true
+}

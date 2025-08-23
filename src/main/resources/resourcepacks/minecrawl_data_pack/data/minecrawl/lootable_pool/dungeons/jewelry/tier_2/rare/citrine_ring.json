@@ -1,0 +1,45 @@
+{
+  "rarity": "rare",
+  "entry": {
+    "type": "lootables:item",
+    "item": {
+      "id": "jewelry:citrine_ring",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data":{
+          "dd.rsf":2
+        },
+        "minecraft:attribute_modifiers": [
+          {
+            "type":"spell_power:healing",
+            "slot":"ring_1",
+            "id":"minecrawl:ring_1",
+            "amount":0.04,
+            "operation":"add_multiplied_base"
+          },
+          {
+            "type":"spell_power:lightning",
+            "slot":"ring_1",
+            "id":"minecrawl:ring_1",
+            "amount":0.04,
+            "operation":"add_multiplied_base"
+          },
+          {
+            "type":"spell_power:healing",
+            "slot":"ring_2",
+            "id":"minecrawl:ring_2",
+            "amount":0.04,
+            "operation":"add_multiplied_base"
+          },
+          {
+            "type":"spell_power:lightning",
+            "slot":"ring_2",
+            "id":"minecrawl:ring_2",
+            "amount":0.04,
+            "operation":"add_multiplied_base"
+          }
+        ]
+      }
+    }
+  }
+}

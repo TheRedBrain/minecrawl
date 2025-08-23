@@ -1,0 +1,15 @@
+{
+  "rarity": "rare",
+  "entry": {
+    "type": "lootables:item",
+    "item": {
+      "id": "paladins:netherite_crusader_armor_legs",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data":{
+          "dd.rsf":1
+        }
+      }
+    }
+  }
+}
