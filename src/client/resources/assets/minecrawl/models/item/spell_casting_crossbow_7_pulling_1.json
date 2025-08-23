@@ -1,0 +1,6 @@
+{
+    "parent": "minecrawl:item/spell_casting_crossbow_7",
+    "textures": {
+        "layer0": "arsenal:item/unique_heavy_crossbow_2_pulling_1"
+    }
+}

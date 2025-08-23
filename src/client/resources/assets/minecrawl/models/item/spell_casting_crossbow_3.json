@@ -1,0 +1,32 @@
+{
+  "parent": "archers:item/base/crossbow_18",
+  "textures": {
+    "layer0": "archers:item/heavy_crossbow_arrow"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "cooldown": 0.01
+      },
+      "model": "minecrawl:item/spell_casting_crossbow_3_pulling_2"
+    },
+    {
+      "predicate": {
+        "cooldown": 0.35
+      },
+      "model": "minecrawl:item/spell_casting_crossbow_3_pulling_1"
+    },
+    {
+      "predicate": {
+        "cooldown": 0.68
+      },
+      "model": "minecrawl:item/spell_casting_crossbow_3_pulling_0"
+    },
+    {
+      "predicate": {
+        "cooldown": 0.9
+      },
+      "model": "minecrawl:item/spell_casting_crossbow_3_standby"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "minecrawl:item/spell_casting_crossbow_4",
+    "textures": {
+        "layer0": "archers:item/netherite_rapid_crossbow_pulling_1"
+    }
+}

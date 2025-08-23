@@ -1,5 +1,6 @@
 package com.github.theredbrain.minecrawl;
 
+import com.github.theredbrain.minecrawl.registry.ItemRegistry;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
@@ -13,6 +14,7 @@ public class Minecrawl implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Welcome to the Minecrawl dungeons!");
 
+		ItemRegistry.init();
 
 	}
 
