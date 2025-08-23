@@ -1,5 +1,5 @@
 plugins {
-	id 'fabric-loom' version '1.9-SNAPSHOT'
+	id 'fabric-loom' version '1.11-SNAPSHOT'
 	id "com.matthewprenger.cursegradle" version "1.4.0"
 	id "com.github.breadmoirai.github-release" version "2.4.1"
 	id "com.modrinth.minotaur" version "2.+"
@@ -13,57 +13,57 @@ base {
 }
 
 repositories {
-//	// Cloth Config
-//	maven {
-//		url "https://maven.shedaniel.me/"
-//	}
-//
-//	// Trinkets, Cloth Config, Mod Menu
-//	maven {
-//		name = "TerraformersMC"
-//		url = "https://maven.terraformersmc.com/"
-//	}
-//
-//	// Trinkets, Cardinal Components
-//	maven {
-//		name = "Ladysnake Libs"
-//		url = 'https://maven.ladysnake.org/releases'
-//	}
+	// Cloth Config
+	maven {
+		url "https://maven.shedaniel.me/"
+	}
 
-//	// Spell Power, Spell Engine, Ranged Weapon API
-//	maven {
-//		name = "Modrinth"
-//		url = "https://api.modrinth.com/maven"
-//		content {
-//			includeGroup "maven.modrinth"
-//		}
-//	}
+	// Trinkets, Cloth Config, Mod Menu
+	maven {
+		name = "TerraformersMC"
+		url = "https://maven.terraformersmc.com/"
+	}
 
-//	// Player Animator
-//	maven {
-//		name "KosmX's maven"
-//		url 'https://maven.kosmx.dev/'
-//	}
+	// Trinkets, Cardinal Components
+	maven {
+		name = "Ladysnake Libs"
+		url = 'https://maven.ladysnake.org/releases'
+	}
+
+	// Spell Power, Spell Engine, Ranged Weapon API
+	maven {
+		name = "Modrinth"
+		url = "https://api.modrinth.com/maven"
+		content {
+			includeGroup "maven.modrinth"
+		}
+	}
+
+	// Player Animator
+	maven {
+		name "KosmX's maven"
+		url 'https://maven.kosmx.dev/'
+	}
 //
 //	// Mixin Squared
 //	maven {
 //		url 'https://jitpack.io'
 //	}
 
-//	// Fzzy Config, Lootables
-//	maven {
-//		name = "FzzyMaven"
-//		url = "https://maven.fzzyhmstrs.me/"
-//	}
+	// Fzzy Config, Lootables
+	maven {
+		name = "FzzyMaven"
+		url = "https://maven.fzzyhmstrs.me/"
+	}
 //
 //	// DimLib
 //	maven {
 //		url 'https://jitpack.io'
 //	}
 //
-//	flatDir {
-//		dirs("libs")
-//	}
+	flatDir {
+		dirs("libs")
+	}
 }
 
 loom {
@@ -87,34 +87,39 @@ dependencies {
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
-	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
 
-//	// Fzzy Config
-//	modImplementation"me.fzzyhmstrs:fzzy_config:${project.fzzy_config_version}"
+	// Fzzy Config
+	modImplementation"me.fzzyhmstrs:fzzy_config:${project.fzzy_config_version}"
 
-//	// Cloth Config
-//	modImplementation ("me.shedaniel.cloth:cloth-config-fabric:${project.cloth_config_version}")
-//
-//	// Player Animation Lib
-//	modImplementation("dev.kosmx.player-anim:player-animation-lib-fabric:${project.player_animator_version}")
-//
-//	// Spell Engine Extension
-//	modImplementation("maven.modrinth:spell-engine-extension:${project.spell_engine_extension_version}")
-//
-//	// Spell Engine
-//	modImplementation("maven.modrinth:spell-engine:${project.spell_engine_version}")
-//
-//	// Spell Power
-//	modImplementation("maven.modrinth:spell-power:${project.spell_power_version}")
-//
-//	// Trinkets
-//	modImplementation "dev.emi:trinkets:${project.trinkets_version}"
-//
+	// Cloth Config
+	modImplementation ("me.shedaniel.cloth:cloth-config-fabric:${project.cloth_config_version}")
+
+	// Player Animation Lib
+	modImplementation("dev.kosmx.player-anim:player-animation-lib-fabric:${project.player_animator_version}")
+
+	// Spell Engine Extension
+	modImplementation("maven.modrinth:spell-engine-extension:${project.spell_engine_extension_version}")
+//    modImplementation(files("libs/spellengine-extension-${project.spell_engine_extension_version}.jar"))
+
+	// Various Status Effects
+//	modImplementation("maven.modrinth:various-status-effects:${project.various_status_effects_version}")
+    modImplementation(files("libs/various-status-effects-${project.various_status_effects_version}.jar"))
+
+	// Spell Engine
+	modImplementation("maven.modrinth:spell-engine:${project.spell_engine_version}")
+
+	// Spell Power
+	modImplementation("maven.modrinth:spell-power:${project.spell_power_version}")
+
+	// Trinkets
+	modImplementation "dev.emi:trinkets:${project.trinkets_version}"
+
 //	// Ranged Weapon API
 //	modImplementation("maven.modrinth:ranged-weapon-api:${project.ranged_weapon_api_version}")
-//
-//	// Tiny Config
-//	implementation include("com.github.ZsoltMolnarrr:TinyConfig:${project.tiny_config_version}")
+
+	// Tiny Config
+	implementation include("com.github.ZsoltMolnarrr:TinyConfig:${project.tiny_config_version}")
 //
 //	// Better Combat
 //	modImplementation("maven.modrinth:better-combat:${project.better_combat_version}")
@@ -166,10 +171,10 @@ dependencies {
 //
 //	// Slot Customization API
 //	modImplementation "maven.modrinth:slot-customization-api:${project.slot_customization_api_version}"
-//
-//	// Script Blocks
-////	modImplementation "maven.modrinth:script-blocks:${project.scriptblocks_version}"
-//    modImplementation(files("libs/script-blocks-${project.scriptblocks_version}.jar"))
+
+	// Script Blocks
+//	modImplementation "maven.modrinth:script-blocks:${project.scriptblocks_version}"
+    modImplementation(files("libs/script-blocks-${project.scriptblocks_version}.jar"))
 //
 //	// Lootable
 //	modImplementation "me.fzzyhmstrs:lootables:${project.lootable_version}"
@@ -237,6 +242,8 @@ if (project.hasProperty('release_type')) {
 
 			relations {
 				requiredDependency 'fabric-api'
+				requiredDependency 'spell-engine-extension'
+				requiredDependency 'various-status-effects'
 			}
 
 			mainArtifact(remapJar)
@@ -266,6 +273,8 @@ if (project.hasProperty('release_type')) {
 			// The scope can be `required`, `optional`, `incompatible`, or `embedded`
 			// The type can either be `project` or `version`
 			required.project 'fabric-api'
+			required.project 'spell-engine-extension'
+			required.project 'various-status-effects'
 		}
 	}
 
