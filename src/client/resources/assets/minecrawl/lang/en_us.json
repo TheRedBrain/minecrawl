@@ -1,3 +1,15 @@
 {
-  "entity.minecrawl.fake_villager": "Fake Villager"
+  "effect.minecrawl.frozen_shot_spell": "Frozen Shot",
+  "effect.minecrawl.power_shot_spell": "Power Shot",
+  "effect.minecrawl.remove_ranged_attacks_modifier_spell_effects": "Remove Ranged Attacks Modifiers",
+
+  "item.minecrawl.spell_casting_crossbow_1": "Crossbow",
+  "item.minecrawl.spell_casting_crossbow_2": "Rapid Crossbow",
+  "item.minecrawl.spell_casting_crossbow_3": "Heavy Crossbow",
+  "item.minecrawl.spell_casting_crossbow_4": "Netherite Rapid Crossbow",
+  "item.minecrawl.spell_casting_crossbow_5": "Netherite Heavy Crossbow",
+  "item.minecrawl.spell_casting_crossbow_6": "Heavy Crossbow of the Phoenix",
+  "item.minecrawl.spell_casting_crossbow_7": "Necropolis Ballista",
+  "item.minecrawl.spell_casting_crossbow_8": "Crossbow of Relentless Strikes",
+
 }
