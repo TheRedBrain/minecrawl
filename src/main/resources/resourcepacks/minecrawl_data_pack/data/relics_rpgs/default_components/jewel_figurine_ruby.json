@@ -3,8 +3,8 @@
     "minecraft:attribute_modifiers": [
       {
         "type": "minecraft:generic.attack_damage",
-        "slot": "gloves",
-        "id": "minecrawl:gloves",
+        "slot": "relic",
+        "id": "minecrawl:relic",
         "amount": 0.05,
         "operation": "add_multiplied_base"
       }

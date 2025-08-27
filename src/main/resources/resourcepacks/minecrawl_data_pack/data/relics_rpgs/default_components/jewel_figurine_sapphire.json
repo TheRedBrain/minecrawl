@@ -3,8 +3,8 @@
     "minecraft:attribute_modifiers": [
       {
         "type": "minecraft:generic.max_health",
-        "slot": "necklace",
-        "id": "minecrawl:necklace",
+        "slot": "relic",
+        "id": "minecrawl:relic",
         "amount": 2.0,
         "operation": "add_value"
       }

@@ -3,8 +3,8 @@
     "minecraft:attribute_modifiers": [
       {
         "type": "combat_roll:count",
-        "slot": "necklace",
-        "id": "minecrawl:necklace",
+        "slot": "relic",
+        "id": "minecrawl:relic",
         "amount": 1.0,
         "operation": "add_value"
       }

@@ -3,15 +3,15 @@
     "minecraft:attribute_modifiers": [
       {
         "type": "spell_power:healing",
-        "slot": "gloves",
-        "id": "minecrawl:gloves",
+        "slot": "relic",
+        "id": "minecrawl:relic",
         "amount": 0.05,
         "operation": "add_multiplied_base"
       },
       {
         "type": "spell_power:lightning",
-        "slot": "gloves",
-        "id": "minecrawl:gloves",
+        "slot": "relic",
+        "id": "minecrawl:relic",
         "amount": 0.05,
         "operation": "add_multiplied_base"
       }
