@@ -20,6 +20,10 @@ public class ItemRegistry {
 	public static final Item SPELL_CASTING_CROSSBOW_6 = registerItem("spell_casting_crossbow_6", new SpellCastingCrossbowItem(new Item.Settings().maxCount(1)), null);
 	public static final Item SPELL_CASTING_CROSSBOW_7 = registerItem("spell_casting_crossbow_7", new SpellCastingCrossbowItem(new Item.Settings().maxCount(1)), null);
 	public static final Item SPELL_CASTING_CROSSBOW_8 = registerItem("spell_casting_crossbow_8", new SpellCastingCrossbowItem(new Item.Settings().maxCount(1)), null);
+	public static final Item SPELL_CASTING_CROSSBOW_9 = registerItem("spell_casting_crossbow_9", new SpellCastingCrossbowItem(new Item.Settings().maxCount(1)), null);
+	public static final Item SPELL_CASTING_CROSSBOW_10 = registerItem("spell_casting_crossbow_10", new SpellCastingCrossbowItem(new Item.Settings().maxCount(1)), null);
+	public static final Item SPELL_CASTING_CROSSBOW_11 = registerItem("spell_casting_crossbow_11", new SpellCastingCrossbowItem(new Item.Settings().maxCount(1)), null);
+	public static final Item SPELL_CASTING_CROSSBOW_12 = registerItem("spell_casting_crossbow_12", new SpellCastingCrossbowItem(new Item.Settings().maxCount(1)), null);
 
 	private static Item registerItem(String name, Item item, @Nullable RegistryKey<ItemGroup> itemGroup) {
 
