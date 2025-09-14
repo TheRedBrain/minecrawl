@@ -4,22 +4,8 @@
       {
         "type": "ranged_weapon:damage",
         "slot": "mainhand",
-        "id": "minecrawl:mainhand",
+        "id": "ranged_weapon:base_damage",
         "amount": 12.0,
-        "operation": "add_value"
-      },
-      {
-        "type": "ranged_weapon:pull_time",
-        "slot": "mainhand",
-        "id": "minecrawl:mainhand",
-        "amount": 0.5,
-        "operation": "add_value"
-      },
-      {
-        "type": "ranged_weapon:velocity",
-        "slot": "mainhand",
-        "id": "minecrawl:mainhand",
-        "amount": 0.75,
         "operation": "add_value"
       }
     ],
@@ -36,6 +22,10 @@
       "spell_ids": [
         "minecrawl:heavy_attack_long_bow"
       ]
+    },
+    "spellengineextension:has_conditional_spell_container": {
+      "is_main_hand_valid": true,
+      "is_off_hand_valid": false
     },
     "bettercombat:preset_id": "minecrawl:bow_two_handed"
   }

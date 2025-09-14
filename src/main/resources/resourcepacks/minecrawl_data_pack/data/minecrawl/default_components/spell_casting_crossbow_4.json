@@ -5,7 +5,7 @@
       {
         "type": "ranged_weapon:damage",
         "slot": "offhand",
-        "id": "minecrawl:offhand",
+        "id": "ranged_weapon:base_damage",
         "amount": 9.5,
         "operation": "add_value"
       }

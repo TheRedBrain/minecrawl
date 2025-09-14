@@ -24,6 +24,7 @@ import java.util.Optional;
 public class Minecrawl implements ModInitializer {
 	public static final String MOD_ID = "minecrawl";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+//	public static ServerConfig SERVER_CONFIG;
 
 	public static final boolean isSpellEngineLoaded = FabricLoader.getInstance().isModLoaded("spell_engine");
 	public static final boolean isSpellEngineExtensionLoaded = FabricLoader.getInstance().isModLoaded("spellengineextension");
@@ -48,6 +49,7 @@ public class Minecrawl implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Welcome to the Minecrawl dungeons!");
+//		SERVER_CONFIG = ConfigApiJava.registerAndLoadConfig(ServerConfig::new);
 
 		ItemRegistry.init();
 		StatusEffectsRegistry.registerEffects();

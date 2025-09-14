@@ -4,7 +4,7 @@
       {
         "type": "ranged_weapon:damage",
         "slot": "mainhand",
-        "id": "minecrawl:mainhand",
+        "id": "ranged_weapon:base_damage",
         "amount": 8.0,
         "operation": "add_value"
       }
