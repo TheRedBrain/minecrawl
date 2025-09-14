@@ -9,6 +9,7 @@ import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
 import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
 import net.fabricmc.loader.api.FabricLoader;
 import net.fabricmc.loader.api.ModContainer;
+import net.minecraft.entity.attribute.EntityAttribute;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.entry.RegistryEntry;
@@ -26,6 +27,8 @@ public class Minecrawl implements ModInitializer {
 
 	public static final boolean isSpellEngineLoaded = FabricLoader.getInstance().isModLoaded("spell_engine");
 	public static final boolean isSpellEngineExtensionLoaded = FabricLoader.getInstance().isModLoaded("spellengineextension");
+
+	public static RegistryEntry<EntityAttribute> ATTACK_RANGE;
 
 	public static RegistryEntry<StatusEffect> POWER_SHOT_SPELL;
 	public static RegistryEntry<StatusEffect> FROZEN_SHOT_SPELL;
