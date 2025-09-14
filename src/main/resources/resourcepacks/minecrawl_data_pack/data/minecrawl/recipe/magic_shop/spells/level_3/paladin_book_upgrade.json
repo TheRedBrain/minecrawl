@@ -3,32 +3,36 @@
   "category": "misc",
   "itemStackIngredients": [
     {
-      "id": "paladins:paladin_spell_book",
-      "count": 1,
-      "components": {
-        "spell_engine:spell_container": {
-          "pool": "paladins:paladin",
-          "spell_ids": [
-            "paladins:flash_heal",
-            "paladins:divine_protection",
-            "paladins:judgement"
-          ],
-          "spell_container": "MAGIC"
+      "itemStack": {
+        "id": "paladins:paladin_spell_book",
+        "count": 1,
+        "components": {
+          "spell_engine:spell_container": {
+            "pool": "paladins:paladin",
+            "spell_ids": [
+              "paladins:flash_heal",
+              "paladins:divine_protection",
+              "paladins:judgement"
+            ],
+            "spell_container": "MAGIC"
+          }
         }
       }
     },
     {
-      "id": "paladins:paladin_spell_book",
-      "count": 1,
-      "components": {
-        "spell_engine:spell_container": {
-          "pool": "paladins:paladin",
-          "spell_ids": [
-            "paladins:flash_heal",
-            "paladins:divine_protection",
-            "paladins:judgement"
-          ],
-          "spell_container": "MAGIC"
+      "itemStack": {
+        "id": "paladins:paladin_spell_book",
+        "count": 1,
+        "components": {
+          "spell_engine:spell_container": {
+            "pool": "paladins:paladin",
+            "spell_ids": [
+              "paladins:flash_heal",
+              "paladins:divine_protection",
+              "paladins:judgement"
+            ],
+            "spell_container": "MAGIC"
+          }
         }
       }
     }

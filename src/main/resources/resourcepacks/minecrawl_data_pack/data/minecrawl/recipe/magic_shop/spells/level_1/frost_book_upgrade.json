@@ -3,28 +3,32 @@
   "category": "misc",
   "itemStackIngredients": [
     {
-      "id": "wizards:frost_spell_book",
-      "count": 1,
-      "components": {
-        "spell_engine:spell_container": {
-          "pool": "wizards:frost",
-          "spell_ids": [
-            "wizards:frostbolt"
-          ],
-          "spell_container": "MAGIC"
+      "itemStack": {
+        "id": "wizards:frost_spell_book",
+        "count": 1,
+        "components": {
+          "spell_engine:spell_container": {
+            "pool": "wizards:frost",
+            "spell_ids": [
+              "wizards:frostbolt"
+            ],
+            "spell_container": "MAGIC"
+          }
         }
       }
     },
     {
-      "id": "wizards:frost_spell_book",
-      "count": 1,
-      "components": {
-        "spell_engine:spell_container": {
-          "pool": "wizards:frost",
-          "spell_ids": [
-            "wizards:frostbolt"
-          ],
-          "spell_container": "MAGIC"
+      "itemStack": {
+        "id": "wizards:frost_spell_book",
+        "count": 1,
+        "components": {
+          "spell_engine:spell_container": {
+            "pool": "wizards:frost",
+            "spell_ids": [
+              "wizards:frostbolt"
+            ],
+            "spell_container": "MAGIC"
+          }
         }
       }
     }

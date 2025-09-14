@@ -3,28 +3,32 @@
   "category": "misc",
   "itemStackIngredients": [
     {
-      "id": "rogues:rogue_spell_book",
-      "count": 1,
-      "components": {
-        "spell_engine:spell_container": {
-          "pool": "rogues:rogue",
-          "spell_ids": [
-            "rogues:slice_and_dice"
-          ],
-          "spell_container": "MAGIC"
+      "itemStack": {
+        "id": "rogues:rogue_spell_book",
+        "count": 1,
+        "components": {
+          "spell_engine:spell_container": {
+            "pool": "rogues:rogue",
+            "spell_ids": [
+              "rogues:slice_and_dice"
+            ],
+            "spell_container": "MAGIC"
+          }
         }
       }
     },
     {
-      "id": "rogues:rogue_spell_book",
-      "count": 1,
-      "components": {
-        "spell_engine:spell_container": {
-          "pool": "rogues:rogue",
-          "spell_ids": [
-            "rogues:slice_and_dice"
-          ],
-          "spell_container": "MAGIC"
+      "itemStack": {
+        "id": "rogues:rogue_spell_book",
+        "count": 1,
+        "components": {
+          "spell_engine:spell_container": {
+            "pool": "rogues:rogue",
+            "spell_ids": [
+              "rogues:slice_and_dice"
+            ],
+            "spell_container": "MAGIC"
+          }
         }
       }
     }

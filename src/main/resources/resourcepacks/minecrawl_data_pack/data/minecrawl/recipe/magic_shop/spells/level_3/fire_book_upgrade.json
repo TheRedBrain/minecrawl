@@ -3,32 +3,36 @@
   "category": "misc",
   "itemStackIngredients": [
     {
-      "id": "wizards:fire_spell_book",
-      "count": 1,
-      "components": {
-        "spell_engine:spell_container": {
-          "pool": "wizards:fire",
-          "spell_ids": [
-            "wizards:fire_blast",
-            "wizards:fire_breath",
-            "wizards:fire_meteor"
-          ],
-          "spell_container": "MAGIC"
+      "itemStack": {
+        "id": "wizards:fire_spell_book",
+        "count": 1,
+        "components": {
+          "spell_engine:spell_container": {
+            "pool": "wizards:fire",
+            "spell_ids": [
+              "wizards:fire_blast",
+              "wizards:fire_breath",
+              "wizards:fire_meteor"
+            ],
+            "spell_container": "MAGIC"
+          }
         }
       }
     },
     {
-      "id": "wizards:fire_spell_book",
-      "count": 1,
-      "components": {
-        "spell_engine:spell_container": {
-          "pool": "wizards:fire",
-          "spell_ids": [
-            "wizards:fire_blast",
-            "wizards:fire_breath",
-            "wizards:fire_meteor"
-          ],
-          "spell_container": "MAGIC"
+      "itemStack": {
+        "id": "wizards:fire_spell_book",
+        "count": 1,
+        "components": {
+          "spell_engine:spell_container": {
+            "pool": "wizards:fire",
+            "spell_ids": [
+              "wizards:fire_blast",
+              "wizards:fire_breath",
+              "wizards:fire_meteor"
+            ],
+            "spell_container": "MAGIC"
+          }
         }
       }
     }

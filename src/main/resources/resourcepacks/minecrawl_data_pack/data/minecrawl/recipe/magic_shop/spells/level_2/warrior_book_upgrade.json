@@ -3,30 +3,34 @@
   "category": "misc",
   "itemStackIngredients": [
     {
-      "id": "rogues:warrior_spell_book",
-      "count": 1,
-      "components": {
-        "spell_engine:spell_container": {
-          "pool": "rogues:warrior",
-          "spell_ids": [
-            "rogues:throw",
-            "rogues:shout"
-          ],
-          "spell_container": "MAGIC"
+      "itemStack": {
+        "id": "rogues:warrior_spell_book",
+        "count": 1,
+        "components": {
+          "spell_engine:spell_container": {
+            "pool": "rogues:warrior",
+            "spell_ids": [
+              "rogues:throw",
+              "rogues:shout"
+            ],
+            "spell_container": "MAGIC"
+          }
         }
       }
     },
     {
-      "id": "rogues:warrior_spell_book",
-      "count": 1,
-      "components": {
-        "spell_engine:spell_container": {
-          "pool": "rogues:warrior",
-          "spell_ids": [
-            "rogues:throw",
-            "rogues:shout"
-          ],
-          "spell_container": "MAGIC"
+      "itemStack": {
+        "id": "rogues:warrior_spell_book",
+        "count": 1,
+        "components": {
+          "spell_engine:spell_container": {
+            "pool": "rogues:warrior",
+            "spell_ids": [
+              "rogues:throw",
+              "rogues:shout"
+            ],
+            "spell_container": "MAGIC"
+          }
         }
       }
     }
