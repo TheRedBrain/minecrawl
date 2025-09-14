@@ -1,0 +1,29 @@
+{
+    "dialogueTextList": [
+        "dialogues.arms_dealer.play_test.rare.line_1"
+    ],
+    "answerList": [
+        "minecrawl:arms_dealer/play_test/uncommon/claymore",
+        "minecrawl:arms_dealer/play_test/uncommon/crossbow",
+        "minecrawl:arms_dealer/play_test/uncommon/dagger",
+        "minecrawl:arms_dealer/play_test/uncommon/double_axe",
+        "minecrawl:arms_dealer/play_test/uncommon/glaive",
+        "minecrawl:arms_dealer/play_test/uncommon/great_hammer",
+        "minecrawl:arms_dealer/play_test/uncommon/longbow",
+        "minecrawl:arms_dealer/play_test/uncommon/mace",
+        "minecrawl:arms_dealer/play_test/uncommon/shield",
+        "minecrawl:arms_dealer/play_test/uncommon/shortbow",
+        "minecrawl:arms_dealer/play_test/uncommon/sickle",
+        "minecrawl:arms_dealer/play_test/uncommon/spear",
+        "minecrawl:arms_dealer/play_test/uncommon/staff_holy",
+        "minecrawl:arms_dealer/play_test/uncommon/staff_wizard",
+        "minecrawl:arms_dealer/play_test/uncommon/sword",
+        "minecrawl:arms_dealer/play_test/uncommon/wand_holy",
+        "minecrawl:arms_dealer/play_test/uncommon/wand_wizard",
+        "minecrawl:arms_dealer/play_test/back",
+        "minecrawl:arms_dealer/level_0/leave"
+    ],
+    "unlockAdvancement": "",
+    "lockAdvancement": "",
+    "cancellable": true
+}

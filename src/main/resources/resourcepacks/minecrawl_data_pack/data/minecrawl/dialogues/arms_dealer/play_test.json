@@ -1,0 +1,11 @@
+{
+    "dialogueTextList": [
+        "dialogues.arms_dealer.play_test.line_1"
+    ],
+    "answerList": [
+        "minecrawl:arms_dealer/level_0/leave"
+    ],
+    "unlockAdvancement": "",
+    "lockAdvancement": "",
+    "cancellable": true
+}

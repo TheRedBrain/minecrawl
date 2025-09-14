@@ -1,0 +1,11 @@
+{
+    "dialogueTextList": [
+        "dialogues.wizard.play_test.line_1"
+    ],
+    "answerList": [
+        "minecrawl:wizard/level_0/leave"
+    ],
+    "unlockAdvancement": "",
+    "lockAdvancement": "",
+    "cancellable": true
+}

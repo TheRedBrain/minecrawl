@@ -1,0 +1,29 @@
+{
+  "answerText": "dialogue_answers.priest.level_0.leave",
+  "responseDialogues": [],
+  "availability": {
+    "unlockAdvancement": "",
+    "lockAdvancement": "",
+    "unlockDataCheck": {
+      "dataIdentifier": "",
+      "dataValue": "",
+      "comparisonMode": 0
+    },
+    "lockDataCheck": {
+      "dataIdentifier": "",
+      "dataValue": "",
+      "comparisonMode": 0
+    },
+    "showLockedAnswer": true,
+    "itemCosts": [],
+    "showUnaffordableAnswer": true
+  },
+  "results": {
+    "grantedAdvancement": "",
+    "criterionName": "",
+    "lootTable": "",
+    "usedBlock": "",
+    "triggeredBlock": "",
+    "overlayMessage": "dialogue_answers.priest.level_0.leave.message"
+  }
+}

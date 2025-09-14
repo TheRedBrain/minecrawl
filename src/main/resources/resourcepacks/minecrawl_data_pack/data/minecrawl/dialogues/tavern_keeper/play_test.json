@@ -1,0 +1,11 @@
+{
+    "dialogueTextList": [
+        "dialogues.tavern_keeper.play_test.line_1"
+    ],
+    "answerList": [
+        "minecrawl:tavern_keeper/level_0/leave"
+    ],
+    "unlockAdvancement": "",
+    "lockAdvancement": "",
+    "cancellable": true
+}

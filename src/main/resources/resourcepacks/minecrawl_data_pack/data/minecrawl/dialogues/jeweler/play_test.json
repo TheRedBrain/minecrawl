@@ -1,0 +1,11 @@
+{
+    "dialogueTextList": [
+        "dialogues.jeweler.play_test.line_1"
+    ],
+    "answerList": [
+        "minecrawl:jeweler/level_0/leave"
+    ],
+    "unlockAdvancement": "",
+    "lockAdvancement": "",
+    "cancellable": true
+}

@@ -1,0 +1,11 @@
+{
+    "dialogueTextList": [
+        "dialogues.weapon_smith.play_test.line_1"
+    ],
+    "answerList": [
+        "minecrawl:weapon_smith/level_0/leave"
+    ],
+    "unlockAdvancement": "",
+    "lockAdvancement": "",
+    "cancellable": true
+}

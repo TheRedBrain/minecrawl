@@ -1,0 +1,11 @@
+{
+    "dialogueTextList": [
+        "dialogues.armorer.play_test.line_1"
+    ],
+    "answerList": [
+        "minecrawl:armorer/level_0/leave"
+    ],
+    "unlockAdvancement": "",
+    "lockAdvancement": "",
+    "cancellable": true
+}

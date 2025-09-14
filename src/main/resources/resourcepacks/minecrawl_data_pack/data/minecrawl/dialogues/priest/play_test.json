@@ -1,0 +1,12 @@
+{
+    "dialogueTextList": [
+        "dialogues.priest.play_test.line_1"
+    ],
+    "answerList": [
+        "minecrawl:priest/play_test/heal",
+        "minecrawl:priest/level_0/leave"
+    ],
+    "unlockAdvancement": "",
+    "lockAdvancement": "",
+    "cancellable": true
+}
