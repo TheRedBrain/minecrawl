@@ -7,7 +7,7 @@
   "start_height": {
     "absolute": -63
   },
-  "start_pool": "minecrawl:hub/initial_pool",
+  "start_pool": "minecrawl:hub/initial_pool_play_test",
   "step": "surface_structures",
   "terrain_adaptation": "none",
   "start_jigsaw_name": "minecrawl:location_anchor",

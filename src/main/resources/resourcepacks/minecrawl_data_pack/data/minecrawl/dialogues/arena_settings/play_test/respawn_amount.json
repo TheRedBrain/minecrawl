@@ -1,0 +1,17 @@
+{
+    "dialogueTextList": [
+        "dialogues.arena_settings.play_test.respawn_amount.line_1"
+    ],
+    "answerList": [
+        "minecrawl:arena_settings/play_test/respawn_amount/0",
+        "minecrawl:arena_settings/play_test/respawn_amount/1",
+        "minecrawl:arena_settings/play_test/respawn_amount/2",
+        "minecrawl:arena_settings/play_test/respawn_amount/3",
+        "minecrawl:arena_settings/play_test/back",
+        "minecrawl:arena_settings/play_test/leave"
+    ],
+    "answersStartingIndex": 2,
+    "unlockAdvancement": "",
+    "lockAdvancement": "",
+    "cancellable": true
+}

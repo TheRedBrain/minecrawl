@@ -1,0 +1,29 @@
+{
+  "answerText": "dialogue_answers.arena_settings.play_test.respawn_amount.1",
+  "responseDialogues": [],
+  "availability": {
+    "unlockAdvancement": "",
+    "lockAdvancement": "",
+    "unlockDataCheck": {
+      "dataIdentifier": "",
+      "dataValue": "",
+      "comparisonMode": 0
+    },
+    "lockDataCheck": {
+      "dataIdentifier": "respawn_amount",
+      "dataValue": "1",
+      "comparisonMode": 0
+    },
+    "showLockedAnswer": true,
+    "itemCosts": [],
+    "showUnaffordableAnswer": true
+  },
+  "results": {
+    "grantedAdvancement": "",
+    "criterionName": "",
+    "lootTable": "",
+    "usedBlock": "",
+    "triggeredBlock": "respawn_amount_1",
+    "overlayMessage": "dialogue_answers.arena_settings.play_test.respawn_amount.1.message"
+  }
+}

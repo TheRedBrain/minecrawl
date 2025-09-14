@@ -1,4 +1,29 @@
 {
+  "dialogues.arena_settings.play_test.line_1": "Arena Settings",
+
+  "dialogue_answers.arena_settings.play_test.back": "Back",
+  "dialogue_answers.arena_settings.play_test.leave": "Leave",
+  "dialogue_answers.arena_settings.play_test.respawn_amount": "Respawns Per Player",
+  "dialogue_answers.arena_settings.play_test.team_status": "Enabling/Disabling Teams",
+
+  "dialogues.arena_settings.play_test.respawn_amount.line_1": "Respawns Per Player",
+
+  "dialogue_answers.arena_settings.play_test.respawn_amount.0": "No Respawn",
+  "dialogue_answers.arena_settings.play_test.respawn_amount.1": "1 Respawn",
+  "dialogue_answers.arena_settings.play_test.respawn_amount.2": "2 Respawns",
+  "dialogue_answers.arena_settings.play_test.respawn_amount.3": "3 Respawns",
+
+  "dialogues.arena_settings.play_test.team_status.line_1": "The current status of each team",
+
+  "dialogue_answers.arena_settings.play_test.team_status.blue_closed": "Team Blue is disabled. Click to enable.",
+  "dialogue_answers.arena_settings.play_test.team_status.blue_open": "Team Blue is enabled. Click to disable.",
+  "dialogue_answers.arena_settings.play_test.team_status.green_closed": "Team Green is disabled. Click to enable.",
+  "dialogue_answers.arena_settings.play_test.team_status.green_open": "Team Green is enabled. Click to disable.",
+  "dialogue_answers.arena_settings.play_test.team_status.red_closed": "Team Red is disabled. Click to enable.",
+  "dialogue_answers.arena_settings.play_test.team_status.red_open": "Team Red is enabled. Click to disable.",
+  "dialogue_answers.arena_settings.play_test.team_status.yellow_closed": "Team Yellow is disabled. Click to enable.",
+  "dialogue_answers.arena_settings.play_test.team_status.yellow_open": "Team Yellow is enabled. Click to disable.",
+
   "dialogues.arms_dealer.level_0.line_1": "Hello there!",
   "dialogues.arms_dealer.level_0.line_2": "",
   "dialogues.arms_dealer.level_0.line_3": "You see that portal over there?",
@@ -20,12 +45,12 @@
   "dialogue_answers.campfire_npc.introduction.starter_kit_choice.wizard": "Wizard",
   "dialogue_answers.campfire_npc.introduction.starter_kit_choice.leave": "'I decide later'",
 
-  "dialogues.campfire_npc.catacombs_key_aquired.line_1": "An old door",
-  "dialogues.campfire_npc.catacombs_key_aquired.line_2": "",
-  "dialogues.campfire_npc.catacombs_key_aquired.line_3": "It leads nowhere, but you hear",
-  "dialogues.campfire_npc.catacombs_key_aquired.line_4": "a quiet humming. Upon touching",
-  "dialogues.campfire_npc.catacombs_key_aquired.line_5": "it, you get an idea to rebuild",
-  "dialogues.campfire_npc.catacombs_key_aquired.line_6": "the structure.",
+  "dialogues.campfire_npc.catacombs_key_acquired.line_1": "An old door",
+  "dialogues.campfire_npc.catacombs_key_acquired.line_2": "",
+  "dialogues.campfire_npc.catacombs_key_acquired.line_3": "It leads nowhere, but you hear",
+  "dialogues.campfire_npc.catacombs_key_acquired.line_4": "a quiet humming. Upon touching",
+  "dialogues.campfire_npc.catacombs_key_acquired.line_5": "it, you get an idea to rebuild",
+  "dialogues.campfire_npc.catacombs_key_acquired.line_6": "the structure.",
 
   "dialogue_answers.housing_door.introduction.rebuild": "Rebuild With 2 Cobblestone",
   "dialogue_answers.housing_door.introduction.leave": "Leave",
@@ -41,6 +66,13 @@
   "npc.arms_dealer.name": "Arms Dealer",
 
   "npc.blacksmith_anvil.items_repaired": "Your equipment was repaired!",
+
+  "minecrawl.arena_teleporter.teleporter_name.join_blue_team": "Join Blue Team?",
+  "minecrawl.arena_teleporter.teleporter_name.join_green_team": "Join Green Team?",
+  "minecrawl.arena_teleporter.teleporter_name.join_red_team": "Join Red Team?",
+  "minecrawl.arena_teleporter.teleporter_name.join_yellow_team": "Join Yellow Team?",
+  "minecrawl.arena_teleporter.teleport": "Join Team",
+  "minecrawl.arena_teleporter.cancel_teleport": "Cancel",
 
   "minecrawl.hub.dungeon_entrance.teleporter_name_field.label": "Dungeon Entrance",
   "minecrawl.hub.dungeon_entrance.target_owner_field.label": "Instance Owner",

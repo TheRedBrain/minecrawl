@@ -1,0 +1,21 @@
+{
+  "default_respawn_pos": "end_of_battle",
+  "team_settings": {
+    "arena_team_blue": {
+      "battle_respawn_pos": "respawn_blue",
+      "end_of_battle_respawn_pos": "end_of_battle"
+    },
+    "arena_team_green": {
+      "battle_respawn_pos": "respawn_green",
+      "end_of_battle_respawn_pos": "end_of_battle"
+    },
+    "arena_team_red": {
+      "battle_respawn_pos": "respawn_red",
+      "end_of_battle_respawn_pos": "end_of_battle"
+    },
+    "arena_team_yellow": {
+      "battle_respawn_pos": "respawn_yellow",
+      "end_of_battle_respawn_pos": "end_of_battle"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "answerText": "dialogue_answers.arena_settings.play_test.team_status",
+  "responseDialogues": [
+    "minecrawl:arena_settings/play_test/team_status"
+  ],
+  "availability": {
+    "unlockAdvancement": "",
+    "lockAdvancement": "",
+    "unlockDataCheck": {
+      "dataIdentifier": "",
+      "dataValue": "",
+      "comparisonMode": 0
+    },
+    "lockDataCheck": {
+      "dataIdentifier": "",
+      "dataValue": "",
+      "comparisonMode": 0
+    },
+    "showLockedAnswer": true,
+    "itemCosts": [],
+    "showUnaffordableAnswer": true
+  },
+  "results": {
+    "grantedAdvancement": "",
+    "criterionName": "",
+    "lootTable": "",
+    "usedBlock": "",
+    "triggeredBlock": "",
+    "overlayMessage": ""
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "dialogueTextList": [
+        "dialogues.arena_settings.play_test.team_status.line_1"
+    ],
+    "answerList": [
+        "minecrawl:arena_settings/play_test/team_status/blue_closed",
+        "minecrawl:arena_settings/play_test/team_status/blue_open",
+        "minecrawl:arena_settings/play_test/team_status/green_closed",
+        "minecrawl:arena_settings/play_test/team_status/green_open",
+        "minecrawl:arena_settings/play_test/team_status/red_closed",
+        "minecrawl:arena_settings/play_test/team_status/red_open",
+        "minecrawl:arena_settings/play_test/team_status/yellow_closed",
+        "minecrawl:arena_settings/play_test/team_status/yellow_open",
+        "minecrawl:arena_settings/play_test/back",
+        "minecrawl:arena_settings/play_test/leave"
+    ],
+    "answersStartingIndex": 2,
+    "unlockAdvancement": "",
+    "lockAdvancement": "",
+    "cancellable": true
+}

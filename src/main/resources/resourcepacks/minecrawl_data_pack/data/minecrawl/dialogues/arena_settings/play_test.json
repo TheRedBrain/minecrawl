@@ -1,0 +1,14 @@
+{
+    "dialogueTextList": [
+        "dialogues.arena_settings.play_test.line_1"
+    ],
+    "answerList": [
+        "minecrawl:arena_settings/play_test/respawn_amount",
+        "minecrawl:arena_settings/play_test/team_status",
+        "minecrawl:arena_settings/play_test/leave"
+    ],
+    "answersStartingIndex": 2,
+    "unlockAdvancement": "",
+    "lockAdvancement": "",
+    "cancellable": true
+}
