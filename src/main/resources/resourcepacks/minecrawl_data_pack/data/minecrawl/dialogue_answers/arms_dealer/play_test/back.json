@@ -1,0 +1,31 @@
+{
+  "answerText": "dialogue_answers.arms_dealer.play_test.back",
+  "responseDialogues": [
+    "minecrawl:arms_dealer/play_test"
+  ],
+  "availability": {
+    "unlockAdvancement": "",
+    "lockAdvancement": "",
+    "unlockDataCheck": {
+      "dataIdentifier": "",
+      "dataValue": "",
+      "comparisonMode": 0
+    },
+    "lockDataCheck": {
+      "dataIdentifier": "",
+      "dataValue": "",
+      "comparisonMode": 0
+    },
+    "showLockedAnswer": true,
+    "itemCosts": [],
+    "showUnaffordableAnswer": true
+  },
+  "results": {
+    "grantedAdvancement": "",
+    "criterionName": "",
+    "lootTable": "",
+    "usedBlock": "",
+    "triggeredBlock": "",
+    "overlayMessage": ""
+  }
+}
