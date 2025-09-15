@@ -14,5 +14,11 @@
   "item.minecrawl.spell_casting_crossbow_9": "Aether Rapid Crossbow",
   "item.minecrawl.spell_casting_crossbow_10": "Aether Heavy Crossbow",
   "item.minecrawl.spell_casting_crossbow_11": "Ruby Rapid Crossbow",
-  "item.minecrawl.spell_casting_crossbow_12": "Ruby Heavy Crossbow"
+  "item.minecrawl.spell_casting_crossbow_12": "Ruby Heavy Crossbow",
+
+  "item.minecrawl.infinite_arrow_quiver": "Infinite Arrow Quiver",
+  "item.minecrawl.infinite_arcane_rune_pouch": "Infinite Arcane Rune Pouch",
+  "item.minecrawl.infinite_fire_rune_pouch": "Infinite Fire Rune Pouch",
+  "item.minecrawl.infinite_frost_rune_pouch": "Infinite Frost Rune Pouch",
+  "item.minecrawl.infinite_healing_rune_pouch": "Infinite Healing Rune Pouch"
 }
