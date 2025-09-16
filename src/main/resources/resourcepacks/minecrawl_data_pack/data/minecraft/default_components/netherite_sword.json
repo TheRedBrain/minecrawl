@@ -1,0 +1,12 @@
+{
+  "add": {
+    "mergeditems:merged_items": {
+      "content": [],
+      "possible_merging_items": "minecrawl:item_merging/melee_weapons",
+      "merge_content_flags": 0,
+      "merging_item_cost": 8,
+      "merging_exp_cost": -1
+    },
+    "bettercombat:preset_id": "minecrawl:sword"
+  }
+}
