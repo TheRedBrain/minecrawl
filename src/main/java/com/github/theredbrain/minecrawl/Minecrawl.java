@@ -77,6 +77,7 @@ public class Minecrawl implements ModInitializer {
 		if (isSpellEngineLoaded) {
 			SpellEngineCompat.configureEffects();
 			SpellEngineCompat.initContainerCompat();
+			SpellEngineCompat.registerCustomImpacts();
 		}
 		if (isSpellEngineExtensionLoaded) {
 			SpellEngineExtensionCompat.configureEffects();
