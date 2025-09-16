@@ -10,6 +10,6 @@ import org.spongepowered.asm.mixin.Mixin;
 @Mixin(EntityAttributes.class)
 public class EntityAttributesMixin {
 	static {
-		Minecrawl.ATTACK_RANGE = Registry.registerReference(Registries.ATTRIBUTE, Minecrawl.identifier("generic.active_range"), new ClampedEntityAttribute("attribute.name.generic.attack_range", 0.0, 0.0, 1024.0).setTracked(true));
+		Minecrawl.ATTACK_RANGE = Registry.registerReference(Registries.ATTRIBUTE, Minecrawl.identifier("generic.attack_range"), new ClampedEntityAttribute("attribute.name.generic.attack_range", 0.0, 0.0, 1024.0).setTracked(true));
 	}
 }

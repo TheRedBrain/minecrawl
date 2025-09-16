@@ -32,8 +32,8 @@ public abstract class LivingEntityMixin extends Entity implements DuckLivingEnti
 	}
 
 	@Override
-	public int minecrawl$getAttackRange() {
-		return (int) this.getAttributeValue(Minecrawl.ATTACK_RANGE);
+	public double minecrawl$getAttackRange() {
+		return this.getAttributeValue(Minecrawl.ATTACK_RANGE);
 	}
 
 }
