@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "runes:item/large_rune_pouch_filled"
+    "layer0": "minecrawl:item/infinite_frost_rune_pouch"
   }
 }

@@ -4,6 +4,8 @@ import com.github.theredbrain.minecrawl.Minecrawl;
 import com.github.theredbrain.minecrawl.component.type.InfiniteSpellAmmoContainerComponent;
 import com.github.theredbrain.minecrawl.item.SpellCastingCrossbowItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.component.DataComponentTypes;
+import net.minecraft.component.type.LoreComponent;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Items;
