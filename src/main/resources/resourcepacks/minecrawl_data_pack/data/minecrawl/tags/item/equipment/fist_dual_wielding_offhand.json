@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-		{
-			"id": "#rpg_series:weapon_type/dagger",
-			"required": false
-		}
+    {
+      "id": "#rpg_inventory:empty_hand_weapons",
+      "required": false
+    }
   ]
 }

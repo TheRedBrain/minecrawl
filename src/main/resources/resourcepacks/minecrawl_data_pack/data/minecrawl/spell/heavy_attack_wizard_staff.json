@@ -1,0 +1,65 @@
+{
+  "school": "FROST",
+  "group": "heavy_attacks",
+  "range": 3.0,
+  "tier": 2,
+  "tooltip": {
+    "show_header": false,
+    "show_activation": false,
+    "show_range": false,
+    "name": {
+      "show_in_compact": false,
+      "show_in_details": false
+    },
+    "description": {
+      "show_in_compact": true,
+      "show_in_details": true
+    }
+  },
+  "learn": {},
+  "active": {
+    "scroll": {},
+    "cast": {
+      "duration": 1.0,
+      "animation": "spell_engine:one_handed_area_charge_2",
+      "animation_pitch": false,
+      "sound": {
+        "id": "minecraft:entity.breeze.inhale",
+        "randomness": 0
+      },
+      "particles": [
+        {
+          "particle_id": "spell_engine:snowflake",
+          "shape": "WIDE_PIPE",
+          "origin": "CENTER",
+          "count": 0.5,
+          "min_speed": 0.1,
+          "max_speed": 0.2
+        }
+      ]
+    }
+  },
+  "target": {
+    "type": "CASTER"
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "CUSTOM",
+        "custom": {
+          "handler": "minecrawl:wind_charge_explosion"
+        }
+      }
+    }
+  ],
+  "cost": {
+    "mana_cost": 2.0,
+    "check_mana_cost": true,
+    "stamina_cost": 3.0,
+    "check_stamina_cost": true,
+    "cooldown": {
+      "duration": 10.0,
+      "proportional": true
+    }
+  }
+}
