@@ -38,8 +38,9 @@
       ]
     },
     "spellengineextension:has_conditional_spell_container": {
-      "is_main_hand_valid": true,
-      "is_off_hand_valid": false
+      "is_main_hand_valid": false,
+      "is_off_hand_valid": false,
+      "is_two_handed_valid": true
     },
     "bettercombat:preset_id": "minecrawl:spear"
   }

@@ -2,17 +2,38 @@
   "add": {
     "minecraft:attribute_modifiers": [
       {
-        "type": "minecraft:generic.armor_toughness",
+        "type": "overhauleddamage:generic.blocked_physical_damage",
         "slot": "hand",
         "id": "minecrawl:hand",
-        "amount": 1.0,
+        "amount": 8.0,
         "operation": "add_value"
       },
       {
-        "type": "minecraft:generic.max_health",
+        "type": "overhauleddamage:generic.block_force",
         "slot": "hand",
         "id": "minecrawl:hand",
-        "amount": 4.0,
+        "amount": 2.0,
+        "operation": "add_value"
+      },
+      {
+        "type": "overhauleddamage:generic.parry_window",
+        "slot": "hand",
+        "id": "minecrawl:hand",
+        "amount": 8.0,
+        "operation": "add_value"
+      },
+      {
+        "type": "overhauleddamage:generic.block_stamina_cost",
+        "slot": "hand",
+        "id": "minecrawl:hand",
+        "amount": 3.0,
+        "operation": "add_value"
+      },
+      {
+        "type": "overhauleddamage:generic.parry_stamina_cost",
+        "slot": "hand",
+        "id": "minecrawl:hand",
+        "amount": 3.0,
         "operation": "add_value"
       }
     ],

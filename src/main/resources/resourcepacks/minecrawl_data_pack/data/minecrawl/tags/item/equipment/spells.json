@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
-    "#spell_engine:spell_books"
+    "#spell_engine:spell_books",
+    {
+      "id": "spell_engine:scroll",
+      "required": false
+    }
   ]
 }

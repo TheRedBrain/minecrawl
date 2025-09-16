@@ -28,6 +28,18 @@
         "possible_merging_items": "minecrawl:item_merging/weapons",
         "merging_item_cost": 16,
         "merging_exp_cost": -1
-    }
+    },
+    "spell_engine:spell_container": {
+      "is_proxy": true,
+      "spell_ids": [
+        "minecrawl:heavy_attack_double_axe"
+      ]
+    },
+    "spellengineextension:has_conditional_spell_container": {
+      "is_main_hand_valid": false,
+      "is_off_hand_valid": false,
+      "is_two_handed_valid": true
+    },
+    "bettercombat:preset_id": "minecrawl:double_axe"
   }
 }

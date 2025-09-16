@@ -49,6 +49,7 @@
         "possible_merging_items": "minecrawl:item_merging/weapons",
         "merging_item_cost": 16,
         "merging_exp_cost": -1
-    }
+    },
+    "bettercombat:preset_id": "minecrawl:staff"
   }
 }

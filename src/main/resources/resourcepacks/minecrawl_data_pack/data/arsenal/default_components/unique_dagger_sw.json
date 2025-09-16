@@ -28,6 +28,19 @@
         "possible_merging_items": "minecrawl:item_merging/weapons",
         "merging_item_cost": 16,
         "merging_exp_cost": -1
-    }
+    },
+    "spell_engine:spell_container": {
+      "is_proxy": true,
+      "spell_ids": [
+        "minecrawl:heavy_attack_dual_wielding_dagger"
+      ]
+    },
+    "spellengineextension:has_conditional_spell_container": {
+      "is_main_hand_valid": false,
+      "is_off_hand_valid": false,
+      "is_dual_wielding_valid": true,
+      "dual_wielding_tag": "minecrawl:equipment/dagger_dual_wielding_offhand"
+    },
+    "bettercombat:preset_id": "minecrawl:dagger"
   }
 }
