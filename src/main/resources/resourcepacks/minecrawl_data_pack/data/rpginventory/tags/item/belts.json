@@ -1,11 +1,9 @@
 {
-	"values": [
-		"#archers:quivers",
-		"#runes:pouches",
-		"minecrawl:infinite_arrow_quiver",
-		"minecrawl:infinite_arcane_rune_pouch",
-		"minecrawl:infinite_fire_rune_pouch",
-		"minecrawl:infinite_frost_rune_pouch",
-		"minecrawl:infinite_healing_rune_pouch"
-	]
+  "values": [
+    "minecrawl:infinite_arrow_quiver",
+    "minecrawl:infinite_arcane_rune_pouch",
+    "minecrawl:infinite_fire_rune_pouch",
+    "minecrawl:infinite_frost_rune_pouch",
+    "minecrawl:infinite_healing_rune_pouch"
+  ]
 }

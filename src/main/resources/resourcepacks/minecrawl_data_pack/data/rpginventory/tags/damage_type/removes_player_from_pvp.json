@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "#rpginventory:attack_items"
+    "minecrawl:team_leaving_damage_type"
   ]
 }
