@@ -6,6 +6,8 @@
   "block.minecrawl.alternative_crafting_tab_3_block": "Jeweler's Kit",
   "block.minecrawl.alternative_crafting_tab_4_block": "Library",
 
+  "category.minecrawl.minecrawl": "Minecrawl",
+
   "effect.minecrawl.frozen_shot_spell": "Frozen Shot",
   "effect.minecrawl.power_shot_spell": "Power Shot",
   "effect.minecrawl.remove_ranged_attacks_modifier_spell_effects": "Remove Ranged Attacks Modifiers",
