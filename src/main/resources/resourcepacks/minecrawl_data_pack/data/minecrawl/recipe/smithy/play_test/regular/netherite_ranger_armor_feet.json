@@ -1,0 +1,15 @@
+{
+  "type": "rpgcrafting:rpg_crafting_recipe",
+  "category": "misc",
+  "itemStackIngredients": [
+  ],
+  "ingredients": [
+  ],
+  "result": {
+    "id": "archers:netherite_ranger_armor_feet"
+  },
+  "level": 1,
+  "tab": 2,
+  "recipeType": "STANDARD",
+  "showNotification": false
+}

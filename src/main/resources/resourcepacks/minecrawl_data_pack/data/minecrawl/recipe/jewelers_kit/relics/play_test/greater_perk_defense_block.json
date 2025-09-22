@@ -1,0 +1,14 @@
+{
+  "type": "rpgcrafting:rpg_crafting_recipe",
+  "category": "misc",
+  "itemStackIngredients": [],
+  "ingredients": [
+  ],
+  "result": {
+    "id": "relics_rpgs:greater_perk_defense_block"
+  },
+  "level": 1,
+  "tab": 3,
+  "recipeType": "SPECIAL",
+  "showNotification": false
+}

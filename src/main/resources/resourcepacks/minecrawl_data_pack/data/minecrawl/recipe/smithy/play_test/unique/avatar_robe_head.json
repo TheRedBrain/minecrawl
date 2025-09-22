@@ -1,0 +1,14 @@
+{
+  "type": "rpgcrafting:rpg_crafting_recipe",
+  "category": "misc",
+  "itemStackIngredients": [],
+  "ingredients": [
+  ],
+  "result": {
+    "id": "armory:avatar_robe_head"
+  },
+  "level": 1,
+  "tab": 2,
+  "recipeType": "SPECIAL",
+  "showNotification": false
+}

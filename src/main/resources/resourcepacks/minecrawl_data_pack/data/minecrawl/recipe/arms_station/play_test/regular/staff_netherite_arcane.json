@@ -1,0 +1,14 @@
+{
+	"type": "rpgcrafting:rpg_crafting_recipe",
+	 "category": "misc",
+	"itemStackIngredients": [],
+	"ingredients": [
+	],
+	"result": {
+		"id": "wizards:staff_netherite_arcane"
+	},
+	"level": 1,
+	"tab": 1,
+	"recipeType": "STANDARD",
+	"showNotification": false
+}

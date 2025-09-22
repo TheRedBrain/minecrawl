@@ -1,0 +1,14 @@
+{
+  "type": "rpgcrafting:rpg_crafting_recipe",
+  "category": "misc",
+  "itemStackIngredients": [],
+  "ingredients": [
+  ],
+  "result": {
+    "id": "paladins:netherite_crusader_armor_chest"
+  },
+  "level": 1,
+  "tab": 2,
+  "recipeType": "STANDARD",
+  "showNotification": false
+}

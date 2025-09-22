@@ -1,0 +1,14 @@
+{
+	"type": "rpgcrafting:rpg_crafting_recipe",
+	 "category": "misc",
+	"itemStackIngredients": [],
+	"ingredients": [
+	],
+	"result": {
+		"id": "paladins:netherite_holy_wand"
+	},
+	"level": 1,
+	"tab": 1,
+	"recipeType": "STANDARD",
+	"showNotification": false
+}

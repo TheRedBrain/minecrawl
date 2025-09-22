@@ -1,0 +1,14 @@
+{
+  "type": "rpgcrafting:rpg_crafting_recipe",
+  "category": "misc",
+  "itemStackIngredients": [],
+  "ingredients": [
+  ],
+  "result": {
+    "id": "jewelry:unique_attack_ring"
+  },
+  "level": 1,
+  "tab": 3,
+  "recipeType": "STANDARD",
+  "showNotification": false
+}

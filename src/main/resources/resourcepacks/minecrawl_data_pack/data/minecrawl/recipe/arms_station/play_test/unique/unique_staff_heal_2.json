@@ -1,0 +1,14 @@
+{
+  "type": "rpgcrafting:rpg_crafting_recipe",
+  "category": "misc",
+  "itemStackIngredients": [],
+  "ingredients": [
+  ],
+  "result": {
+    "id": "arsenal:unique_staff_heal_2"
+  },
+  "level": 1,
+  "tab": 1,
+  "recipeType": "SPECIAL",
+  "showNotification": false
+}
