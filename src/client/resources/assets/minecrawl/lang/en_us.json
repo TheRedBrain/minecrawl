@@ -1,6 +1,11 @@
 {
   "attribute.name.generic.attack_range": "Attack range",
 
+  "block.minecrawl.alternative_crafting_tab_1_block": "Arms Workbench",
+  "block.minecrawl.alternative_crafting_tab_2_block": "Smithy",
+  "block.minecrawl.alternative_crafting_tab_3_block": "Jeweler's Kit",
+  "block.minecrawl.alternative_crafting_tab_4_block": "Library",
+
   "effect.minecrawl.frozen_shot_spell": "Frozen Shot",
   "effect.minecrawl.power_shot_spell": "Power Shot",
   "effect.minecrawl.remove_ranged_attacks_modifier_spell_effects": "Remove Ranged Attacks Modifiers",

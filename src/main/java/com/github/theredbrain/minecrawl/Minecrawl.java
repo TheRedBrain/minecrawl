@@ -4,7 +4,9 @@ import com.github.theredbrain.minecrawl.compat.RunesCompat;
 import com.github.theredbrain.minecrawl.compat.SpellEngineCompat;
 import com.github.theredbrain.minecrawl.compat.SpellEngineExtensionCompat;
 import com.github.theredbrain.minecrawl.component.type.InfiniteSpellAmmoContainerComponent;
+import com.github.theredbrain.minecrawl.registry.BlockRegistry;
 import com.github.theredbrain.minecrawl.registry.ItemComponentRegistry;
+import com.github.theredbrain.minecrawl.registry.ItemGroupRegistry;
 import com.github.theredbrain.minecrawl.registry.ItemRegistry;
 import com.github.theredbrain.minecrawl.registry.StatusEffectsRegistry;
 import net.fabricmc.api.ModInitializer;
@@ -89,7 +91,9 @@ public class Minecrawl implements ModInitializer {
 		LOGGER.info("Welcome to the Minecrawl dungeons!");
 //		SERVER_CONFIG = ConfigApiJava.registerAndLoadConfig(ServerConfig::new);
 
+		BlockRegistry.init();
 		ItemComponentRegistry.init();
+		ItemGroupRegistry.init();
 		ItemRegistry.init();
 		StatusEffectsRegistry.registerEffects();
 

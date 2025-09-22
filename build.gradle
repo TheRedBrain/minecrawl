@@ -123,6 +123,11 @@ dependencies {
 
 	// Tiny Config
 	implementation include("com.github.ZsoltMolnarrr:TinyConfig:${project.tiny_config_version}")
+
+
+	// RPG Crafting
+//	modImplementation "maven.modrinth:rpg-crafting:${project.rpg_crafting_version}"
+	modImplementation(files("libs/rpg-crafting-${project.rpg_crafting_version}.jar"))
 //
 //	// Better Combat
 //	modImplementation("maven.modrinth:better-combat:${project.better_combat_version}")

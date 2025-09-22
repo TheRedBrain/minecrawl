@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "minecrawl:block/alternative_crafting_tab_2_block",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "minecrawl:block/alternative_crafting_tab_2_block"
+    },
+    "facing=south": {
+      "model": "minecrawl:block/alternative_crafting_tab_2_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minecrawl:block/alternative_crafting_tab_2_block",
+      "y": 270
+    }
+  }
+}

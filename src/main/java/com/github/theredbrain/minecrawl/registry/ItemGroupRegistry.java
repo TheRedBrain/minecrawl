@@ -1,0 +1,23 @@
+package com.github.theredbrain.minecrawl.registry;
+
+import com.github.theredbrain.minecrawl.Minecrawl;
+import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
+import net.minecraft.registry.RegistryKey;
+import net.minecraft.registry.RegistryKeys;
+import net.minecraft.text.Text;
+
+public class ItemGroupRegistry {
+	public static final RegistryKey<ItemGroup> MINECRAWL = RegistryKey.of(RegistryKeys.ITEM_GROUP, Minecrawl.identifier("minecrawl"));
+
+	public static void init() {
+		Registry.register(Registries.ITEM_GROUP, MINECRAWL, FabricItemGroup.builder()
+				.icon(() -> new ItemStack(Items.CRAFTING_TABLE))
+				.displayName(Text.translatable("itemGroup.minecrawl.minecrawl"))
+				.build());
+	}
+}

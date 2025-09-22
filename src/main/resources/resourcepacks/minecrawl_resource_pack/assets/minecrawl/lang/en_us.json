@@ -87,5 +87,20 @@
   "slot.tooltip.gloves": "Relic",
 
   "spell.minecrawl.heavy_attack_claymore.name": "Claymore Heavy Attack",
-  "spell.minecrawl.heavy_attack_claymore.description": "Press right-click to perform a powerful stab attack dealing {damage} damage."
+  "spell.minecrawl.heavy_attack_claymore.description": "Press right-click to perform a powerful stab attack dealing {damage} damage.",
+
+
+  "gui.crafting_bench.toggle_standard_crafting_button_label.1": "Regular",
+  "gui.crafting_bench.toggle_special_crafting_button_label.1": "Regular",
+  "gui.crafting_bench.toggle_standard_crafting_button_label.2": "Armor",
+  "gui.crafting_bench.toggle_special_crafting_button_label.2": "Uniques",
+  "gui.crafting_bench.toggle_standard_crafting_button_label.3": "Jewelry",
+  "gui.crafting_bench.toggle_special_crafting_button_label.3": "Relics",
+  "gui.crafting_bench.toggle_standard_crafting_button_label.4": "Spells",
+  "gui.crafting_bench.toggle_special_crafting_button_label.4": "Misc",
+
+  "gui.crafting_bench.tab_1_title": "Arms Station",
+  "gui.crafting_bench.tab_2_title": "Smithy",
+  "gui.crafting_bench.tab_3_title": "Jeweler's Kit",
+  "gui.crafting_bench.tab_4_title": "Library"
 }
