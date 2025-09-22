@@ -3,7 +3,7 @@
   "entry": {
     "type": "lootables:item",
     "item": {
-      "id": "jewelry:sapphire_necklace",
+      "id": "jewelry:citrine_necklace",
       "count": 1,
       "components": {
         "minecraft:custom_data":{
