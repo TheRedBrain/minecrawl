@@ -4,9 +4,6 @@
   "itemStackIngredients": [
   ],
   "ingredients": [
-    {
-      "item": "minecraft:stick"
-    }
   ],
   "result": {
     "id": "wizards:fire_spell_book",

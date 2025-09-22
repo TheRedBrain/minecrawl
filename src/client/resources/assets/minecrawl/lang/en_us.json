@@ -6,7 +6,7 @@
   "block.minecrawl.alternative_crafting_tab_3_block": "Jeweler's Kit",
   "block.minecrawl.alternative_crafting_tab_4_block": "Library",
 
-  "category.minecrawl.minecrawl": "Minecrawl",
+  "itemGroup.minecrawl.minecrawl": "Minecrawl",
 
   "effect.minecrawl.frozen_shot_spell": "Frozen Shot",
   "effect.minecrawl.power_shot_spell": "Power Shot",
