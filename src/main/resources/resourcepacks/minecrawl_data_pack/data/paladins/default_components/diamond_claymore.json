@@ -39,7 +39,8 @@
     "spellengineextension:has_conditional_spell_container": {
       "is_main_hand_valid": false,
       "is_off_hand_valid": false,
-      "is_two_handed_valid": true
+      "is_two_handed_valid": true,
+      "prevent_casting_of_all_spells": true
     },
     "bettercombat:preset_id": "minecrawl:claymore"
   }
