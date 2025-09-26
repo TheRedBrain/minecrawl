@@ -1,0 +1,16 @@
+{
+  "type": "rpgcrafting:rpg_crafting_recipe",
+  "category": "misc",
+  "itemStackIngredients": [
+  ],
+  "ingredients": [
+  ],
+  "result": {
+    "id": "minecrawl:infinite_frost_rune_pouch",
+    "count": 1
+  },
+  "level": 1,
+  "tab": 4,
+  "recipeType": "SPECIAL",
+  "showNotification": false
+}

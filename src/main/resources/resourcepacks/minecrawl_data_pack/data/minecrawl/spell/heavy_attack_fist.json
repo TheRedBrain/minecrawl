@@ -21,8 +21,8 @@
   "active": {
     "cast": {
       "haste_affected": false,
-      "duration": 10.0,
-      "channel_ticks": 10,
+      "duration": 3.0,
+      "channel_ticks": 0,
       "animation": "spell_engine:two_handed_channeling",
       "animation_pitch": false,
       "movement_speed": 0.0,
@@ -44,7 +44,7 @@
         "type": "DAMAGE",
         "damage": {
           "spell_power_coefficient": 2.0,
-          "knockback": 0.5
+          "knockback": 2.5
         }
       },
       "particles": [
@@ -60,12 +60,10 @@
     }
   ],
   "cost": {
-    "stamina_cost": 0.5,
+    "stamina_cost": 3.0,
     "check_stamina_cost": true,
-    "apply_channeling_stamina_cost": true,
     "cooldown": {
-      "duration": 10.0,
-      "proportional": true
+      "duration": 10.0
     }
   }
 }

@@ -1,10 +1,11 @@
 {
-	"values": [
-    "minecrawl:heavy_attack_arcane_staff",
+  "values": [
     "minecrawl:heavy_attack_claymore",
     "minecrawl:heavy_attack_dual_wielding_dagger",
-    "minecrawl:heavy_attack_fire_staff",
-    "minecrawl:heavy_attack_frost_staff",
-    "minecrawl:heavy_attack_hammer"
-	]
+    "minecrawl:heavy_attack_hammer",
+    "paladins:circle_of_healing",
+    "wizards:arcane_blink",
+    "wizards:fire_meteor",
+    "wizards:frost_nova"
+  ]
 }

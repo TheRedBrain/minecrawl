@@ -40,7 +40,7 @@
     "spell_engine:spell_container": {
       "is_proxy": true,
       "spell_ids": [
-        "minecrawl:heavy_attack_fire_staff"
+        "lne_wizards:fire_flamerush"
       ]
     },
     "spellengineextension:has_conditional_spell_container": {

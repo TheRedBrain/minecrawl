@@ -1,12 +1,10 @@
 {
   "values": [
-    "minecrawl:heavy_attack_arcane_staff",
+    "lne_wizards:fire_flamerush",
     "minecrawl:heavy_attack_claymore",
     "minecrawl:heavy_attack_double_axe",
     "minecrawl:heavy_attack_dual_wielding_dagger",
-    "minecrawl:heavy_attack_fire_staff",
     "minecrawl:heavy_attack_fist",
-    "minecrawl:heavy_attack_frost_staff",
     "minecrawl:heavy_attack_hammer",
     "minecrawl:heavy_attack_heavy_crossbow",
     "minecrawl:heavy_attack_holy_staff",
@@ -14,6 +12,9 @@
     "minecrawl:heavy_attack_long_bow",
     "minecrawl:heavy_attack_short_bow",
     "minecrawl:heavy_attack_spear",
-    "minecrawl:heavy_attack_wizard_staff"
+    "minecrawl:heavy_attack_wizard_staff",
+    "paladins:circle_of_healing",
+    "wizards:arcane_blink",
+    "wizards:frost_shield"
   ]
 }

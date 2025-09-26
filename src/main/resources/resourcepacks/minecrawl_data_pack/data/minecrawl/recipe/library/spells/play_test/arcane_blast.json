@@ -1,0 +1,25 @@
+{
+  "type": "rpgcrafting:rpg_crafting_recipe",
+  "category": "misc",
+  "itemStackIngredients": [
+  ],
+  "ingredients": [
+  ],
+  "result": {
+    "id": "wizards:arcane_spell_book",
+    "count": 1,
+    "components": {
+      "minecraft:rarity": "common",
+      "spell_engine:spell_container": {
+        "spell_ids": [
+          "wizards:arcane_blast"
+        ],
+        "max_spell_count": 1
+      }
+    }
+  },
+  "level": 1,
+  "tab": 4,
+  "recipeType": "STANDARD",
+  "showNotification": false
+}

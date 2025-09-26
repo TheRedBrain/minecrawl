@@ -20,20 +20,26 @@
   "learn": {},
   "active": {
     "cast": {
-      "duration": 0.7,
-      "channel_ticks": 0,
-      "animation": "bettercombat:dual_handed_stab",
+      "duration": 8.0,
+      "channel_ticks": 8,
+      "animation": "spell_engine:two_handed_spinning",
       "animation_pitch": false,
-      "after_casting_movement_locking_ticks": 10,
-      "movement_speed": 0.0
+      "movement_speed": 1.1,
+      "sound": {
+        "id": "rogues:whirlwind",
+        "randomness": 0.0
+      }
     }
   },
-  "release": {},
+  "release": {
+    "sound": {
+      "id": "rogues:throw"
+    }
+  },
   "target": {
     "type": "AREA",
     "area": {
-      "distance_dropoff": "NONE",
-      "angle_degrees": 20
+      "vertical_range_multiplier": 0.25
     }
   },
   "impacts": [
@@ -54,19 +60,16 @@
           "min_speed": 0.2,
           "max_speed": 0.7
         }
-      ],
-      "sound": {
-        "id": "bettercombat:dagger_slash"
-      }
+      ]
     }
   ],
   "cost": {
-    "stamina_cost": 3.0,
-    "check_stamina": true,
-    "check_stamina_cost": false,
-    "durability": 1,
+    "stamina_cost": 0.5,
+    "check_stamina_cost": true,
+    "apply_channeling_stamina_cost": true,
     "cooldown": {
-      "duration": 1
+      "duration": 10.0,
+      "proportional": true
     }
   }
 }
