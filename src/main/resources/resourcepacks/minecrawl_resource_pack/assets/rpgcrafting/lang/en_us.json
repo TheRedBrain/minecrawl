@@ -13,11 +13,12 @@
   "gui.crafting_bench.special_craft_button_label.3": "Craft",
   "gui.crafting_bench.special_craft_button_label.4": "Craft",
 
-  "gui.crafting_bench.tab_1_title": "Arms Station",
-  "gui.crafting_bench.tab_2_title": "Smithy",
-  "gui.crafting_bench.tab_3_title": "Jeweler's Kit",
-  "gui.crafting_bench.tab_4_title": "Library",
-  "gui.crafting_bench.tab_1_tooltip": "Arms Station",
-  "gui.crafting_bench.tab_3_tooltip": "Jeweler's Kit",
-  "gui.crafting_bench.tab_4_tooltip": "Library"
+  "gui.crafting_bench.tab_1_title": "Weapons",
+  "gui.crafting_bench.tab_2_title": "Armor",
+  "gui.crafting_bench.tab_3_title": "Jewelry & Relics",
+  "gui.crafting_bench.tab_4_title": "Spells & Misc",
+  "gui.crafting_bench.tab_1_tooltip": "Weapons",
+  "gui.crafting_bench.tab_2_tooltip": "Armor",
+  "gui.crafting_bench.tab_3_tooltip": "Jewelry & Relics",
+  "gui.crafting_bench.tab_4_tooltip": "Spells & Misc"
 }

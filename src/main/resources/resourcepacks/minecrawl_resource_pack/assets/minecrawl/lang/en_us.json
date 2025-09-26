@@ -63,6 +63,8 @@
 
   "locations.minecrawl.hub": "Hub",
 
+  "locations.minecrawl.housing.house_1": "Player House",
+
   "npc.arms_dealer.name": "Arms Dealer",
 
   "npc.blacksmith_anvil.items_repaired": "Your equipment was repaired!",

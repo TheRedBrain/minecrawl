@@ -33,7 +33,7 @@
     "spell_engine:spell_container": {
       "is_proxy": true,
       "spell_ids": [
-        "minecrawl:heavy_attack_double_axe"
+        "rogues:whirlwind"
       ]
     },
     "spellengineextension:has_conditional_spell_container": {
