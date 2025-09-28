@@ -16,7 +16,7 @@
         "operation": "add_value"
       },
       {
-        "type": "minecrawl:generic.attack_range",
+        "type": "attackrangeattribute:generic.attack_range",
         "slot": "mainhand",
         "id": "minecrawl:base_attack_range",
         "amount": 2.5,
