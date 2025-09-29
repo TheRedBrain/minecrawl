@@ -3,11 +3,137 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "minecrawl:dungeons/trial_chamber/chamber/test_chamber",
-        "processors": [],
+        "location": "minecrawl:dungeons/trial_chamber/chamber/ascend_0",
+        "processors": "minecraft:trial_chambers_copper_bulb_degradation",
         "projection": "rigid"
       },
-      "weight": 1
+      "weight": 75
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecrawl:dungeons/trial_chamber/chamber/ascend_1",
+        "processors": "minecraft:trial_chambers_copper_bulb_degradation",
+        "projection": "rigid"
+      },
+      "weight": 75
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecrawl:dungeons/trial_chamber/chamber/assembly_0",
+        "processors": "minecraft:trial_chambers_copper_bulb_degradation",
+        "projection": "rigid"
+      },
+      "weight": 50
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecrawl:dungeons/trial_chamber/chamber/assembly_1",
+        "processors": "minecraft:trial_chambers_copper_bulb_degradation",
+        "projection": "rigid"
+      },
+      "weight": 50
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecrawl:dungeons/trial_chamber/chamber/assembly_2",
+        "processors": "minecraft:trial_chambers_copper_bulb_degradation",
+        "projection": "rigid"
+      },
+      "weight": 50
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecrawl:dungeons/trial_chamber/chamber/chamber_4_0",
+        "processors": "minecraft:trial_chambers_copper_bulb_degradation",
+        "projection": "rigid"
+      },
+      "weight": 50
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecrawl:dungeons/trial_chamber/chamber/chamber_4_1",
+        "processors": "minecraft:trial_chambers_copper_bulb_degradation",
+        "projection": "rigid"
+      },
+      "weight": 50
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecrawl:dungeons/trial_chamber/chamber/chamber_4_2",
+        "processors": "minecraft:trial_chambers_copper_bulb_degradation",
+        "projection": "rigid"
+      },
+      "weight": 50
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecrawl:dungeons/trial_chamber/chamber/eruption_0",
+        "processors": "minecraft:trial_chambers_copper_bulb_degradation",
+        "projection": "rigid"
+      },
+      "weight": 50
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecrawl:dungeons/trial_chamber/chamber/eruption_1",
+        "processors": "minecraft:trial_chambers_copper_bulb_degradation",
+        "projection": "rigid"
+      },
+      "weight": 50
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecrawl:dungeons/trial_chamber/chamber/eruption_2",
+        "processors": "minecraft:trial_chambers_copper_bulb_degradation",
+        "projection": "rigid"
+      },
+      "weight": 50
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecrawl:dungeons/trial_chamber/chamber/pedestal_0",
+        "processors": "minecraft:trial_chambers_copper_bulb_degradation",
+        "projection": "rigid"
+      },
+      "weight": 75
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecrawl:dungeons/trial_chamber/chamber/pedestal_1",
+        "processors": "minecraft:trial_chambers_copper_bulb_degradation",
+        "projection": "rigid"
+      },
+      "weight": 75
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecrawl:dungeons/trial_chamber/chamber/slanted_0",
+        "processors": "minecraft:trial_chambers_copper_bulb_degradation",
+        "projection": "rigid"
+      },
+      "weight": 75
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecrawl:dungeons/trial_chamber/chamber/slanted_1",
+        "processors": "minecraft:trial_chambers_copper_bulb_degradation",
+        "projection": "rigid"
+      },
+      "weight": 75
     }
   ],
   "fallback": "minecrawl:dungeons/trial_chamber/fallbacks/hallway"

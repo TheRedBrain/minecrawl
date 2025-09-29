@@ -29,7 +29,7 @@
     "difficulty_tier_1": {
       "name": "locations.minecrawl.dungeons.trial_chamber.difficulty_tier_1",
       "showLocationOwner": true,
-      "isEntranceNameShownFirst": true,
+      "isEntranceNameShownFirst": false,
       "availability": {
         "unlockAdvancement": "",
         "lockAdvancement": "",
@@ -51,7 +51,7 @@
     "difficulty_tier_2": {
       "name": "locations.minecrawl.dungeons.trial_chamber.difficulty_tier_2",
       "showLocationOwner": true,
-      "isEntranceNameShownFirst": true,
+      "isEntranceNameShownFirst": false,
       "availability": {
         "unlockAdvancement": "minecrawl:location_unlocks/trial_chamber_2",
         "lockAdvancement": "",

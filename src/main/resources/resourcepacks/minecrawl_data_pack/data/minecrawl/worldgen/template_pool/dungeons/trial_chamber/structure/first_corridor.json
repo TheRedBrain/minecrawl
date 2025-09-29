@@ -3,7 +3,52 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "minecrawl:dungeons/trial_chamber/structure/first_corridor_plate_0",
+        "location": "minecrawl:dungeons/trial_chamber/structure/first_corridor/plate_0",
+        "processors": [],
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecrawl:dungeons/trial_chamber/structure/first_corridor/plate_1",
+        "processors": [],
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecrawl:dungeons/trial_chamber/structure/first_corridor/plate_2",
+        "processors": [],
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecrawl:dungeons/trial_chamber/structure/first_corridor/plate_3",
+        "processors": [],
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecrawl:dungeons/trial_chamber/structure/first_corridor/plate_4",
+        "processors": [],
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecrawl:dungeons/trial_chamber/structure/first_corridor/plate_5",
         "processors": [],
         "projection": "rigid"
       },
