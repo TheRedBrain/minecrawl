@@ -34,7 +34,6 @@ public class Minecrawl implements ModInitializer {
 
 	public static final boolean isRunesLoaded = FabricLoader.getInstance().isModLoaded("runes");
 	public static final boolean isSpellEngineLoaded = FabricLoader.getInstance().isModLoaded("spell_engine");
-	public static final boolean isSpellEngineExtensionLoaded = FabricLoader.getInstance().isModLoaded("spellengineextension");
 
 	public static ComponentType<InfiniteSpellAmmoContainerComponent> INFINITE_SPELL_AMMO_CONTAINER_COMPONENT;
 
@@ -72,17 +71,6 @@ public class Minecrawl implements ModInitializer {
 		return ItemStack.EMPTY;
 	}
 
-	public static void configureEffects() {
-		if (isSpellEngineLoaded) {
-			SpellEngineCompat.configureEffects();
-			SpellEngineCompat.initContainerCompat();
-			SpellEngineCompat.registerCustomImpacts();
-		}
-		if (isSpellEngineExtensionLoaded) {
-			SpellEngineExtensionCompat.configureEffects();
-		}
-	}
-
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Welcome to the Minecrawl dungeons!");
@@ -92,7 +80,10 @@ public class Minecrawl implements ModInitializer {
 		ItemComponentRegistry.init();
 		ItemGroupRegistry.init();
 		ItemRegistry.init();
-		StatusEffectsRegistry.registerEffects();
+
+		if (isSpellEngineLoaded) {
+			SpellEngineCompat.initContainerCompat();
+		}
 
 		Optional<ModContainer> modContainer = FabricLoader.getInstance().getModContainer(MOD_ID);
 		if (modContainer.isPresent()) {

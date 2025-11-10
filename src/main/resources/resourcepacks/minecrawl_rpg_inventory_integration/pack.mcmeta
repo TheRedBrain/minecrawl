@@ -1,0 +1,24 @@
+{
+  "pack": {
+    "description": {
+      "text": "Makes several content mods compatible with RPG Inventory"
+    },
+    "pack_format": 48
+  },
+     "filter": {
+       "block": [
+         {
+           "namespace": "trinkets",
+           "path": "entities/spell_engine.json"
+         },
+         {
+           "namespace": "trinkets",
+           "path": "entities/jewelry.json"
+         },
+         {
+           "namespace": "trinkets",
+           "path": "entities/relics_rpg.json"
+         }
+       ]
+     }
+}

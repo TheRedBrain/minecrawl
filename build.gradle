@@ -104,7 +104,7 @@ dependencies {
 
 	// Various Status Effects
 //	modImplementation("maven.modrinth:various-status-effects:${project.various_status_effects_version}")
-    modImplementation(files("libs/various-status-effects-${project.various_status_effects_version}.jar"))
+//    modImplementation(files("libs/various-status-effects-${project.various_status_effects_version}.jar"))
 
 	// Runes
 	modImplementation("maven.modrinth:runes:${project.runes_version}")
@@ -281,8 +281,9 @@ if (project.hasProperty('release_type')) {
 			// The scope can be `required`, `optional`, `incompatible`, or `embedded`
 			// The type can either be `project` or `version`
 			required.project 'fabric-api'
-			required.project 'spell-engine-extension'
-			required.project 'various-status-effects'
+			optional.project 'spell-engine'
+			optional.project 'runes'
+//			required.project 'various-status-effects'
 		}
 	}
 

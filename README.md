@@ -1,3 +1,3 @@
 # Minecrawl
 
-This mod adds everything the Minecrawl mod pack can't add via data or resource packs.
+This mod adds content that is used by the Minecrawl mod pack. This includes items, blocks, status effects and also data and resource packs.

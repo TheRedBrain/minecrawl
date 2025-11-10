@@ -81,9 +81,5 @@
   "minecrawl.hub.dungeon_entrance.target_identifier_field.label": "Target Identifier",
   "minecrawl.hub.dungeon_entrance.target_entrance_field.label": "Target Entrance",
   "minecrawl.hub.dungeon_entrance.teleport_button.label": "Enter Dungeon",
-  "minecrawl.hub.dungeon_entrance.cancel_teleport_button.label": "Stay here",
-
-
-  "spell.minecrawl.heavy_attack_claymore.name": "Claymore Heavy Attack",
-  "spell.minecrawl.heavy_attack_claymore.description": "Press right-click to perform a powerful stab attack dealing {damage} damage."
+  "minecrawl.hub.dungeon_entrance.cancel_teleport_button.label": "Stay here"
 }
