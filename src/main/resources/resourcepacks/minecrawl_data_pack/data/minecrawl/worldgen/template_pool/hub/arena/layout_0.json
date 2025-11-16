@@ -3,7 +3,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "minecrawl:hub/base_structure/base_structure_play_test",
+        "location": "minecrawl:hub/arena/layout_0",
         "processors": [],
         "projection": "rigid"
       },
