@@ -1,0 +1,11 @@
+{
+  "add": {
+    "mergeditems:merged_items": {
+      "content": [],
+      "possible_merging_items": "minecrawl:item_merging/relics",
+      "merge_content_flags": 3,
+      "merging_item_cost": 16,
+      "merging_exp_cost": -1
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "add": {
+    "mergeditems:merged_items": {
+      "content": [],
+      "possible_merging_items": "minecrawl:item_merging/shields",
+      "merging_item_cost": 4,
+      "merging_exp_cost": -1
+    }
+  }
+}

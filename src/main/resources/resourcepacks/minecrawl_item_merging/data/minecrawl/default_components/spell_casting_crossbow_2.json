@@ -1,0 +1,11 @@
+{
+  "add": {
+    "mergeditems:merged_items": {
+      "content": [],
+      "possible_merging_items": "minecrawl:item_merging/ranged_weapons",
+      "merge_content_flags": 0,
+      "merging_item_cost": 4,
+      "merging_exp_cost": -1
+    }
+  }
+}

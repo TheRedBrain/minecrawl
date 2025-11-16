@@ -1,0 +1,73 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "archers:composite_longbow",
+      "required": false
+    },
+    {
+      "id": "archers:mechanic_shortbow",
+      "required": false
+    },
+    {
+      "id": "archers:royal_longbow",
+      "required": false
+    },
+    {
+      "id": "archers:netherite_shortbow",
+      "required": false
+    },
+    {
+      "id": "archers:netherite_longbow",
+      "required": false
+    },
+    {
+      "id": "archers:rapid_crossbow",
+      "required": false
+    },
+    {
+      "id": "archers:heavy_crossbow",
+      "required": false
+    },
+    {
+      "id": "archers:netherite_rapid_crossbow",
+      "required": false
+    },
+    {
+      "id": "archers:netherite_heavy_crossbow",
+      "required": false
+    },
+    {
+      "id": "arsenal:unique_longbow_1",
+      "required": false
+    },
+    {
+      "id": "arsenal:unique_longbow_2",
+      "required": false
+    },
+    {
+      "id": "arsenal:unique_longbow_sw",
+      "required": false
+    },
+    {
+      "id": "arsenal:unique_heavy_crossbow_1",
+      "required": false
+    },
+    {
+      "id": "arsenal:unique_heavy_crossbow_2",
+      "required": false
+    },
+    {
+      "id": "arsenal:unique_heavy_crossbow_sw",
+      "required": false
+    },
+    {
+      "id": "minecraft:bow",
+      "required": false
+    },
+    {
+      "id": "minecraft:crossbow",
+      "required": false
+    }
+  ]
+}

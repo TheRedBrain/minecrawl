@@ -15,13 +15,6 @@
         "amount": 1.0,
         "operation": "add_value"
       }
-    ],
-    "mergeditems:merged_items": {
-      "content": [],
-      "possible_merging_items": "minecrawl:item_merging/necklaces",
-      "merge_content_flags": 0,
-      "merging_item_cost": 16,
-      "merging_exp_cost": -1
-    }
+    ]
   }
 }
