@@ -33,7 +33,10 @@
 		"minecraft": "${minecraft_version}",
 		"fabric-api": "*",
 		"scriptblocks": ">=${script_blocks_version}",
-		"spell_engine": ">=${spell_engine_version}",
-		"dungeon_difficulty": ">=${dungeon_difficulty_version}"
+		"lootableblocks": ">=${lootable_blocks_version}"
+	},
+	"suggests": {
+		"spell_engine": "*",
+		"spellengineextension": "*"
 	}
 }

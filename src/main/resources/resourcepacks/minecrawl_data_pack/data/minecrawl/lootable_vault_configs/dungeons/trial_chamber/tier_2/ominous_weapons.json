@@ -1,13 +1,13 @@
 {
-  "lootableIdentifier": "minecrawl:dungeons/trial_chamber/tier_2/ominous_weapons",
+  "lootable_identifier": "minecrawl:dungeons/trial_chamber/tier_2/ominous_weapons",
   "rolls": 5,
   "choices": 1,
-  "withChoice": true,
-  "activationRange": 4.0,
-  "deactivationRange": 4.5,
-  "keyItem": {
+  "with_choice": true,
+  "activation_range": 4.0,
+  "deactivation_range": 4.5,
+  "key_item": {
       "id": "minecraft:ominous_trial_key",
       "count": 1
   },
-  "displayLootTableIdentifier": "minecrawl:chests/dungeons/trial_chamber/vault_display/weapons"
+  "display_loot_table_identifier": "minecrawl:chests/dungeons/trial_chamber/vault_display/weapons"
 }

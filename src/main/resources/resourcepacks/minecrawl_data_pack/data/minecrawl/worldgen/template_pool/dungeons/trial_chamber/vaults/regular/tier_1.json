@@ -2,14 +2,8 @@
   "elements": [
     {
       "element": {
-        "element_type": "minecraft:empty_pool_element"
-      },
-      "weight": 50
-    },
-    {
-      "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "minecrawl:dungeons/trial_chamber/vaults/tier_1/regular_armor",
+        "location": "minecrawl:dungeons/trial_chamber/vaults/regular/tier_1/armor",
         "processors": [],
         "projection": "rigid"
       },
@@ -18,7 +12,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "minecrawl:dungeons/trial_chamber/vaults/tier_1/regular_everything",
+        "location": "minecrawl:dungeons/trial_chamber/vaults/regular/tier_1/everything",
         "processors": [],
         "projection": "rigid"
       },
@@ -27,7 +21,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "minecrawl:dungeons/trial_chamber/vaults/tier_1/regular_necklaces",
+        "location": "minecrawl:dungeons/trial_chamber/vaults/regular/tier_1/necklaces",
         "processors": [],
         "projection": "rigid"
       },
@@ -36,7 +30,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "minecrawl:dungeons/trial_chamber/vaults/tier_1/regular_relics",
+        "location": "minecrawl:dungeons/trial_chamber/vaults/regular/tier_1/relics",
         "processors": [],
         "projection": "rigid"
       },
@@ -45,7 +39,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "minecrawl:dungeons/trial_chamber/vaults/tier_1/regular_rings",
+        "location": "minecrawl:dungeons/trial_chamber/vaults/regular/tier_1/rings",
         "processors": [],
         "projection": "rigid"
       },
@@ -54,16 +48,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "minecrawl:dungeons/trial_chamber/vaults/tier_1/regular_spells",
-        "processors": [],
-        "projection": "rigid"
-      },
-      "weight": 5
-    },
-    {
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "location": "minecrawl:dungeons/trial_chamber/vaults/tier_1/regular_weapons",
+        "location": "minecrawl:dungeons/trial_chamber/vaults/regular/tier_1/weapons",
         "processors": [],
         "projection": "rigid"
       },

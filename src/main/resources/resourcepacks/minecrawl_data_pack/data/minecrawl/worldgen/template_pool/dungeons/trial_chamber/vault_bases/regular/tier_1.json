@@ -1,0 +1,20 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecrawl:dungeons/trial_chamber/vault_bases/regular/tier_1/variant_0",
+        "processors": [],
+        "projection": "rigid"
+      },
+      "weight": 11
+    }
+  ],
+  "fallback": "minecraft:empty"
+}
