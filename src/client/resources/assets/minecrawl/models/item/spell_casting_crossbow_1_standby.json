@@ -1,6 +1,0 @@
-{
-  "parent": "minecrawl:item/spell_casting_crossbow_1",
-  "textures": {
-    "layer0": "item/crossbow_standby"
-  }
-}

@@ -1,6 +1,0 @@
-{
-    "parent": "minecrawl:item/spell_casting_crossbow_10",
-    "textures": {
-        "layer0": "archers:item/aether_heavy_crossbow_pulling_2"
-    }
-}

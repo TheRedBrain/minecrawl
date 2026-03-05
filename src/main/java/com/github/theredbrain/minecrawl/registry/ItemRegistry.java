@@ -2,7 +2,6 @@ package com.github.theredbrain.minecrawl.registry;
 
 import com.github.theredbrain.minecrawl.Minecrawl;
 import com.github.theredbrain.minecrawl.component.type.InfiniteSpellAmmoContainerComponent;
-import com.github.theredbrain.minecrawl.item.SpellCastingCrossbowItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -15,19 +14,6 @@ import org.jetbrains.annotations.Nullable;
 import java.util.List;
 
 public class ItemRegistry {
-
-	public static final Item SPELL_CASTING_CROSSBOW_1 = registerItem("spell_casting_crossbow_1", new SpellCastingCrossbowItem(new Item.Settings().maxCount(1)), ItemGroupRegistry.MINECRAWL);
-	public static final Item SPELL_CASTING_CROSSBOW_2 = registerItem("spell_casting_crossbow_2", new SpellCastingCrossbowItem(new Item.Settings().maxCount(1)), ItemGroupRegistry.MINECRAWL);
-	public static final Item SPELL_CASTING_CROSSBOW_3 = registerItem("spell_casting_crossbow_3", new SpellCastingCrossbowItem(new Item.Settings().maxCount(1)), ItemGroupRegistry.MINECRAWL);
-	public static final Item SPELL_CASTING_CROSSBOW_4 = registerItem("spell_casting_crossbow_4", new SpellCastingCrossbowItem(new Item.Settings().maxCount(1)), ItemGroupRegistry.MINECRAWL);
-	public static final Item SPELL_CASTING_CROSSBOW_5 = registerItem("spell_casting_crossbow_5", new SpellCastingCrossbowItem(new Item.Settings().maxCount(1)), ItemGroupRegistry.MINECRAWL);
-	public static final Item SPELL_CASTING_CROSSBOW_6 = registerItem("spell_casting_crossbow_6", new SpellCastingCrossbowItem(new Item.Settings().maxCount(1)), ItemGroupRegistry.MINECRAWL);
-	public static final Item SPELL_CASTING_CROSSBOW_7 = registerItem("spell_casting_crossbow_7", new SpellCastingCrossbowItem(new Item.Settings().maxCount(1)), ItemGroupRegistry.MINECRAWL);
-	public static final Item SPELL_CASTING_CROSSBOW_8 = registerItem("spell_casting_crossbow_8", new SpellCastingCrossbowItem(new Item.Settings().maxCount(1)), ItemGroupRegistry.MINECRAWL);
-	public static final Item SPELL_CASTING_CROSSBOW_9 = registerItem("spell_casting_crossbow_9", new SpellCastingCrossbowItem(new Item.Settings().maxCount(1)), ItemGroupRegistry.MINECRAWL);
-	public static final Item SPELL_CASTING_CROSSBOW_10 = registerItem("spell_casting_crossbow_10", new SpellCastingCrossbowItem(new Item.Settings().maxCount(1)), ItemGroupRegistry.MINECRAWL);
-	public static final Item SPELL_CASTING_CROSSBOW_11 = registerItem("spell_casting_crossbow_11", new SpellCastingCrossbowItem(new Item.Settings().maxCount(1)), ItemGroupRegistry.MINECRAWL);
-	public static final Item SPELL_CASTING_CROSSBOW_12 = registerItem("spell_casting_crossbow_12", new SpellCastingCrossbowItem(new Item.Settings().maxCount(1)), ItemGroupRegistry.MINECRAWL);
 
 	public static final Item INFINITE_ARROW_QUIVER = registerItem("infinite_arrow_quiver", new Item(new Item.Settings()
 			.maxCount(1)

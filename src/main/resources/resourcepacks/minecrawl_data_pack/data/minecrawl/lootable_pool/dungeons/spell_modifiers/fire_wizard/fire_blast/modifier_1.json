@@ -1,0 +1,14 @@
+{
+  "rarity": "uncommon",
+  "entry": {
+    "type": "lootables:status",
+    "status": {
+      "id": "minecrawl:spell_mod_fire_blast_1",
+      "amplifier": 0,
+      "duration": -1,
+      "ambient": true,
+      "show_particles": false,
+      "show_icon": true
+    }
+  }
+}
