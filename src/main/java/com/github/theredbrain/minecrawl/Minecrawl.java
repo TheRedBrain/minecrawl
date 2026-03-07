@@ -2,6 +2,7 @@ package com.github.theredbrain.minecrawl;
 
 import com.github.theredbrain.minecrawl.compat.RunesCompat;
 import com.github.theredbrain.minecrawl.compat.SpellEngineCompat;
+import com.github.theredbrain.minecrawl.compat.SpellEngineExtensionCompat;
 import com.github.theredbrain.minecrawl.component.type.InfiniteSpellAmmoContainerComponent;
 import com.github.theredbrain.minecrawl.registry.BlockRegistry;
 import com.github.theredbrain.minecrawl.registry.ItemComponentRegistry;
@@ -28,7 +29,17 @@ public class Minecrawl implements ModInitializer {
 
 	public static final boolean isRunesLoaded = FabricLoader.getInstance().isModLoaded("runes");
 	public static final boolean isSpellEngineLoaded = FabricLoader.getInstance().isModLoaded("spell_engine");
+	public static final boolean isSpellEngineExtensionLoaded = FabricLoader.getInstance().isModLoaded("spellengineextension");
 	public static final boolean isMergedItemsLoaded = FabricLoader.getInstance().isModLoaded("mergeditems");
+
+//	public static RegistryEntry<StatusEffect> POWER_SHOT_SPELL;
+//	public static RegistryEntry<StatusEffect> FROZEN_SHOT_SPELL;
+//	public static RegistryEntry<StatusEffect> REMOVE_RANGED_ATTACKS_MODIFIER_SPELL_EFFECTS;
+
+//	public static RegistryEntry<StatusEffect> FIRE_BLAST_MODIFIER_1;
+//	public static RegistryEntry<StatusEffect> FIRE_BLAST_MODIFIER_2;
+
+//	public static TagKey<StatusEffect> RANGED_ATTACKS_MODIFIER_SPELL_EFFECTS = TagKey.of(RegistryKeys.STATUS_EFFECT, identifier("ranged_attacks_modifier_spell_effects"));
 
 	public static ComponentType<InfiniteSpellAmmoContainerComponent> INFINITE_SPELL_AMMO_CONTAINER_COMPONENT;
 
@@ -60,6 +71,15 @@ public class Minecrawl implements ModInitializer {
 		return ItemStack.EMPTY;
 	}
 
+	public static void configureEffects() {
+		if (isSpellEngineLoaded) {
+			SpellEngineCompat.configureEffects();
+		}
+		if (isSpellEngineExtensionLoaded) {
+			SpellEngineExtensionCompat.configureEffects();
+		}
+	}
+
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Welcome to the Minecrawl dungeons!");
@@ -72,6 +92,7 @@ public class Minecrawl implements ModInitializer {
 
 		if (isSpellEngineLoaded) {
 			SpellEngineCompat.initContainerCompat();
+			SpellEngineCompat.registerCustomImpacts();
 		}
 
 		Optional<ModContainer> modContainer = FabricLoader.getInstance().getModContainer(MOD_ID);
@@ -81,6 +102,7 @@ public class Minecrawl implements ModInitializer {
 				ResourceManagerHelper.registerBuiltinResourcePack(identifier("minecrawl_item_merging"), modContainer.get(), Text.translatable("resourcepack.minecrawl.minecrawl_item_merging.name"), ResourcePackActivationType.DEFAULT_ENABLED);
 			}
 //			ResourceManagerHelper.registerBuiltinResourcePack(identifier("minecrawl_item_modifications"), modContainer.get(), Text.translatable("resourcepack.minecrawl.minecrawl_item_modifications.name"), ResourcePackActivationType.DEFAULT_ENABLED);
+			// TODO integrate into minecrawl_item_modifications?
 			ResourceManagerHelper.registerBuiltinResourcePack(identifier("minecrawl_rpg_inventory_integration"), modContainer.get(), Text.translatable("resourcepack.minecrawl.minecrawl_rpg_inventory_integration.name"), ResourcePackActivationType.DEFAULT_ENABLED);
 //			ResourceManagerHelper.registerBuiltinResourcePack(identifier("minecrawl_spells"), modContainer.get(), Text.translatable("resourcepack.minecrawl.minecrawl_spells.name"), ResourcePackActivationType.DEFAULT_ENABLED);
 			ResourceManagerHelper.registerBuiltinResourcePack(identifier("minecrawl_resource_pack"), modContainer.get(), Text.translatable("resourcepack.minecrawl.minecrawl_resource_pack.name"), ResourcePackActivationType.DEFAULT_ENABLED);

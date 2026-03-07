@@ -4,7 +4,6 @@ import com.github.theredbrain.minecrawl.Minecrawl;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
@@ -16,7 +15,7 @@ public class ItemGroupRegistry {
 
 	public static void init() {
 		Registry.register(Registries.ITEM_GROUP, MINECRAWL, FabricItemGroup.builder()
-				.icon(() -> new ItemStack(Items.CRAFTING_TABLE))
+				.icon(() -> new ItemStack(BlockRegistry.ALTERNATIVE_CRAFTING_TAB_1_BLOCK))
 				.displayName(Text.translatable("itemGroup.minecrawl.minecrawl"))
 				.build());
 	}
