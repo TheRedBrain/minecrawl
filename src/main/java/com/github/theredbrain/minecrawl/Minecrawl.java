@@ -28,6 +28,7 @@ public class Minecrawl implements ModInitializer {
 
 	public static final boolean isRunesLoaded = FabricLoader.getInstance().isModLoaded("runes");
 	public static final boolean isSpellEngineLoaded = FabricLoader.getInstance().isModLoaded("spell_engine");
+	public static final boolean isMergedItemsLoaded = FabricLoader.getInstance().isModLoaded("mergeditems");
 
 	public static ComponentType<InfiniteSpellAmmoContainerComponent> INFINITE_SPELL_AMMO_CONTAINER_COMPONENT;
 
@@ -75,8 +76,10 @@ public class Minecrawl implements ModInitializer {
 
 		Optional<ModContainer> modContainer = FabricLoader.getInstance().getModContainer(MOD_ID);
 		if (modContainer.isPresent()) {
-			ResourceManagerHelper.registerBuiltinResourcePack(identifier("minecrawl_data_pack"), modContainer.get(), Text.translatable("resourcepack.minecrawl.minecrawl_data_pack.name"), ResourcePackActivationType.ALWAYS_ENABLED);
-			ResourceManagerHelper.registerBuiltinResourcePack(identifier("minecrawl_item_merging"), modContainer.get(), Text.translatable("resourcepack.minecrawl.minecrawl_item_merging.name"), ResourcePackActivationType.DEFAULT_ENABLED);
+			ResourceManagerHelper.registerBuiltinResourcePack(identifier("minecrawl_core"), modContainer.get(), Text.translatable("resourcepack.minecrawl.minecrawl_core.name"), ResourcePackActivationType.ALWAYS_ENABLED);
+			if (isMergedItemsLoaded) {
+				ResourceManagerHelper.registerBuiltinResourcePack(identifier("minecrawl_item_merging"), modContainer.get(), Text.translatable("resourcepack.minecrawl.minecrawl_item_merging.name"), ResourcePackActivationType.DEFAULT_ENABLED);
+			}
 //			ResourceManagerHelper.registerBuiltinResourcePack(identifier("minecrawl_item_modifications"), modContainer.get(), Text.translatable("resourcepack.minecrawl.minecrawl_item_modifications.name"), ResourcePackActivationType.DEFAULT_ENABLED);
 			ResourceManagerHelper.registerBuiltinResourcePack(identifier("minecrawl_rpg_inventory_integration"), modContainer.get(), Text.translatable("resourcepack.minecrawl.minecrawl_rpg_inventory_integration.name"), ResourcePackActivationType.DEFAULT_ENABLED);
 //			ResourceManagerHelper.registerBuiltinResourcePack(identifier("minecrawl_spells"), modContainer.get(), Text.translatable("resourcepack.minecrawl.minecrawl_spells.name"), ResourcePackActivationType.DEFAULT_ENABLED);

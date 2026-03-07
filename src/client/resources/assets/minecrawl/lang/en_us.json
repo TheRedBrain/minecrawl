@@ -10,5 +10,12 @@
   "item.minecrawl.infinite_arcane_rune_pouch": "Infinite Arcane Rune Pouch",
   "item.minecrawl.infinite_fire_rune_pouch": "Infinite Fire Rune Pouch",
   "item.minecrawl.infinite_frost_rune_pouch": "Infinite Frost Rune Pouch",
-  "item.minecrawl.infinite_healing_rune_pouch": "Infinite Healing Rune Pouch"
+  "item.minecrawl.infinite_healing_rune_pouch": "Infinite Healing Rune Pouch",
+
+  "resourcepack.minecrawl.minecrawl_core.name": "Minecrawl - Core",
+  "resourcepack.minecrawl.minecrawl_item_merging.name": "Minecrawl - Item Merging",
+  "resourcepack.minecrawl.minecrawl_item_modifications.name": "Minecrawl - Item Modifications",
+  "resourcepack.minecrawl.minecrawl_rpg_inventory_integration.name": "Minecrawl - RPG Inventory Integration",
+  "resourcepack.minecrawl.minecrawl_spells.name": "Minecrawl - Spells",
+  "resourcepack.minecrawl.minecrawl_resource_pack.name": "Minecrawl - Resources"
 }
