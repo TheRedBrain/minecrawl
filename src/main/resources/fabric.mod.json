@@ -33,10 +33,11 @@
 		"minecraft": "${minecraft_version}",
 		"fabric-api": "*",
 		"scriptblocks": ">=${script_blocks_version}",
-		"lootableblocks": ">=${lootable_blocks_version}"
+		"lootableblocks": ">=${lootable_blocks_version}",
+		"spell_engine": ">=${spell_engine_version}",
+		"spellengineextension": ">=${spell_engine_extension_version}"
 	},
 	"suggests": {
-		"spell_engine": "*",
-		"spellengineextension": "*"
+		"runes": "*"
 	}
 }

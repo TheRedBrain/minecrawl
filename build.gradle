@@ -14,7 +14,7 @@ base {
 
 repositories {
 
-	// Spell Power, Spell Engine, Ranged Weapon API
+	// Spell Power, Spell Engine, Ranged Weapon API, Script Blocks, Lootable Blocks
 	maven {
 		name = "Modrinth"
 		url = "https://api.modrinth.com/maven"
@@ -29,7 +29,7 @@ repositories {
 		url = "https://maven.fzzyhmstrs.me/"
 	}
 
-	// Trinkets, Cloth Config, Mod Menu
+	// Cloth Config
 	maven {
 		name = "TerraformersMC"
 		url = "https://maven.terraformersmc.com/"
@@ -39,12 +39,6 @@ repositories {
 	maven {
 		url "https://maven.shedaniel.me/"
 	}
-//
-//	// Trinkets, Cardinal Components
-//	maven {
-//		name = "Ladysnake Libs"
-//		url = 'https://maven.ladysnake.org/releases'
-//	}
 
 	// Player Animator
 	maven {
@@ -55,24 +49,12 @@ repositories {
 	// Fantasy
 	maven { url = 'https://maven.nucleoid.xyz/' }
 
-//
-//	// Mixin Squared
-//	maven {
-//		url 'https://jitpack.io'
-//	}
-//
-//	// DimLib
-//	maven {
-//		url 'https://jitpack.io'
-//	}
-//
 	flatDir {
 		dirs("libs")
 	}
 }
 
 loom {
-//	accessWidenerPath = file("src/main/resources/minecrawl.accesswidener")
 
 	splitEnvironmentSourceSets()
 
@@ -191,20 +173,11 @@ dependencies {
 	// Lootable Blocks
 	modImplementation "maven.modrinth:lootable-blocks:${project.lootable_blocks_version}"
 
+	// Lootable
+	modImplementation "me.fzzyhmstrs:lootables:${project.lootable_version}"
+
 	// Fantasy
 	modImplementation "xyz.nucleoid:fantasy:${project.fantasy_version}"
-
-//
-//	// Lootable
-//	modImplementation "me.fzzyhmstrs:lootables:${project.lootable_version}"
-//
-//	// DimLib
-//	modApi("com.github.iPortalTeam:DimLib:${dimlib_version}") {
-//		exclude(group: "net.fabricmc.fabric-api")
-//	}
-
-//	// Mixin Squared
-//	include(implementation(annotationProcessor("com.github.bawnorton.mixinsquared:mixinsquared-fabric:0.1.2-beta.4")))
 
 }
 
@@ -293,8 +266,8 @@ if (project.hasProperty('release_type')) {
 			// The type can either be `project` or `version`
 			required.project 'fabric-api'
 			optional.project 'spell-engine'
+			optional.project 'spell-engine-extension'
 			optional.project 'runes'
-//			required.project 'various-status-effects'
 		}
 	}
 
