@@ -1,0 +1,27 @@
+{
+  "add": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.armor",
+        "slot": "chest",
+        "id": "minecrawl:chest",
+        "amount": 3.0,
+        "operation": "add_value"
+      },
+      {
+        "type": "spell_power:frost",
+        "slot": "chest",
+        "id": "minecrawl:chest",
+        "amount": 0.25,
+        "operation": "add_multiplied_base"
+      },
+      {
+        "type": "spell_power:critical_damage",
+        "slot": "chest",
+        "id": "minecrawl:chest",
+        "amount": 0.1,
+        "operation": "add_multiplied_base"
+      }
+    ]
+  }
+}

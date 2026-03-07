@@ -1,0 +1,27 @@
+{
+  "add": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "ranged_weapon:damage",
+        "slot": "mainhand",
+        "id": "ranged_weapon:base_damage",
+        "amount": 8.0,
+        "operation": "add_value"
+      }
+    ],
+    "spell_engine:spell_container": {
+      "is_proxy": true,
+      "content": "ARCHERY",
+      "spell_ids": [
+        "minecrawl:heavy_attack_long_bow"
+      ]
+    },
+    "spellengineextension:has_conditional_spell_container": {
+      "is_main_hand_valid": false,
+      "is_off_hand_valid": false,
+      "is_two_handed_valid": true,
+      "prevent_casting_of_all_spells": true
+    },
+    "bettercombat:preset_id": "minecrawl:bow_two_handed"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "add": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.armor",
+        "slot": "head",
+        "id": "minecrawl:head",
+        "amount": 3.0,
+        "operation": "add_value"
+      },
+      {
+        "type": "spell_power:healing",
+        "slot": "head",
+        "id": "minecrawl:head",
+        "amount": 1.0,
+        "operation": "add_value"
+      }
+    ]
+  }
+}

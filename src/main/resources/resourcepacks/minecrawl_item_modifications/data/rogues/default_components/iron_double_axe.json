@@ -1,0 +1,40 @@
+{
+  "add": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.attack_damage",
+        "slot": "mainhand",
+        "id": "minecraft:base_attack_damage",
+        "amount": 8.0,
+        "operation": "add_value"
+      },
+      {
+        "type": "minecraft:generic.attack_speed",
+        "slot": "mainhand",
+        "id": "minecraft:base_attack_speed",
+        "amount": 1.2,
+        "operation": "add_value"
+      },
+      {
+        "type": "attackrangeattribute:generic.attack_range",
+        "slot": "mainhand",
+        "id": "minecrawl:base_attack_range",
+        "amount": 3.0,
+        "operation": "add_value"
+      }
+    ],
+    "spell_engine:spell_container": {
+      "is_proxy": true,
+      "spell_ids": [
+        "rogues:whirlwind"
+      ]
+    },
+    "spellengineextension:has_conditional_spell_container": {
+      "is_main_hand_valid": false,
+      "is_off_hand_valid": false,
+      "is_two_handed_valid": true,
+      "prevent_casting_of_all_spells": true
+    },
+    "bettercombat:preset_id": "minecrawl:double_axe"
+  }
+}

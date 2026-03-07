@@ -81,5 +81,21 @@
   "minecrawl.hub.dungeon_entrance.target_identifier_field.label": "Target Identifier",
   "minecrawl.hub.dungeon_entrance.target_entrance_field.label": "Target Entrance",
   "minecrawl.hub.dungeon_entrance.teleport_button.label": "Enter Dungeon",
-  "minecrawl.hub.dungeon_entrance.cancel_teleport_button.label": "Stay here"
+  "minecrawl.hub.dungeon_entrance.cancel_teleport_button.label": "Stay here",
+
+
+  "spell.group.heavy_attacks": "(Heavy Attack)",
+
+  "spell.minecrawl.heavy_attack_claymore.name": "Thrust",
+  "spell.minecrawl.heavy_attack_claymore.description": "A powerful thrust attack dealing {damage} damage.",
+  "spell.minecrawl.heavy_attack_hammer.name": "Ground Slam",
+  "spell.minecrawl.heavy_attack_heavy_crossbow.description": "Shot an arrow dealing {damage} damage.",
+  "spell.minecrawl.heavy_attack_light_crossbow.description": "Shot an arrow dealing {damage} damage.",
+  "spell.minecrawl.heavy_attack_long_bow.description": "Shot an arrow dealing {damage} damage.",
+  "spell.minecrawl.heavy_attack_short_bow.description": "Shot an arrow dealing {damage} damage.",
+  "spell.minecrawl.heavy_attack_hammer.description": "A powerful attack dealing {damage} damage.",
+  "spell.minecrawl.heavy_attack_spear.name": "Hold the line!",
+  "spell.minecrawl.heavy_attack_spear.description": "Hold a position, while everything approaching you receives {damage} damage and is knocked back.",
+  "spell.minecrawl.heavy_attack_wizard_staff.name": "You shall not pass!",
+  "spell.minecrawl.heavy_attack_wizard_staff.description": "Deals no direct damage, but applies heavy knock back."
 }

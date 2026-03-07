@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecrawl:heavy_attack_heavy_crossbow",
+    "minecrawl:heavy_attack_light_crossbow",
+    "minecrawl:heavy_attack_long_bow",
+    "minecrawl:heavy_attack_short_bow"
+  ]
+}

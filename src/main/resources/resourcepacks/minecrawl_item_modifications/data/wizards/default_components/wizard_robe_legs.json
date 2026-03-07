@@ -1,0 +1,34 @@
+{
+  "add": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.armor",
+        "slot": "legs",
+        "id": "minecrawl:legs",
+        "amount": 2.0,
+        "operation": "add_value"
+      },
+      {
+        "type": "spell_power:arcane",
+        "slot": "legs",
+        "id": "minecrawl:legs",
+        "amount": 0.2,
+        "operation": "add_multiplied_base"
+      },
+      {
+        "type": "spell_power:fire",
+        "slot": "legs",
+        "id": "minecrawl:legs",
+        "amount": 0.2,
+        "operation": "add_multiplied_base"
+      },
+      {
+        "type": "spell_power:frost",
+        "slot": "legs",
+        "id": "minecrawl:legs",
+        "amount": 0.2,
+        "operation": "add_multiplied_base"
+      }
+    ]
+  }
+}

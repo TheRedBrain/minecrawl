@@ -1,0 +1,25 @@
+{
+  "add": {
+    "max_damage": 465,
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "ranged_weapon:damage",
+        "slot": "mainhand",
+        "id": "ranged_weapon:base_damage",
+        "amount": 9.0,
+        "operation": "add_value"
+      }
+    ],
+    "spell_engine:spell_container": {
+      "is_proxy": true,
+      "content": "ARCHERY",
+      "spell_ids": [
+        "minecrawl:heavy_attack_light_crossbow"
+      ]
+    },
+    "spellengineextension:has_conditional_spell_container": {
+      "is_main_hand_valid": true,
+      "is_off_hand_valid": false
+    }
+  }
+}

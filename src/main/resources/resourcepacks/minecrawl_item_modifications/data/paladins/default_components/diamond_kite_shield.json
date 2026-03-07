@@ -1,0 +1,41 @@
+{
+  "add": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "overhauleddamage:generic.blocked_physical_damage",
+        "slot": "hand",
+        "id": "minecrawl:hand",
+        "amount": 8.0,
+        "operation": "add_value"
+      },
+      {
+        "type": "overhauleddamage:generic.block_force",
+        "slot": "hand",
+        "id": "minecrawl:hand",
+        "amount": 6.0,
+        "operation": "add_value"
+      },
+      {
+        "type": "overhauleddamage:generic.parry_window",
+        "slot": "hand",
+        "id": "minecrawl:hand",
+        "amount": 8.0,
+        "operation": "add_value"
+      },
+      {
+        "type": "overhauleddamage:generic.block_stamina_cost",
+        "slot": "hand",
+        "id": "minecrawl:hand",
+        "amount": 3.0,
+        "operation": "add_value"
+      },
+      {
+        "type": "overhauleddamage:generic.parry_stamina_cost",
+        "slot": "hand",
+        "id": "minecrawl:hand",
+        "amount": 3.0,
+        "operation": "add_value"
+      }
+    ]
+  }
+}

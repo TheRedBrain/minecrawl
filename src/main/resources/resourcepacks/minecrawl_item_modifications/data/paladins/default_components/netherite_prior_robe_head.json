@@ -1,0 +1,27 @@
+{
+  "add": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.armor",
+        "slot": "head",
+        "id": "minecrawl:head",
+        "amount": 1.0,
+        "operation": "add_value"
+      },
+      {
+        "type": "spell_power:healing",
+        "slot": "head",
+        "id": "minecrawl:head",
+        "amount": 0.3,
+        "operation": "add_multiplied_base"
+      },
+      {
+        "type": "spell_power:haste",
+        "slot": "head",
+        "id": "minecrawl:head",
+        "amount": 0.05,
+        "operation": "add_multiplied_base"
+      }
+    ]
+  }
+}

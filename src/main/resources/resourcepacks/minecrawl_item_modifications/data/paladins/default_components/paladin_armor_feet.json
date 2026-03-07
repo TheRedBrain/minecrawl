@@ -1,0 +1,20 @@
+{
+  "add": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.armor",
+        "slot": "feet",
+        "id": "minecrawl:feet",
+        "amount": 2.0,
+        "operation": "add_value"
+      },
+      {
+        "type": "spell_power:healing",
+        "slot": "feet",
+        "id": "minecrawl:feet",
+        "amount": 0.5,
+        "operation": "add_value"
+      }
+    ]
+  }
+}

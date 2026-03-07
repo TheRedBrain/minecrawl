@@ -1,0 +1,27 @@
+{
+  "add": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.armor",
+        "slot": "feet",
+        "id": "minecrawl:feet",
+        "amount": 1.0,
+        "operation": "add_value"
+      },
+      {
+        "type": "spell_power:fire",
+        "slot": "feet",
+        "id": "minecrawl:feet",
+        "amount": 0.25,
+        "operation": "add_multiplied_base"
+      },
+      {
+        "type": "spell_power:critical_chance",
+        "slot": "feet",
+        "id": "minecrawl:feet",
+        "amount": 0.02,
+        "operation": "add_multiplied_base"
+      }
+    ]
+  }
+}

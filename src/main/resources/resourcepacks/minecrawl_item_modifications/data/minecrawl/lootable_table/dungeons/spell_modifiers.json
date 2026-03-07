@@ -1,0 +1,6 @@
+{
+  "replace": false,
+  "pools": [
+    "minecrawl:dungeons/spell_modifiers/fire_wizard/fire_blast/modifier_1"
+  ]
+}

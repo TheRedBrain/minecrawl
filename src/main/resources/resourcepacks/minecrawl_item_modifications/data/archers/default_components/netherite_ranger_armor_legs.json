@@ -1,0 +1,27 @@
+{
+  "add": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.armor",
+        "slot": "legs",
+        "id": "minecrawl:legs",
+        "amount": 3.0,
+        "operation": "add_value"
+      },
+      {
+        "type": "ranged_weapon:damage",
+        "slot": "legs",
+        "id": "minecrawl:legs",
+        "amount": 0.1,
+        "operation": "add_multiplied_base"
+      },
+      {
+        "type": "ranged_weapon:haste",
+        "slot": "legs",
+        "id": "minecrawl:legs",
+        "amount": 0.05,
+        "operation": "add_multiplied_base"
+      }
+    ]
+  }
+}

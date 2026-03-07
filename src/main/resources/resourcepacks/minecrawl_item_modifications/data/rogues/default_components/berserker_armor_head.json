@@ -1,0 +1,27 @@
+{
+  "add": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.armor",
+        "slot": "head",
+        "id": "minecrawl:head",
+        "amount": 3.0,
+        "operation": "add_value"
+      },
+      {
+        "type": "minecraft:generic.attack_damage",
+        "slot": "head",
+        "id": "minecrawl:head",
+        "amount": 0.05,
+        "operation": "add_multiplied_base"
+      },
+      {
+        "type": "minecraft:generic.knockback_resistance",
+        "slot": "head",
+        "id": "minecrawl:head",
+        "amount": 0.1,
+        "operation": "add_value"
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#rpg_inventory:empty_hand_weapons",
+      "required": false
+    }
+  ]
+}

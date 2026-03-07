@@ -1,0 +1,27 @@
+{
+  "add": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.armor",
+        "slot": "legs",
+        "id": "minecrawl:legs",
+        "amount": 6.0,
+        "operation": "add_value"
+      },
+      {
+        "type": "minecraft:generic.armor_toughness",
+        "slot": "legs",
+        "id": "minecrawl:legs",
+        "amount": 1.0,
+        "operation": "add_value"
+      },
+      {
+        "type": "spell_power:healing",
+        "slot": "legs",
+        "id": "minecrawl:legs",
+        "amount": 1.0,
+        "operation": "add_value"
+      }
+    ]
+  }
+}

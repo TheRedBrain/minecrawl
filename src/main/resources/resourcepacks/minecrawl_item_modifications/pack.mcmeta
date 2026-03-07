@@ -1,0 +1,8 @@
+{
+  "pack": {
+    "description": {
+      "text": "Minecrawl - Item Modifications\nIncluding attribute modifiers, weapon skills, weapon attributes and integration of conditional spell containers."
+    },
+    "pack_format": 48
+  }
+}

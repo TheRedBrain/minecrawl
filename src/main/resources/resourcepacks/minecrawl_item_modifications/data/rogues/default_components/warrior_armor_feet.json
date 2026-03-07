@@ -1,0 +1,20 @@
+{
+  "add": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.armor",
+        "slot": "feet",
+        "id": "minecrawl:feet",
+        "amount": 1.0,
+        "operation": "add_value"
+      },
+      {
+        "type": "minecraft:generic.attack_damage",
+        "slot": "feet",
+        "id": "minecrawl:feet",
+        "amount": 0.04,
+        "operation": "add_multiplied_base"
+      }
+    ]
+  }
+}

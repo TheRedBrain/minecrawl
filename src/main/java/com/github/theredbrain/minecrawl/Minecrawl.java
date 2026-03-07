@@ -77,7 +77,9 @@ public class Minecrawl implements ModInitializer {
 		if (modContainer.isPresent()) {
 			ResourceManagerHelper.registerBuiltinResourcePack(identifier("minecrawl_data_pack"), modContainer.get(), Text.translatable("resourcepack.minecrawl.minecrawl_data_pack.name"), ResourcePackActivationType.ALWAYS_ENABLED);
 			ResourceManagerHelper.registerBuiltinResourcePack(identifier("minecrawl_item_merging"), modContainer.get(), Text.translatable("resourcepack.minecrawl.minecrawl_item_merging.name"), ResourcePackActivationType.DEFAULT_ENABLED);
+//			ResourceManagerHelper.registerBuiltinResourcePack(identifier("minecrawl_item_modifications"), modContainer.get(), Text.translatable("resourcepack.minecrawl.minecrawl_item_modifications.name"), ResourcePackActivationType.DEFAULT_ENABLED);
 			ResourceManagerHelper.registerBuiltinResourcePack(identifier("minecrawl_rpg_inventory_integration"), modContainer.get(), Text.translatable("resourcepack.minecrawl.minecrawl_rpg_inventory_integration.name"), ResourcePackActivationType.DEFAULT_ENABLED);
+//			ResourceManagerHelper.registerBuiltinResourcePack(identifier("minecrawl_spells"), modContainer.get(), Text.translatable("resourcepack.minecrawl.minecrawl_spells.name"), ResourcePackActivationType.DEFAULT_ENABLED);
 			ResourceManagerHelper.registerBuiltinResourcePack(identifier("minecrawl_resource_pack"), modContainer.get(), Text.translatable("resourcepack.minecrawl.minecrawl_resource_pack.name"), ResourcePackActivationType.DEFAULT_ENABLED);
 		}
 	}

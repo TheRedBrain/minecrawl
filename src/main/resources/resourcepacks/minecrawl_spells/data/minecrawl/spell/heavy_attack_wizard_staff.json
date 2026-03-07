@@ -1,0 +1,71 @@
+{
+  "school": "FROST",
+  "group": "heavy_attacks",
+  "range": 3.0,
+  "tier": 2,
+  "tooltip": {
+    "show_header": false,
+    "show_activation": false,
+    "show_range": false,
+    "name": {
+      "show_in_compact": false,
+      "show_in_details": false
+    },
+    "description": {
+      "show_in_compact": true,
+      "show_in_details": true
+    }
+  },
+  "learn": { },
+  "active": {
+    "scroll": { },
+    "cast": {
+      "duration": 1.5,
+      "animation": "spell_engine:one_handed_area_charge",
+      "movement_speed": 0.0
+    }
+  },
+  "target": {
+    "type": "AREA",
+    "area": {
+      "vertical_range_multiplier": 0.5
+    }
+  },
+  "release": {
+    "animation": "spell_engine:one_handed_area_release",
+    "particles": [
+      {
+        "particle_id": "minecraft:explosion",
+        "shape": "SPHERE",
+        "origin": "CENTER",
+        "count": 30.0,
+        "min_speed": 0.2,
+        "max_speed": 0.7
+      }
+    ],
+    "sound": {
+      "id": "minecraft:entity.generic.explode"
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "damage_type": "minecrawl:heavy_attack_wizard_staff_damage_type",
+          "spell_power_coefficient": 1.0
+        }
+      }
+    }
+  ],
+  "cost": {
+    "mana_cost": 2.0,
+    "check_mana_cost": true,
+    "stamina_cost": 3.0,
+    "check_stamina_cost": true,
+    "cooldown": {
+      "duration": 10.0,
+      "proportional": true
+    }
+  }
+}

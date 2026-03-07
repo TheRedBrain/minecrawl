@@ -1,0 +1,35 @@
+{
+  "rarity": "uncommon",
+  "entry": {
+    "type": "lootables:status",
+    "status": {
+      "id": "minecrawlcombatoverhaul:fire_blast_modifier_1",
+      "amplifier": 0,
+      "duration": -1,
+      "ambient": true,
+      "show_particles": false,
+      "show_icon": true
+    }
+  },
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "rpginventory:extended_equipment": {
+          "class_item": {
+            "predicates": {
+              "spellengineextension:spell_container_predicate": [
+                {
+                  "spell_ids": [
+                    "wizards:fire_blast"
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

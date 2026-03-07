@@ -1,0 +1,27 @@
+{
+  "add": {
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:generic.armor",
+        "slot": "chest",
+        "id": "minecrawl:chest",
+        "amount": 3.0,
+        "operation": "add_value"
+      },
+      {
+        "type": "ranged_weapon:damage",
+        "slot": "chest",
+        "id": "minecrawl:chest",
+        "amount": 0.08,
+        "operation": "add_multiplied_base"
+      },
+      {
+        "type": "ranged_weapon:haste",
+        "slot": "chest",
+        "id": "minecrawl:chest",
+        "amount": 0.03,
+        "operation": "add_multiplied_base"
+      }
+    ]
+  }
+}
